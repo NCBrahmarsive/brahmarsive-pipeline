@@ -115,6 +115,17 @@ def is_miscategorised(props):
     )
 
 # =========================================================================
+# STALE-ENGAGED-SQL CHECK (SQLs sales has engaged but gone quiet)
+# =========================================================================
+# Distinct from the auto-recycled "Attempted to Contact" cases (handled by
+# the separate HubSpot stale-lead recycler workflow). These are SQLs where
+# sales has already made real contact/progress, but activity has since
+# stalled. This is a follow-up/review list for sales to action — nothing
+# here is moved automatically. 30-day threshold is tunable below.
+STALE_SQL_LEAD_STATUSES = {"CONNECTED", "Qualified", "IN_PROGRESS", "PROPOSAL_REQUEST"}
+STALE_SQL_ACTIVITY_DAYS = 30
+
+# =========================================================================
 
 # Deal-alert configuration.
 QUALIFIED_TO_BUY_STAGE = "appointmentscheduled"   # internal value for "Qualified to Buy"
@@ -124,6 +135,7 @@ STALE_ACTIVITY_DAYS = 14
 CONTACT_PROPERTIES = [
     "lifecyclestage", "hs_lead_status", "customer_type",
     "b2b_contact_lead_score_combined", "hs_lastmodifieddate",
+    "notes_last_updated", "hubspot_owner_id", "hs_full_name_or_email",
 ]
 # Deal properties we pull. notes_last_updated is HubSpot's "Last Activity Date".
 DEAL_PROPERTIES = [
@@ -192,6 +204,7 @@ def build_inputs_from_live(contacts, deals):
     """Aggregate live-pulled records into the same shape as an --input file."""
     funnel = {}
     miscategorised = []
+    sql_contacts = []
     for c in contacts:
         p = c.get("properties", {})
         stage = p.get("lifecyclestage") or "other"
@@ -203,6 +216,14 @@ def build_inputs_from_live(contacts, deals):
                 "hs_lead_status": p.get("hs_lead_status"),
                 "lifecyclestage": p.get("lifecyclestage"),
             })
+        if stage == "salesqualifiedlead" and p.get("hs_lead_status") in STALE_SQL_LEAD_STATUSES:
+            sql_contacts.append({
+                "id": str(c.get("id")),
+                "name": p.get("hs_full_name_or_email", ""),
+                "hs_lead_status": p.get("hs_lead_status"),
+                "notes_last_updated": p.get("notes_last_updated"),
+                "owner": p.get("hubspot_owner_id"),
+            })
     deal_records = [
         {"id": str(d.get("id")), **d.get("properties", {})} for d in deals
     ]
@@ -211,6 +232,7 @@ def build_inputs_from_live(contacts, deals):
         "funnel_counts": funnel,
         "deals": deal_records,
         "miscategorised": miscategorised,
+        "sql_contacts": sql_contacts,
     }
 
 
@@ -303,6 +325,22 @@ def compute_metrics(raw, run_date):
     stale.sort(key=lambda x: (x["days_since_activity"] is not None,
                               x["days_since_activity"] or 0), reverse=True)
 
+    # Alert: SQLs sales has engaged but gone quiet (30+ days), grouped by
+    # lead status. Distinct from the auto-recycled Attempted-to-Contact case.
+    stale_sqls = []
+    for c in raw.get("sql_contacts", []):
+        last = _parse_ts(c.get("notes_last_updated"))
+        if last is None:
+            days = None
+        else:
+            if last.tzinfo is None:
+                last = last.replace(tzinfo=dt.timezone.utc)
+            days = (run_dt - last).days
+        if days is None or days >= STALE_SQL_ACTIVITY_DAYS:
+            stale_sqls.append({**c, "days_since_activity": days})
+    stale_sqls.sort(key=lambda x: (x["days_since_activity"] is not None,
+                                    x["days_since_activity"] or 0), reverse=True)
+
     misc = raw.get("miscategorised", [])
     return {
         "funnel": funnel,
@@ -313,6 +351,7 @@ def compute_metrics(raw, run_date):
         "deals_by_stage": deals_by_stage,
         "deal_currencies": sorted(currencies),
         "qualified_to_buy_stale": stale,
+        "stale_engaged_sqls": stale_sqls,
         "miscategorised_count": len(misc),
         "miscategorised": misc,
     }
@@ -408,6 +447,33 @@ def render_report(snapshot, prev):
         A("")
     else:
         A(f"- ✅ No \"Qualified to Buy\" deals idle for {STALE_ACTIVITY_DAYS}+ days.")
+        A("")
+
+    stale_sqls = m["stale_engaged_sqls"]
+    prev_stale = len(prev_m["stale_engaged_sqls"]) if prev_m else None
+    A(f"### 🕓 SQLs engaged but gone quiet: {delta_str(len(stale_sqls), prev_stale)}")
+    A("")
+    A(f"Sales has already made real contact on these — this is a follow-up/review "
+      f"list ({STALE_SQL_ACTIVITY_DAYS}+ days idle), NOT an auto-recycle. Distinct "
+      "from the \"Attempted to Contact\" cases the stale-lead recycler handles "
+      "automatically. Nothing here moves without a human.")
+    A("")
+    if stale_sqls:
+        by_status = {}
+        for c in stale_sqls:
+            by_status.setdefault(c["hs_lead_status"], []).append(c)
+        for status, group in by_status.items():
+            A(f"**{status}** ({len(group)})")
+            A("")
+            A("| Contact | Days idle | Owner |")
+            A("|---------|-----------|-------|")
+            for c in group:
+                days = "no activity logged" if c["days_since_activity"] is None \
+                    else f"{c['days_since_activity']}d"
+                A(f"| {c['name']} (#{c['id']}) | {days} | {c.get('owner') or '—'} |")
+            A("")
+    else:
+        A(f"- ✅ No engaged SQLs idle for {STALE_SQL_ACTIVITY_DAYS}+ days.")
         A("")
 
     misc_prev = prev_m["miscategorised_count"] if prev_m else None
@@ -538,6 +604,7 @@ def main():
             "funnel_counts_internal": raw["funnel_counts"],
             "deals": raw["deals"],
             "miscategorised_contacts": raw.get("miscategorised", []),
+            "sql_contacts": raw.get("sql_contacts", []),
         },
         "metrics": metrics,
     }
