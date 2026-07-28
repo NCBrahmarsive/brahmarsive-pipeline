@@ -1,0 +1,2209 @@
+{
+  "run_date": "2026-07-28",
+  "generated_at_utc": "2026-07-28 06:32:12",
+  "source": "hubspot (pulled via HubSpot MCP, 2026-07-28)",
+  "customer_type_filter": "B2B",
+  "raw": {
+    "contacts_b2b_total": 3498,
+    "funnel_counts_internal": {
+      "subscriber": 26,
+      "lead": 3103,
+      "marketingqualifiedlead": 30,
+      "salesqualifiedlead": 132,
+      "opportunity": 182,
+      "customer": 15,
+      "other": 10
+    },
+    "deals": [
+      {
+        "id": "63186712738",
+        "dealname": "New Lead - Maria Auxiliadora University - Lima / Nucleotech_Peru",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-27T18:58:27.065Z"
+      },
+      {
+        "id": "62853412644",
+        "dealname": "Sri Lakshmi Narayana Institute of Medical Sciences - New Deal",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "0.000000",
+        "notes_last_updated": "2026-07-16T14:12:22.276Z",
+        "hs_lastmodifieddate": "2026-07-21T10:33:33.980Z"
+      },
+      {
+        "id": "62625019750",
+        "dealname": "New Lead - Lead City University / Alstein Hub_Nigeria",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-27T18:50:13.119Z"
+      },
+      {
+        "id": "62625019721",
+        "dealname": "New Lead - Chrisland University / Alstein Hub_Nigeria",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-27T18:58:48.753Z"
+      },
+      {
+        "id": "62628777218",
+        "dealname": "New Lead - Public Service Staff Development Centre (PSSDC) / Alstein Hub_Nigeria",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-27T18:59:10.598Z"
+      },
+      {
+        "id": "62625019567",
+        "dealname": "New Lead - Redeemer's University / Alstein Hub_Nigeria",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-27T18:59:36.973Z"
+      },
+      {
+        "id": "62628776297",
+        "dealname": "New Deal - Covenent University College of Medicine / Alstein Hub_Nigeria",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-27T18:51:46.633Z"
+      },
+      {
+        "id": "62625005073",
+        "dealname": "Winston-Salem State University - New Deal",
+        "dealstage": "presentationscheduled",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-07-21T11:20:15.523Z",
+        "hs_lastmodifieddate": "2026-07-21T11:20:34.407Z"
+      },
+      {
+        "id": "62115451054",
+        "dealname": "Royal National Orthopaedic Hospital / Dr.Boyne BELLEW- New Deal",
+        "dealstage": "presentationscheduled",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-07-16T12:38:10Z",
+        "hs_lastmodifieddate": "2026-07-16T12:38:56.533Z"
+      },
+      {
+        "id": "61763930416",
+        "dealname": "(License) University of California Irvine School of Medicine",
+        "dealstage": "closedlost",
+        "amount": "9000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "9000.0",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-15T14:55:37.279Z"
+      },
+      {
+        "id": "61763929428",
+        "dealname": "Dr. Muthus College of Allied Health Science - New Deal",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "0.000000",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-02T14:29:41.783Z"
+      },
+      {
+        "id": "61764791587",
+        "dealname": "Nightingale Institute of Nursing Education - New Deal",
+        "dealstage": "appointmentscheduled",
+        "amount": "300000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "3154.500000",
+        "notes_last_updated": "2026-07-02T08:00:00Z",
+        "hs_lastmodifieddate": "2026-07-21T09:33:47.453Z"
+      },
+      {
+        "id": "61390460829",
+        "dealname": "Uniformed Services University of the Health Sciences (USU) - New Deal",
+        "dealstage": "presentationscheduled",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-07-27T19:05:46Z",
+        "hs_lastmodifieddate": "2026-07-27T19:06:11.895Z"
+      },
+      {
+        "id": "61390483981",
+        "dealname": "Sowmiya Healthcare & Hospital - New Deal",
+        "dealstage": "1217017229",
+        "amount": "300000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "3154.500000",
+        "notes_last_updated": "2026-06-22T10:47:21.755Z",
+        "hs_lastmodifieddate": "2026-07-02T14:29:29.647Z"
+      },
+      {
+        "id": "61129524047",
+        "dealname": "PPG Institute of Allied Health Sciences - New Deal",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "0.000000",
+        "notes_last_updated": "2026-06-17T11:40:33.580Z",
+        "hs_lastmodifieddate": "2026-07-02T14:29:41.855Z"
+      },
+      {
+        "id": "61176293467",
+        "dealname": "PPG College Of Occupational Therapy - New Deal",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "0.000000",
+        "notes_last_updated": "2026-06-17T11:56:23.134Z",
+        "hs_lastmodifieddate": "2026-07-02T14:29:41.731Z"
+      },
+      {
+        "id": "61129645988",
+        "dealname": "Sasurie College of Nursing & Research - New Deal",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "0.000000",
+        "notes_last_updated": "2026-06-17T12:07:30.334Z",
+        "hs_lastmodifieddate": "2026-07-02T14:29:41.786Z"
+      },
+      {
+        "id": "61129459634",
+        "dealname": "United College of Nursing - New Deal",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "0.000000",
+        "notes_last_updated": "2026-06-19T08:00:00Z",
+        "hs_lastmodifieddate": "2026-07-02T14:29:29.647Z"
+      },
+      {
+        "id": "61025036046",
+        "dealname": "Madha Medical College and Research Institute - New Deal",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "0.000000",
+        "notes_last_updated": "2026-06-19T04:30:00Z",
+        "hs_lastmodifieddate": "2026-07-02T14:29:41.731Z"
+      },
+      {
+        "id": "61027186293",
+        "dealname": "Tagore Medical College & Hospital - New Deal",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "0.000000",
+        "notes_last_updated": "2026-07-07T04:30:00Z",
+        "hs_lastmodifieddate": "2026-07-07T04:32:24.345Z"
+      },
+      {
+        "id": "60975080564",
+        "dealname": "KMC Nursing College - New Deal",
+        "dealstage": "1217017230",
+        "amount": "300000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "3154.500000",
+        "notes_last_updated": "2026-06-09T14:49:33.786Z",
+        "hs_lastmodifieddate": "2026-07-02T14:29:41.761Z"
+      },
+      {
+        "id": "60975076668",
+        "dealname": "New Deal - Sultan Qaboos University",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "0.000000",
+        "notes_last_updated": "2026-06-30T11:47:33.459Z",
+        "hs_lastmodifieddate": "2026-07-02T14:29:29.647Z"
+      },
+      {
+        "id": "60959919902",
+        "dealname": "JJ College of Nursing - New Deal",
+        "dealstage": "1217017230",
+        "amount": "300000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "3154.500000",
+        "notes_last_updated": "2026-06-09T08:11:07.460Z",
+        "hs_lastmodifieddate": "2026-07-02T14:29:29.645Z"
+      },
+      {
+        "id": "60873511034",
+        "dealname": "Mahendra College of Nursing",
+        "dealstage": "1217017229",
+        "amount": "300000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "3154.500000",
+        "notes_last_updated": "2026-05-12T02:04:50.204Z",
+        "hs_lastmodifieddate": "2026-07-02T14:29:41.782Z"
+      },
+      {
+        "id": "60877638803",
+        "dealname": "Sri Venkateswaraa Medical College - New Deal",
+        "dealstage": "1217017230",
+        "amount": "900000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "9463.500000",
+        "notes_last_updated": "2026-07-15T10:17:12.126Z",
+        "hs_lastmodifieddate": "2026-07-21T09:29:54.869Z"
+      },
+      {
+        "id": "60877632370",
+        "dealname": "Nehru College Of Nursing - India - New Deal",
+        "dealstage": "1217017229",
+        "amount": "300000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "3154.500000",
+        "notes_last_updated": "2026-06-09T01:38:39.517Z",
+        "hs_lastmodifieddate": "2026-07-02T14:29:41.855Z"
+      },
+      {
+        "id": "60873510917",
+        "dealname": "St. Joseph University - New Deal",
+        "dealstage": "1217017229",
+        "amount": "300000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "3154.500000",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-02T14:29:41.814Z"
+      },
+      {
+        "id": "60877637263",
+        "dealname": "Sri Manakula Vinayagar Medical College and Hospital - New Deal",
+        "dealstage": "1217017229",
+        "amount": "900000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "9463.500000",
+        "notes_last_updated": "2026-07-15T10:22:04.885Z",
+        "hs_lastmodifieddate": "2026-07-15T10:22:06.687Z"
+      },
+      {
+        "id": "60877633452",
+        "dealname": "Sri Lalithambigai Medical College & Hospital (SLMCH) - New Deal",
+        "dealstage": "appointmentscheduled",
+        "amount": "0",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "0.000000",
+        "notes_last_updated": "2026-07-21T09:27:45.168Z",
+        "hs_lastmodifieddate": "2026-07-21T09:30:21.323Z"
+      },
+      {
+        "id": "60873509492",
+        "dealname": "PPG College of Nursing - New Deal",
+        "dealstage": "1217017229",
+        "amount": "300000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "3154.500000",
+        "notes_last_updated": "2026-06-17T11:26:30.495Z",
+        "hs_lastmodifieddate": "2026-07-02T14:29:41.814Z"
+      },
+      {
+        "id": "60873509478",
+        "dealname": "KG College of Health Science - New Deal",
+        "dealstage": "1217017229",
+        "amount": "300000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "3154.500000",
+        "notes_last_updated": "2026-06-25T12:59:04.203Z",
+        "hs_lastmodifieddate": "2026-07-02T14:29:41.855Z"
+      },
+      {
+        "id": "60873509972",
+        "dealname": "Jenneys College of Nursing - New Deal",
+        "dealstage": "closedlost",
+        "amount": "300000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "3147.900000",
+        "notes_last_updated": "2026-06-11T05:14:58Z",
+        "hs_lastmodifieddate": "2026-06-11T05:28:10.503Z"
+      },
+      {
+        "id": "60877638533",
+        "dealname": "Dhanalakshmi Srinivasan Medical College And Hospital - New Deal",
+        "dealstage": "closedlost",
+        "amount": "0",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "0.000000",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-06-05T06:21:30.046Z"
+      },
+      {
+        "id": "60877637801",
+        "dealname": "Pondicherry Institute of Medical Sciences & Research, Pondicherry - New Deal",
+        "dealstage": "1217017230",
+        "amount": "900000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "9463.500000",
+        "notes_last_updated": "2026-07-15T11:02:30.941Z",
+        "hs_lastmodifieddate": "2026-07-21T09:31:20.802Z"
+      },
+      {
+        "id": "60873508132",
+        "dealname": "Annapoorna Medical College & Hospital - New Deal",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "0.000000",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-02T14:29:41.855Z"
+      },
+      {
+        "id": "60854776364",
+        "dealname": "Karpagam Faculty of Medical Science & Research - New Deal",
+        "dealstage": "1217017230",
+        "amount": "900000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "9463.500000",
+        "notes_last_updated": "2026-06-18T09:27:50.749Z",
+        "hs_lastmodifieddate": "2026-07-02T14:29:41.731Z"
+      },
+      {
+        "id": "60855218252",
+        "dealname": "BSD College of Allied Health Science - New Deal",
+        "dealstage": "1217017230",
+        "amount": "900000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "9463.500000",
+        "notes_last_updated": "2026-06-24T05:01:36.203Z",
+        "hs_lastmodifieddate": "2026-07-02T14:29:40.926Z"
+      },
+      {
+        "id": "60785811606",
+        "dealname": "Advisory Board/ Pilot / Albert Ludwig University of Freiburg/ Prof. Andreas Vlachos",
+        "dealstage": "closedlost",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-27T18:36:39.781Z"
+      },
+      {
+        "id": "60786237714",
+        "dealname": "(Pilot HAPS) -University of Mississippi - Ole Miss",
+        "dealstage": "appointmentscheduled",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-07-14T05:20:19.117Z",
+        "hs_lastmodifieddate": "2026-07-16T15:08:32.068Z"
+      },
+      {
+        "id": "60785744196",
+        "dealname": "(Pilot HAPS) - University of Detroit Mercy",
+        "dealstage": "appointmentscheduled",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-07-14T05:21:23.984Z",
+        "hs_lastmodifieddate": "2026-07-18T00:14:37.148Z"
+      },
+      {
+        "id": "60650552119",
+        "dealname": "(Pilot HAPS) Vincennes University",
+        "dealstage": "presentationscheduled",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-07-28T02:07:03.056Z",
+        "hs_lastmodifieddate": "2026-07-28T02:08:45.674Z"
+      },
+      {
+        "id": "60644345390",
+        "dealname": "(Pilot HAPS) Bluegrass Community & Technical College",
+        "dealstage": "appointmentscheduled",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-07-14T05:23:04.470Z",
+        "hs_lastmodifieddate": "2026-07-14T05:23:06.723Z"
+      },
+      {
+        "id": "60343705781",
+        "dealname": "Cairo University",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-06-26T10:24:21.821Z",
+        "hs_lastmodifieddate": "2026-07-09T00:35:44.509Z"
+      },
+      {
+        "id": "60273525591",
+        "dealname": "Sri Muthukumaran Medical College Hospital & Research Institute - New Deal",
+        "dealstage": "1217017230",
+        "amount": "900000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "9463.500000",
+        "notes_last_updated": "2026-07-25T05:30:00Z",
+        "hs_lastmodifieddate": "2026-07-25T05:32:03.327Z"
+      },
+      {
+        "id": "60272581235",
+        "dealname": "Distributor Candidate / Apex Medicus / Lithuania",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-07-13T11:20:20Z",
+        "hs_lastmodifieddate": "2026-07-16T16:15:13.069Z"
+      },
+      {
+        "id": "60272582322",
+        "dealname": "Distributor  Candidate / SkillHouse / Lybia",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-07-09T15:37:45.666Z",
+        "hs_lastmodifieddate": "2026-07-17T21:10:56.725Z"
+      },
+      {
+        "id": "60182314582",
+        "dealname": "Consultancy / Sinead Impey_School of Nursing & Midwifery at Trinity College Dublin / Content Review Nursing Clinical Skills",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-05-15T09:25:55.650Z",
+        "hs_lastmodifieddate": "2026-07-16T15:09:45.465Z"
+      },
+      {
+        "id": "60177857961",
+        "dealname": "Consultancy - Jailenne I. Quinones-Rodriguez / Sam Houston State University College of Osteopathic Medicine / Content Review Anatomy 360",
+        "dealstage": "contractsent",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-05-15T08:41:28.981Z",
+        "hs_lastmodifieddate": "2026-07-27T18:34:01.219Z"
+      },
+      {
+        "id": "60177672318",
+        "dealname": "NHS Supply Chain - New Deal / Project_ 1700 NHS - Medical Simulations Devices and Technologies",
+        "dealstage": "presentationscheduled",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-09T13:00:46.464Z"
+      },
+      {
+        "id": "60177671864",
+        "dealname": "New Lead - Catholic University of San Pablo / Nucleotech_Peru",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-06-24T09:50:56.546Z",
+        "hs_lastmodifieddate": "2026-07-27T19:00:01.825Z"
+      },
+      {
+        "id": "60182264878",
+        "dealname": "(Pilot HAPS) UTSA - The University of Texas at San Antonio",
+        "dealstage": "appointmentscheduled",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-07-14T05:23:34.023Z",
+        "hs_lastmodifieddate": "2026-07-14T05:23:36.025Z"
+      },
+      {
+        "id": "60177668384",
+        "dealname": "(Pilot) University of California Irvine School of Medicine",
+        "dealstage": "closedwon",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-06-03T20:30:00Z",
+        "hs_lastmodifieddate": "2026-07-15T14:55:37.585Z"
+      },
+      {
+        "id": "60177653638",
+        "dealname": "Dr. Abdulvahid Attar",
+        "dealstage": "1217017229",
+        "amount": "70000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "70000.0",
+        "notes_last_updated": "2026-06-30T11:18:24.799Z",
+        "hs_lastmodifieddate": "2026-07-06T23:38:05.549Z"
+      },
+      {
+        "id": "60032326939",
+        "dealname": "Takshashila Medical College - New Deal",
+        "dealstage": "1217017230",
+        "amount": "10000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "10000.0",
+        "notes_last_updated": "2026-05-12T02:19:18.164Z",
+        "hs_lastmodifieddate": "2026-07-09T01:11:51.788Z"
+      },
+      {
+        "id": "60019887668",
+        "dealname": "Mopec - Custom VR Product SIM",
+        "dealstage": "appointmentscheduled",
+        "amount": "90000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "90000.0",
+        "notes_last_updated": "2026-07-24T17:00:00Z",
+        "hs_lastmodifieddate": "2026-07-28T02:13:50.720Z"
+      },
+      {
+        "id": "59729814549",
+        "dealname": "(AC) University of Miami",
+        "dealstage": "presentationscheduled",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-07-28T01:33:57.275Z",
+        "hs_lastmodifieddate": "2026-07-28T02:08:57.175Z"
+      },
+      {
+        "id": "59729752194",
+        "dealname": "(AC) Western University of Health Sciences",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-07-14T05:17:38.957Z",
+        "hs_lastmodifieddate": "2026-07-18T05:23:28.392Z"
+      },
+      {
+        "id": "59729814536",
+        "dealname": "(AC) Noorda College of Osteopathic Medicine",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-07-14T05:18:09.104Z",
+        "hs_lastmodifieddate": "2026-07-16T14:53:42.118Z"
+      },
+      {
+        "id": "59610029666",
+        "dealname": "(AC) Nnamdi Azikiwe University / New Deal",
+        "dealstage": "appointmentscheduled",
+        "amount": "5100",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "5100.0",
+        "notes_last_updated": "2026-06-24T12:30:29.682Z",
+        "hs_lastmodifieddate": "2026-07-24T06:31:41.277Z"
+      },
+      {
+        "id": "59644501846",
+        "dealname": "(License) Klamath Community College",
+        "dealstage": "1217017230",
+        "amount": "9000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "9000.0",
+        "notes_last_updated": "2026-07-28T01:34:49.902Z",
+        "hs_lastmodifieddate": "2026-07-28T01:34:51.889Z"
+      },
+      {
+        "id": "59680085122",
+        "dealname": "(License) UC San Diego Medical",
+        "dealstage": "presentationscheduled",
+        "amount": "9000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "9000.0",
+        "notes_last_updated": "2026-07-14T05:28:56.843Z",
+        "hs_lastmodifieddate": "2026-07-17T21:58:55.889Z"
+      },
+      {
+        "id": "60271617796",
+        "dealname": "SKIMS Medical College & Hospital",
+        "dealstage": "appointmentscheduled",
+        "amount": "20000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "20000.0",
+        "notes_last_updated": "2026-06-30T11:51:52.472Z",
+        "hs_lastmodifieddate": "2026-07-05T00:41:40.735Z"
+      },
+      {
+        "id": "60271624241",
+        "dealname": "Graphic Era University - New Deal",
+        "dealstage": "presentationscheduled",
+        "amount": "25000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "25000.0",
+        "notes_last_updated": "2026-05-07T19:02:33.563Z",
+        "hs_lastmodifieddate": "2026-07-16T18:52:52.062Z"
+      },
+      {
+        "id": "59369552254",
+        "dealname": "Government Medical College Jalna - New Deal",
+        "dealstage": "1217017229",
+        "amount": "5000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "5000.0",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-16T16:28:13.763Z"
+      },
+      {
+        "id": "59158335603",
+        "dealname": "Kalka Dental College - New Deal",
+        "dealstage": "closedlost",
+        "amount": "3000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "3000.0",
+        "notes_last_updated": "2026-06-30T11:33:12.390Z",
+        "hs_lastmodifieddate": "2026-07-08T04:17:30.384Z"
+      },
+      {
+        "id": "58567500715",
+        "dealname": "MQL-Lone Star College",
+        "dealstage": "closedlost",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-04-14T03:28:20.970Z",
+        "hs_lastmodifieddate": "2026-07-10T02:04:10.383Z"
+      },
+      {
+        "id": "58254625823",
+        "dealname": "MQL-ERR Technology",
+        "dealstage": "closedlost",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-04-14T03:30:22.231Z",
+        "hs_lastmodifieddate": "2026-07-17T23:48:08.129Z"
+      },
+      {
+        "id": "58134587909",
+        "dealname": "(MQL) National College of Naprapathic Medicine (NCNM)",
+        "dealstage": "presentationscheduled",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-07-28T02:05:08.497Z",
+        "hs_lastmodifieddate": "2026-07-28T02:12:08.044Z"
+      },
+      {
+        "id": "58025515136",
+        "dealname": "SNS College of Pharmacy and Health Sciences - New Deal",
+        "dealstage": "1217017230",
+        "amount": "6500",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "6500.0",
+        "notes_last_updated": "2026-06-22T10:27:37.479Z",
+        "hs_lastmodifieddate": "2026-07-17T21:42:57.165Z"
+      },
+      {
+        "id": "58025055552",
+        "dealname": "(Pilot) Klamath Community College",
+        "dealstage": "closedwon",
+        "amount": "",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "",
+        "notes_last_updated": "2026-06-03T20:30:00Z",
+        "hs_lastmodifieddate": "2026-07-17T13:39:33.307Z"
+      },
+      {
+        "id": "57909130079",
+        "dealname": "Aarupadai Veedu Medical College, Pondicherry - New Deal",
+        "dealstage": "1217017230",
+        "amount": "30000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "30000.0",
+        "notes_last_updated": "2026-05-26T05:52:34.321Z",
+        "hs_lastmodifieddate": "2026-07-16T16:40:41.718Z"
+      },
+      {
+        "id": "57865541931",
+        "dealname": "ACS Medical College - New Deal",
+        "dealstage": "1217017230",
+        "amount": "30000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "30000.0",
+        "notes_last_updated": "2026-05-25T05:26:09.298Z",
+        "hs_lastmodifieddate": "2026-07-05T00:14:01.742Z"
+      },
+      {
+        "id": "57856173118",
+        "dealname": "Plus Max Medical College and Hospital - New Deal",
+        "dealstage": "1217017230",
+        "amount": "30000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "30000.0",
+        "notes_last_updated": "2026-07-15T10:28:25.926Z",
+        "hs_lastmodifieddate": "2026-07-15T10:28:27.839Z"
+      },
+      {
+        "id": "57856172953",
+        "dealname": "Mahatma Gandhi Medical College & Research Institute, Pondicherry - New Deal",
+        "dealstage": "closedlost",
+        "amount": "28000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "28000.0",
+        "notes_last_updated": "2026-02-25T04:30:00Z",
+        "hs_lastmodifieddate": "2026-07-16T22:58:23.206Z"
+      },
+      {
+        "id": "57855774766",
+        "dealname": "(Pilot) UC San Diego Health",
+        "dealstage": "closedwon",
+        "amount": "",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "",
+        "notes_last_updated": "2026-04-27T18:16:16.050Z",
+        "hs_lastmodifieddate": "2026-07-16T16:26:41.374Z"
+      },
+      {
+        "id": "57830433816",
+        "dealname": "New Lead - Obafemi Awolowo University / Alstein Hub_Nigeria",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-05-15T10:24:30.335Z",
+        "hs_lastmodifieddate": "2026-07-27T19:02:04.867Z"
+      },
+      {
+        "id": "57830433161",
+        "dealname": "New Lead - Andean University of Cusco / Nucleotech_Peru",
+        "dealstage": "1217017229",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-05-15T11:08:00.537Z",
+        "hs_lastmodifieddate": "2026-07-27T19:01:31.221Z"
+      },
+      {
+        "id": "57830091446",
+        "dealname": "Babcock University / Alstein Hub / Nigeria",
+        "dealstage": "1217017230",
+        "amount": "32370",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "32370.0",
+        "notes_last_updated": "2026-06-24T09:48:00.345Z",
+        "hs_lastmodifieddate": "2026-07-27T18:35:47.688Z"
+      },
+      {
+        "id": "57851499068",
+        "dealname": "Consultancy / Yossi Buskila _ Western Sydney University / Content Review Digital Cadaver",
+        "dealstage": "contractsent",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-07-07T10:59:46.174Z",
+        "hs_lastmodifieddate": "2026-07-21T10:12:06.892Z"
+      },
+      {
+        "id": "57397572682",
+        "dealname": "Dharan Educational Charitable Trust - 100 users, 10MQ3S",
+        "dealstage": "closedwon",
+        "amount": "16000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "16000.0",
+        "notes_last_updated": "2026-03-03T08:10:39.143Z",
+        "hs_lastmodifieddate": "2026-07-09T11:45:50.387Z"
+      },
+      {
+        "id": "57442751146",
+        "dealname": "Nandha Medical College & Hospital - 100 Users, 10 MetaQ3S",
+        "dealstage": "closedwon",
+        "amount": "16000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "16000.0",
+        "notes_last_updated": "2026-03-03T08:03:10.148Z",
+        "hs_lastmodifieddate": "2026-07-17T09:34:33.143Z"
+      },
+      {
+        "id": "56896693933",
+        "dealname": "Dean College - New Deal / Anatomy 360 & Digital Cadaver / 36 month subscription",
+        "dealstage": "closedwon",
+        "amount": "18000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "18000.0",
+        "notes_last_updated": "2026-07-07T13:01:41Z",
+        "hs_lastmodifieddate": "2026-07-21T14:07:22.175Z"
+      },
+      {
+        "id": "56460910657",
+        "dealname": "National Institute of Medical Sciences & Research (NIMS) $5000",
+        "dealstage": "1217017230",
+        "amount": "500000",
+        "deal_currency_code": "INR",
+        "amount_in_home_currency": "5257.500000",
+        "notes_last_updated": "2026-06-24T15:42:14Z",
+        "hs_lastmodifieddate": "2026-07-16T15:34:12.372Z"
+      },
+      {
+        "id": "55031048968",
+        "dealname": "Univ Miami Bascom Eye Institute",
+        "dealstage": "presentationscheduled",
+        "amount": "",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "",
+        "notes_last_updated": "2026-07-28T02:00:00.280Z",
+        "hs_lastmodifieddate": "2026-07-28T02:08:55.735Z"
+      },
+      {
+        "id": "53720619425",
+        "dealname": "Pilot Program / Georgian College / Label Generation",
+        "dealstage": "closedlost",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-05-15T12:26:54.042Z",
+        "hs_lastmodifieddate": "2026-07-17T21:25:17.499Z"
+      },
+      {
+        "id": "53697222183",
+        "dealname": "University of Buckingham - New Deal",
+        "dealstage": "closedlost",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-04-06T22:00:00Z",
+        "hs_lastmodifieddate": "2026-07-16T16:25:14.199Z"
+      },
+      {
+        "id": "53696123285",
+        "dealname": "Royal London Hospital @ Barts Health NHS Trust - MasterClass / New Deal",
+        "dealstage": "1217017230",
+        "amount": "4000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "4000.0",
+        "notes_last_updated": "2026-07-10T12:11:15.520Z",
+        "hs_lastmodifieddate": "2026-07-17T10:46:58.803Z"
+      },
+      {
+        "id": "50331157771",
+        "dealname": "New Lead - UNIVERSIDAD DE PIURA / Nucleotech_Peru",
+        "dealstage": "1217017229",
+        "amount": "",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "",
+        "notes_last_updated": "2026-05-15T11:09:07.880Z",
+        "hs_lastmodifieddate": "2026-07-27T19:01:02.121Z"
+      },
+      {
+        "id": "49448081745",
+        "dealname": "Nicola Partner Test - New Deal 1",
+        "dealstage": "1217017229",
+        "amount": "2000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "2000.0",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-17T11:45:03.415Z"
+      },
+      {
+        "id": "49594517360",
+        "dealname": "Balvir Singh Tomar Institute of Medical Sciences & Research (NIMS University)",
+        "dealstage": "1217017230",
+        "amount": "5000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "5000.0",
+        "notes_last_updated": "2026-06-23T11:38:50.201Z",
+        "hs_lastmodifieddate": "2026-07-17T23:21:20.459Z"
+      },
+      {
+        "id": "48791355527",
+        "dealname": "University of San Francisco - New Deal",
+        "dealstage": "closedlost",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-03-10T09:13:44.967Z",
+        "hs_lastmodifieddate": "2026-07-16T14:49:35.660Z"
+      },
+      {
+        "id": "48172212868",
+        "dealname": "New Lead - Universidad Tecnol\u00f3gica del Per\u00fa / Nucleotech_Peru",
+        "dealstage": "1217017229",
+        "amount": "",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "",
+        "notes_last_updated": "2026-05-15T11:08:43.451Z",
+        "hs_lastmodifieddate": "2026-07-27T19:00:31.136Z"
+      },
+      {
+        "id": "48172090196",
+        "dealname": "Lincoln Memorial University (LMU) - New Deal",
+        "dealstage": "closedlost",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": "2026-05-15T11:14:44.859Z",
+        "hs_lastmodifieddate": "2026-07-09T00:36:20.030Z"
+      },
+      {
+        "id": "46876791481",
+        "dealname": "KMC Manipal Medical College",
+        "dealstage": "closedlost",
+        "amount": "230295",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "230295.0",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-09T00:47:55.218Z"
+      },
+      {
+        "id": "46807285426",
+        "dealname": "JIPMER",
+        "dealstage": "closedlost",
+        "amount": "17000",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "17000.0",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-16T17:16:14.053Z"
+      },
+      {
+        "id": "46826397807",
+        "dealname": "Ramaiah Medical College",
+        "dealstage": "closedlost",
+        "amount": "23081",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "23081.0",
+        "notes_last_updated": "2026-04-20T06:47:47.879Z",
+        "hs_lastmodifieddate": "2026-07-17T15:21:32.211Z"
+      },
+      {
+        "id": "46799760157",
+        "dealname": "Rajiv Gandhi University of Health Sciences (RGUHS)",
+        "dealstage": "appointmentscheduled",
+        "amount": "1136363",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "1136363.0",
+        "notes_last_updated": "2026-06-01T18:28:12.659Z",
+        "hs_lastmodifieddate": "2026-07-17T22:31:57.028Z"
+      },
+      {
+        "id": "46792559246",
+        "dealname": "Culko Chandigarh University",
+        "dealstage": "closedlost",
+        "amount": "23081",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "23081.0",
+        "notes_last_updated": "2026-03-16T18:13:34.381Z",
+        "hs_lastmodifieddate": "2026-07-16T14:57:13.420Z"
+      },
+      {
+        "id": "46803878191",
+        "dealname": "Subharti Medical College",
+        "dealstage": "closedlost",
+        "amount": "0",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "0.0",
+        "notes_last_updated": null,
+        "hs_lastmodifieddate": "2026-07-18T00:18:42.247Z"
+      },
+      {
+        "id": "46807130900",
+        "dealname": "AIIMS Jodhpur",
+        "dealstage": "closedlost",
+        "amount": "230295",
+        "deal_currency_code": "USD",
+        "amount_in_home_currency": "230295.0",
+        "notes_last_updated": "2026-03-19T06:46:35.671Z",
+        "hs_lastmodifieddate": "2026-07-18T05:06:51.586Z"
+      }
+    ],
+    "miscategorised_contacts": [
+      {
+        "id": "236698774419",
+        "name": "Erika Neck",
+        "hs_lead_status": "Attempted to Contact",
+        "lifecyclestage": "lead"
+      },
+      {
+        "id": "234277974867",
+        "name": "Dr. Jobby George",
+        "hs_lead_status": "Attempted to Contact",
+        "lifecyclestage": "lead"
+      },
+      {
+        "id": "222915600009",
+        "name": "danish anwer",
+        "hs_lead_status": "Attempted to Contact",
+        "lifecyclestage": "marketingqualifiedlead"
+      },
+      {
+        "id": "200720753590",
+        "name": "Martin Rigby",
+        "hs_lead_status": "Attempted to Contact",
+        "lifecyclestage": "lead"
+      },
+      {
+        "id": "170705152123",
+        "name": "Megan Kalinowski",
+        "hs_lead_status": "Attempted to Contact",
+        "lifecyclestage": "lead"
+      },
+      {
+        "id": "166547187004",
+        "name": "Gillian O'Connell",
+        "hs_lead_status": "Attempted to Contact",
+        "lifecyclestage": "lead"
+      },
+      {
+        "id": "156056267784",
+        "name": "Simon Badley",
+        "hs_lead_status": "Attempted to Contact",
+        "lifecyclestage": "lead"
+      },
+      {
+        "id": "156056956002",
+        "name": "Kevin Sheil",
+        "hs_lead_status": "Attempted to Contact",
+        "lifecyclestage": "lead"
+      }
+    ],
+    "sql_contacts": [
+      {
+        "id": "229709141538",
+        "name": "Tiffani Chidume",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-22T13:11:39.864Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "228536174222",
+        "name": "Brent Thompson",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-15T18:24:44.488Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "228361895465",
+        "name": "Rahul Sharma",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-16T10:13:54.775Z",
+        "owner": "Anup Ghoshal"
+      },
+      {
+        "id": "227877588495",
+        "name": "Siobhan Moyes",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-12T11:39:59.392Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "227877584008",
+        "name": "Lily Evans",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-12T11:42:44.023Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "227786400321",
+        "name": "Elizabeth Stone",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-19T14:44:47.138Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "227354323743",
+        "name": "Andrii Shmarhalov",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-09T14:27:49.827Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "227076688397",
+        "name": "Leroy Marklund",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-08T12:33:56.432Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "227063301532",
+        "name": "Angela Mulcahy-Spence",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-08T12:27:41.676Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "227063302219",
+        "name": "Lisa Haddad",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-08T12:22:16.353Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "226435586086",
+        "name": "ahmed naga",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-17T08:00:00Z",
+        "owner": "Anup Ghoshal"
+      },
+      {
+        "id": "226035148098",
+        "name": "Amy Gard",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-03T11:09:15.004Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "225856114201",
+        "name": "Abdulrahman Bobseit",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-17T08:00:00Z",
+        "owner": "Anup Ghoshal"
+      },
+      {
+        "id": "224780989221",
+        "name": "Travis Clamon",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-29T14:17:13.790Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "224543348294",
+        "name": "Zsolt Turi",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-29T10:21:51.829Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "224543356760",
+        "name": "Christos Galanis",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-29T10:20:21.178Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "220339561385",
+        "name": "Ursula Tierney",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-08T15:05:26.748Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "220445110156",
+        "name": "Tina Gallup",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-08T14:48:49.569Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "214629545996",
+        "name": "Dr. Virendra Kumar NIM",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-10T17:54:04.099Z",
+        "owner": "Anup Ghoshal"
+      },
+      {
+        "id": "172811330977",
+        "name": "Munesh Pal Khamuani",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-04-14T08:25:59.233Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "171956004728",
+        "name": "Joy Y. Balta",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-12T11:14:07.884Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "170908802594",
+        "name": "Paula Hopper",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-08T15:17:37.427Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "163868966244",
+        "name": "Abigail Green",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-16T11:48:48.241Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "156057111955",
+        "name": "Christina Bell",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-08T15:24:08.961Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "156056536160",
+        "name": "Kathirvelu Balachandar",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-28T18:01:42.748Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "156067251637",
+        "name": "Andreas Vlachos",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-07-07T19:02:23Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "156056785328",
+        "name": "Cristina Alvarado",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-29T14:26:32.668Z",
+        "owner": "Theo Zirogiannis"
+      },
+      {
+        "id": "156090179374",
+        "name": "Richard Roy Mendonce",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-10T17:42:18.268Z",
+        "owner": "Anup Ghoshal"
+      },
+      {
+        "id": "170928673385",
+        "name": "Jeff Duerr",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-28T14:54:04.954Z",
+        "owner": "Theo Zirogiannis"
+      }
+    ],
+    "sql_companies": [
+      {
+        "id": "54994910838",
+        "name": "Sri Aurobindo college of Nursing",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": null,
+        "owner": "Biju Rajesh"
+      }
+    ]
+  },
+  "metrics": {
+    "funnel": [
+      {
+        "stage": "subscriber",
+        "label": "Email Contact",
+        "count": 26
+      },
+      {
+        "stage": "lead",
+        "label": "Lead",
+        "count": 3103
+      },
+      {
+        "stage": "marketingqualifiedlead",
+        "label": "Marketing Qualified Lead",
+        "count": 30
+      },
+      {
+        "stage": "salesqualifiedlead",
+        "label": "Sales Qualified Lead",
+        "count": 132
+      },
+      {
+        "stage": "opportunity",
+        "label": "Opportunity",
+        "count": 182
+      },
+      {
+        "stage": "customer",
+        "label": "Customer",
+        "count": 15
+      },
+      {
+        "stage": "other",
+        "label": "Other",
+        "count": 10
+      }
+    ],
+    "mql_count": 30,
+    "sql_count": 132,
+    "sql_to_mql_ratio": 4.4,
+    "funnel_inversion": true,
+    "deals_by_stage": [
+      {
+        "stage": "appointmentscheduled",
+        "label": "Qualified to Buy",
+        "count": 10,
+        "total_usd": 1254617.5,
+        "missing_home": 0
+      },
+      {
+        "stage": "closedlost",
+        "label": "Closed Lost",
+        "count": 18,
+        "total_usd": 566899.9,
+        "missing_home": 0
+      },
+      {
+        "stage": "1217017230",
+        "label": "Quote Sent",
+        "count": 17,
+        "total_usd": 215754.0,
+        "missing_home": 0
+      },
+      {
+        "stage": "1217017229",
+        "label": "Initial Engagement",
+        "count": 37,
+        "total_usd": 105390.5,
+        "missing_home": 2
+      },
+      {
+        "stage": "closedwon",
+        "label": "Closed Won",
+        "count": 6,
+        "total_usd": 50000.0,
+        "missing_home": 2
+      },
+      {
+        "stage": "presentationscheduled",
+        "label": "Discovery & Trial",
+        "count": 10,
+        "total_usd": 34000.0,
+        "missing_home": 1
+      },
+      {
+        "stage": "contractsent",
+        "label": "Commitment to Buy",
+        "count": 2,
+        "total_usd": 0.0,
+        "missing_home": 0
+      }
+    ],
+    "deals_total_usd": 2226661.9,
+    "deal_currencies": [
+      "INR",
+      "USD"
+    ],
+    "deals_missing_home_currency": [
+      {
+        "id": "58025055552",
+        "dealname": "(Pilot) Klamath Community College",
+        "stage": "closedwon",
+        "label": "Closed Won",
+        "amount": "",
+        "currency": "USD"
+      },
+      {
+        "id": "57855774766",
+        "dealname": "(Pilot) UC San Diego Health",
+        "stage": "closedwon",
+        "label": "Closed Won",
+        "amount": "",
+        "currency": "USD"
+      },
+      {
+        "id": "55031048968",
+        "dealname": "Univ Miami Bascom Eye Institute",
+        "stage": "presentationscheduled",
+        "label": "Discovery & Trial",
+        "amount": "",
+        "currency": "USD"
+      },
+      {
+        "id": "50331157771",
+        "dealname": "New Lead - UNIVERSIDAD DE PIURA / Nucleotech_Peru",
+        "stage": "1217017229",
+        "label": "Initial Engagement",
+        "amount": "",
+        "currency": "USD"
+      },
+      {
+        "id": "48172212868",
+        "dealname": "New Lead - Universidad Tecnol\u00f3gica del Per\u00fa / Nucleotech_Peru",
+        "stage": "1217017229",
+        "label": "Initial Engagement",
+        "amount": "",
+        "currency": "USD"
+      }
+    ],
+    "deals_moved_this_week": [
+      {
+        "id": "60019887668",
+        "dealname": "Mopec - Custom VR Product SIM",
+        "stage": "appointmentscheduled",
+        "label": "Qualified to Buy",
+        "usd": 90000.0,
+        "amount": "90000",
+        "currency": "USD",
+        "last_activity": "2026-07-24T17:00:00Z",
+        "days_since_activity": 3,
+        "change": "activity logged"
+      },
+      {
+        "id": "59610029666",
+        "dealname": "(AC) Nnamdi Azikiwe University / New Deal",
+        "stage": "appointmentscheduled",
+        "label": "Qualified to Buy",
+        "usd": 5100.0,
+        "amount": "5100",
+        "currency": "USD",
+        "last_activity": "2026-06-24T12:30:29.682Z",
+        "days_since_activity": 33,
+        "change": "field update"
+      },
+      {
+        "id": "61764791587",
+        "dealname": "Nightingale Institute of Nursing Education - New Deal",
+        "stage": "appointmentscheduled",
+        "label": "Qualified to Buy",
+        "usd": 3154.5,
+        "amount": "300000",
+        "currency": "INR",
+        "last_activity": "2026-07-02T08:00:00Z",
+        "days_since_activity": 25,
+        "change": "stage change: Initial Engagement \u2192 Qualified to Buy"
+      },
+      {
+        "id": "60877633452",
+        "dealname": "Sri Lalithambigai Medical College & Hospital (SLMCH) - New Deal",
+        "stage": "appointmentscheduled",
+        "label": "Qualified to Buy",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "INR",
+        "last_activity": "2026-07-21T09:27:45.168Z",
+        "days_since_activity": 6,
+        "change": "stage change: Initial Engagement \u2192 Qualified to Buy"
+      },
+      {
+        "id": "57830091446",
+        "dealname": "Babcock University / Alstein Hub / Nigeria",
+        "stage": "1217017230",
+        "label": "Quote Sent",
+        "usd": 32370.0,
+        "amount": "32370",
+        "currency": "USD",
+        "last_activity": "2026-06-24T09:48:00.345Z",
+        "days_since_activity": 33,
+        "change": "stage change: Discovery & Trial \u2192 Quote Sent"
+      },
+      {
+        "id": "60877638803",
+        "dealname": "Sri Venkateswaraa Medical College - New Deal",
+        "stage": "1217017230",
+        "label": "Quote Sent",
+        "usd": 9463.5,
+        "amount": "900000",
+        "currency": "INR",
+        "last_activity": "2026-07-15T10:17:12.126Z",
+        "days_since_activity": 12,
+        "change": "stage change: Discovery & Trial \u2192 Quote Sent"
+      },
+      {
+        "id": "60877637801",
+        "dealname": "Pondicherry Institute of Medical Sciences & Research, Pondicherry - New Deal",
+        "stage": "1217017230",
+        "label": "Quote Sent",
+        "usd": 9463.5,
+        "amount": "900000",
+        "currency": "INR",
+        "last_activity": "2026-07-15T11:02:30.941Z",
+        "days_since_activity": 12,
+        "change": "stage change: Initial Engagement \u2192 Quote Sent"
+      },
+      {
+        "id": "60273525591",
+        "dealname": "Sri Muthukumaran Medical College Hospital & Research Institute - New Deal",
+        "stage": "1217017230",
+        "label": "Quote Sent",
+        "usd": 9463.5,
+        "amount": "900000",
+        "currency": "INR",
+        "last_activity": "2026-07-25T05:30:00Z",
+        "days_since_activity": 2,
+        "change": "activity logged"
+      },
+      {
+        "id": "59644501846",
+        "dealname": "(License) Klamath Community College",
+        "stage": "1217017230",
+        "label": "Quote Sent",
+        "usd": 9000.0,
+        "amount": "9000",
+        "currency": "USD",
+        "last_activity": "2026-07-28T01:34:49.902Z",
+        "days_since_activity": -1,
+        "change": "stage change: Discovery & Trial \u2192 Quote Sent"
+      },
+      {
+        "id": "56896693933",
+        "dealname": "Dean College - New Deal / Anatomy 360 & Digital Cadaver / 36 month subscription",
+        "stage": "closedwon",
+        "label": "Closed Won",
+        "usd": 18000.0,
+        "amount": "18000",
+        "currency": "USD",
+        "last_activity": "2026-07-07T13:01:41Z",
+        "days_since_activity": 20,
+        "change": "stage change: Commitment to Buy \u2192 Closed Won"
+      },
+      {
+        "id": "63186712738",
+        "dealname": "New Lead - Maria Auxiliadora University - Lima / Nucleotech_Peru",
+        "stage": "1217017229",
+        "label": "Initial Engagement",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": null,
+        "days_since_activity": null,
+        "change": "new deal"
+      },
+      {
+        "id": "62853412644",
+        "dealname": "Sri Lakshmi Narayana Institute of Medical Sciences - New Deal",
+        "stage": "1217017229",
+        "label": "Initial Engagement",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "INR",
+        "last_activity": "2026-07-16T14:12:22.276Z",
+        "days_since_activity": 11,
+        "change": "new deal"
+      },
+      {
+        "id": "62625019750",
+        "dealname": "New Lead - Lead City University / Alstein Hub_Nigeria",
+        "stage": "1217017229",
+        "label": "Initial Engagement",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": null,
+        "days_since_activity": null,
+        "change": "new deal"
+      },
+      {
+        "id": "62625019721",
+        "dealname": "New Lead - Chrisland University / Alstein Hub_Nigeria",
+        "stage": "1217017229",
+        "label": "Initial Engagement",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": null,
+        "days_since_activity": null,
+        "change": "new deal"
+      },
+      {
+        "id": "62628777218",
+        "dealname": "New Lead - Public Service Staff Development Centre (PSSDC) / Alstein Hub_Nigeria",
+        "stage": "1217017229",
+        "label": "Initial Engagement",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": null,
+        "days_since_activity": null,
+        "change": "new deal"
+      },
+      {
+        "id": "62625019567",
+        "dealname": "New Lead - Redeemer's University / Alstein Hub_Nigeria",
+        "stage": "1217017229",
+        "label": "Initial Engagement",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": null,
+        "days_since_activity": null,
+        "change": "new deal"
+      },
+      {
+        "id": "62628776297",
+        "dealname": "New Deal - Covenent University College of Medicine / Alstein Hub_Nigeria",
+        "stage": "1217017229",
+        "label": "Initial Engagement",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": null,
+        "days_since_activity": null,
+        "change": "new deal"
+      },
+      {
+        "id": "60177671864",
+        "dealname": "New Lead - Catholic University of San Pablo / Nucleotech_Peru",
+        "stage": "1217017229",
+        "label": "Initial Engagement",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": "2026-06-24T09:50:56.546Z",
+        "days_since_activity": 33,
+        "change": "field update"
+      },
+      {
+        "id": "57830433816",
+        "dealname": "New Lead - Obafemi Awolowo University / Alstein Hub_Nigeria",
+        "stage": "1217017229",
+        "label": "Initial Engagement",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": "2026-05-15T10:24:30.335Z",
+        "days_since_activity": 73,
+        "change": "field update"
+      },
+      {
+        "id": "57830433161",
+        "dealname": "New Lead - Andean University of Cusco / Nucleotech_Peru",
+        "stage": "1217017229",
+        "label": "Initial Engagement",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": "2026-05-15T11:08:00.537Z",
+        "days_since_activity": 73,
+        "change": "field update"
+      },
+      {
+        "id": "50331157771",
+        "dealname": "New Lead - UNIVERSIDAD DE PIURA / Nucleotech_Peru",
+        "stage": "1217017229",
+        "label": "Initial Engagement",
+        "usd": null,
+        "amount": "",
+        "currency": "USD",
+        "last_activity": "2026-05-15T11:09:07.880Z",
+        "days_since_activity": 73,
+        "change": "field update"
+      },
+      {
+        "id": "48172212868",
+        "dealname": "New Lead - Universidad Tecnol\u00f3gica del Per\u00fa / Nucleotech_Peru",
+        "stage": "1217017229",
+        "label": "Initial Engagement",
+        "usd": null,
+        "amount": "",
+        "currency": "USD",
+        "last_activity": "2026-05-15T11:08:43.451Z",
+        "days_since_activity": 73,
+        "change": "field update"
+      },
+      {
+        "id": "62625005073",
+        "dealname": "Winston-Salem State University - New Deal",
+        "stage": "presentationscheduled",
+        "label": "Discovery & Trial",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": "2026-07-21T11:20:15.523Z",
+        "days_since_activity": 6,
+        "change": "new deal"
+      },
+      {
+        "id": "61390460829",
+        "dealname": "Uniformed Services University of the Health Sciences (USU) - New Deal",
+        "stage": "presentationscheduled",
+        "label": "Discovery & Trial",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": "2026-07-27T19:05:46Z",
+        "days_since_activity": 0,
+        "change": "activity logged"
+      },
+      {
+        "id": "60650552119",
+        "dealname": "(Pilot HAPS) Vincennes University",
+        "stage": "presentationscheduled",
+        "label": "Discovery & Trial",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": "2026-07-28T02:07:03.056Z",
+        "days_since_activity": -1,
+        "change": "stage change: Qualified to Buy \u2192 Discovery & Trial"
+      },
+      {
+        "id": "59729814549",
+        "dealname": "(AC) University of Miami",
+        "stage": "presentationscheduled",
+        "label": "Discovery & Trial",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": "2026-07-28T01:33:57.275Z",
+        "days_since_activity": -1,
+        "change": "stage change: Initial Engagement \u2192 Discovery & Trial"
+      },
+      {
+        "id": "58134587909",
+        "dealname": "(MQL) National College of Naprapathic Medicine (NCNM)",
+        "stage": "presentationscheduled",
+        "label": "Discovery & Trial",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": "2026-07-28T02:05:08.497Z",
+        "days_since_activity": -1,
+        "change": "stage change: Initial Engagement \u2192 Discovery & Trial"
+      },
+      {
+        "id": "55031048968",
+        "dealname": "Univ Miami Bascom Eye Institute",
+        "stage": "presentationscheduled",
+        "label": "Discovery & Trial",
+        "usd": null,
+        "amount": "",
+        "currency": "USD",
+        "last_activity": "2026-07-28T02:00:00.280Z",
+        "days_since_activity": -1,
+        "change": "stage change: Qualified to Buy \u2192 Discovery & Trial"
+      },
+      {
+        "id": "60785811606",
+        "dealname": "Advisory Board/ Pilot / Albert Ludwig University of Freiburg/ Prof. Andreas Vlachos",
+        "stage": "closedlost",
+        "label": "Closed Lost",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": null,
+        "days_since_activity": null,
+        "change": "stage change: Discovery & Trial \u2192 Closed Lost"
+      },
+      {
+        "id": "60177857961",
+        "dealname": "Consultancy - Jailenne I. Quinones-Rodriguez / Sam Houston State University College of Osteopathic Medicine / Content Review Anatomy 360",
+        "stage": "contractsent",
+        "label": "Commitment to Buy",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": "2026-05-15T08:41:28.981Z",
+        "days_since_activity": 73,
+        "change": "stage change: Negotiation \u2192 Commitment to Buy"
+      },
+      {
+        "id": "57851499068",
+        "dealname": "Consultancy / Yossi Buskila _ Western Sydney University / Content Review Digital Cadaver",
+        "stage": "contractsent",
+        "label": "Commitment to Buy",
+        "usd": 0.0,
+        "amount": "0",
+        "currency": "USD",
+        "last_activity": "2026-07-07T10:59:46.174Z",
+        "days_since_activity": 20,
+        "change": "field update"
+      }
+    ],
+    "qualified_to_buy_stale": [
+      {
+        "id": "46799760157",
+        "dealname": "Rajiv Gandhi University of Health Sciences (RGUHS)",
+        "notes_last_updated": "2026-06-01T18:28:12.659Z",
+        "days_since_activity": 56,
+        "amount_usd": 1136363.0,
+        "amount": "1136363",
+        "currency": "USD"
+      },
+      {
+        "id": "59610029666",
+        "dealname": "(AC) Nnamdi Azikiwe University / New Deal",
+        "notes_last_updated": "2026-06-24T12:30:29.682Z",
+        "days_since_activity": 33,
+        "amount_usd": 5100.0,
+        "amount": "5100",
+        "currency": "USD"
+      },
+      {
+        "id": "60271617796",
+        "dealname": "SKIMS Medical College & Hospital",
+        "notes_last_updated": "2026-06-30T11:51:52.472Z",
+        "days_since_activity": 27,
+        "amount_usd": 20000.0,
+        "amount": "20000",
+        "currency": "USD"
+      },
+      {
+        "id": "61764791587",
+        "dealname": "Nightingale Institute of Nursing Education - New Deal",
+        "notes_last_updated": "2026-07-02T08:00:00Z",
+        "days_since_activity": 25,
+        "amount_usd": 3154.5,
+        "amount": "300000",
+        "currency": "INR"
+      }
+    ],
+    "stale_engaged_sqls": [
+      {
+        "id": "172811330977",
+        "name": "Munesh Pal Khamuani",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-04-14T08:25:59.233Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 104
+      },
+      {
+        "id": "220339561385",
+        "name": "Ursula Tierney",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-08T15:05:26.748Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 80
+      },
+      {
+        "id": "220445110156",
+        "name": "Tina Gallup",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-08T14:48:49.569Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 80
+      },
+      {
+        "id": "170908802594",
+        "name": "Paula Hopper",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-08T15:17:37.427Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 80
+      },
+      {
+        "id": "156057111955",
+        "name": "Christina Bell",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-08T15:24:08.961Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 80
+      },
+      {
+        "id": "214629545996",
+        "name": "Dr. Virendra Kumar NIM",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-10T17:54:04.099Z",
+        "owner": "Anup Ghoshal",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 78
+      },
+      {
+        "id": "156090179374",
+        "name": "Richard Roy Mendonce",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-10T17:42:18.268Z",
+        "owner": "Anup Ghoshal",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 78
+      },
+      {
+        "id": "156056536160",
+        "name": "Kathirvelu Balachandar",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-28T18:01:42.748Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 60
+      },
+      {
+        "id": "170928673385",
+        "name": "Jeff Duerr",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-28T14:54:04.954Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 60
+      },
+      {
+        "id": "224780989221",
+        "name": "Travis Clamon",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-29T14:17:13.790Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 59
+      },
+      {
+        "id": "224543348294",
+        "name": "Zsolt Turi",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-29T10:21:51.829Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 59
+      },
+      {
+        "id": "224543356760",
+        "name": "Christos Galanis",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-29T10:20:21.178Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 59
+      },
+      {
+        "id": "156056785328",
+        "name": "Cristina Alvarado",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-05-29T14:26:32.668Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 59
+      },
+      {
+        "id": "226035148098",
+        "name": "Amy Gard",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-03T11:09:15.004Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 54
+      },
+      {
+        "id": "227076688397",
+        "name": "Leroy Marklund",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-08T12:33:56.432Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 49
+      },
+      {
+        "id": "227063301532",
+        "name": "Angela Mulcahy-Spence",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-08T12:27:41.676Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 49
+      },
+      {
+        "id": "227063302219",
+        "name": "Lisa Haddad",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-08T12:22:16.353Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 49
+      },
+      {
+        "id": "227354323743",
+        "name": "Andrii Shmarhalov",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-09T14:27:49.827Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 48
+      },
+      {
+        "id": "227877588495",
+        "name": "Siobhan Moyes",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-12T11:39:59.392Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 45
+      },
+      {
+        "id": "227877584008",
+        "name": "Lily Evans",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-12T11:42:44.023Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 45
+      },
+      {
+        "id": "171956004728",
+        "name": "Joy Y. Balta",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-12T11:14:07.884Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 45
+      },
+      {
+        "id": "228536174222",
+        "name": "Brent Thompson",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-15T18:24:44.488Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 42
+      },
+      {
+        "id": "228361895465",
+        "name": "Rahul Sharma",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-16T10:13:54.775Z",
+        "owner": "Anup Ghoshal",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 41
+      },
+      {
+        "id": "163868966244",
+        "name": "Abigail Green",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-16T11:48:48.241Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 41
+      },
+      {
+        "id": "226435586086",
+        "name": "ahmed naga",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-17T08:00:00Z",
+        "owner": "Anup Ghoshal",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 40
+      },
+      {
+        "id": "225856114201",
+        "name": "Abdulrahman Bobseit",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-17T08:00:00Z",
+        "owner": "Anup Ghoshal",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 40
+      },
+      {
+        "id": "227786400321",
+        "name": "Elizabeth Stone",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-19T14:44:47.138Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 38
+      },
+      {
+        "id": "229709141538",
+        "name": "Tiffani Chidume",
+        "record_type": "contact",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": "2026-06-22T13:11:39.864Z",
+        "owner": "Theo Zirogiannis",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": 35
+      },
+      {
+        "id": "54994910838",
+        "name": "Sri Aurobindo college of Nursing",
+        "record_type": "company",
+        "hs_lead_status": "CONNECTED",
+        "notes_last_updated": null,
+        "owner": "Biju Rajesh",
+        "deal_name": null,
+        "deal_usd": null,
+        "days_since_activity": null
+      }
+    ],
+    "miscategorised_count": 8,
+    "miscategorised": [
+      {
+        "id": "236698774419",
+        "name": "Erika Neck",
+        "hs_lead_status": "Attempted to Contact",
+        "lifecyclestage": "lead"
+      },
+      {
+        "id": "234277974867",
+        "name": "Dr. Jobby George",
+        "hs_lead_status": "Attempted to Contact",
+        "lifecyclestage": "lead"
+      },
+      {
+        "id": "222915600009",
+        "name": "danish anwer",
+        "hs_lead_status": "Attempted to Contact",
+        "lifecyclestage": "marketingqualifiedlead"
+      },
+      {
+        "id": "200720753590",
+        "name": "Martin Rigby",
+        "hs_lead_status": "Attempted to Contact",
+        "lifecyclestage": "lead"
+      },
+      {
+        "id": "170705152123",
+        "name": "Megan Kalinowski",
+        "hs_lead_status": "Attempted to Contact",
+        "lifecyclestage": "lead"
+      },
+      {
+        "id": "166547187004",
+        "name": "Gillian O'Connell",
+        "hs_lead_status": "Attempted to Contact",
+        "lifecyclestage": "lead"
+      },
+      {
+        "id": "156056267784",
+        "name": "Simon Badley",
+        "hs_lead_status": "Attempted to Contact",
+        "lifecyclestage": "lead"
+      },
+      {
+        "id": "156056956002",
+        "name": "Kevin Sheil",
+        "hs_lead_status": "Attempted to Contact",
+        "lifecyclestage": "lead"
+      }
+    ]
+  }
+}
