@@ -4,12 +4,14 @@ Brahmarsive weekly B2B pipeline & MQL-health report.
 
 What it does
 ------------
-Pulls contacts and deals from HubSpot, filters the funnel to B2B contacts,
-and writes two files per run:
+Pulls contacts, deals and companies from HubSpot, filters the funnel to B2B
+contacts, and writes per run:
 
   snapshots/YYYY-MM-DD.json  -- the pulled data + computed metrics (machine)
   reports/YYYY-MM-DD.md      -- readable summary with funnel, ratios, deal
-                                values, alerts and the miscategorised list
+                                values (USD-normalised), alerts, the
+                                "deals moved this week" view, the stalled-SQL
+                                follow-up list, and the miscategorised list
 
 Each run loads the most recent previous snapshot from snapshots/ and shows the
 week-on-week movement for every metric.
@@ -17,20 +19,27 @@ week-on-week movement for every metric.
 Two data sources
 ----------------
 1. Live (default): fetch straight from HubSpot's REST API using the
-   HUBSPOT_TOKEN environment variable (a HubSpot Service key with
-   crm.objects.contacts.read + crm.objects.deals.read).
+   HUBSPOT_TOKEN environment variable.
 
        python3 pipeline.py
 
 2. Pre-pulled (--input FILE): consume data already pulled from HubSpot and
-   stored as JSON. This is used when direct egress to api.hubapi.com is not
-   permitted from the run environment (e.g. an org egress policy blocks it),
-   so the data is fetched via the HubSpot MCP tools and handed to the same
-   computation code here.
+   stored as JSON. Used when direct egress to api.hubapi.com is not permitted
+   from the run environment, so the data is fetched via the HubSpot MCP tools
+   and handed to the same computation code here.
 
        python3 pipeline.py --input raw_input.json
 
-The token value is never printed or committed.
+Currency
+--------
+The HubSpot account default (home) currency is USD, but deals are created in
+several currencies (notably INR). All deal totals are reported in USD using
+HubSpot's converted amount. In this portal that property is exposed as
+`amount_in_home_currency` (label "Amount in company currency"); the name
+`hs_deal_amount_in_home_currency` from the brief does not exist here. Raw
+`amount` + `deal_currency_code` are kept only as a secondary reference and are
+never summed across currencies. Deals with an empty converted amount are
+flagged, not back-filled from the raw amount.
 """
 
 import argparse
@@ -80,7 +89,13 @@ DEALSTAGE_LABELS = {
 
 # The B2B filter is the single exclusion switch: keeping only customer_type=B2B
 # automatically drops B2C, Partner, Vendor, Internal and Partner-B2B contacts.
+# (Companies carry the same flag on customer_type__cloned_.)
 CUSTOMER_TYPE_FILTER = "B2B"
+
+# All deal money is reported on this basis. If a prior snapshot used a
+# different basis, week-on-week deal-value deltas are suppressed (with a note)
+# because they would not be comparable.
+DEAL_VALUE_BASIS = "USD (amount_in_home_currency)"
 
 # =========================================================================
 # MISCATEGORISED-LEAD CHECK  (edit here to tune the rule)
@@ -118,10 +133,11 @@ def is_miscategorised(props):
 # STALE-ENGAGED-SQL CHECK (SQLs sales has engaged but gone quiet)
 # =========================================================================
 # Distinct from the auto-recycled "Attempted to Contact" cases (handled by
-# the separate HubSpot stale-lead recycler workflow). These are SQLs where
-# sales has already made real contact/progress, but activity has since
-# stalled. This is a follow-up/review list for sales to action — nothing
-# here is moved automatically. 30-day threshold is tunable below.
+# the separate HubSpot stale-lead recycler workflow). These are SQL contacts
+# AND companies where sales has already made real contact/progress
+# (hs_lead_status one of the engaged statuses below), but activity has since
+# stalled. This is a follow-up/review list for sales to action — nothing here
+# is moved automatically. 30-day threshold is tunable below.
 STALE_SQL_LEAD_STATUSES = {"CONNECTED", "Qualified", "IN_PROGRESS", "PROPOSAL_REQUEST"}
 STALE_SQL_ACTIVITY_DAYS = 30
 
@@ -131,6 +147,9 @@ STALE_SQL_ACTIVITY_DAYS = 30
 QUALIFIED_TO_BUY_STAGE = "appointmentscheduled"   # internal value for "Qualified to Buy"
 STALE_ACTIVITY_DAYS = 14
 
+# "Deals moved this week" window.
+MOVED_WINDOW_DAYS = 7
+
 # Contact properties we pull.
 CONTACT_PROPERTIES = [
     "lifecyclestage", "hs_lead_status", "customer_type",
@@ -138,8 +157,9 @@ CONTACT_PROPERTIES = [
     "notes_last_updated", "hubspot_owner_id", "hs_full_name_or_email",
 ]
 # Deal properties we pull. notes_last_updated is HubSpot's "Last Activity Date".
+# amount_in_home_currency is HubSpot's USD-converted amount.
 DEAL_PROPERTIES = [
-    "dealstage", "amount", "deal_currency_code",
+    "dealstage", "amount", "deal_currency_code", "amount_in_home_currency",
     "hs_lastmodifieddate", "notes_last_updated", "dealname",
 ]
 
@@ -233,37 +253,68 @@ def build_inputs_from_live(contacts, deals):
         "deals": deal_records,
         "miscategorised": miscategorised,
         "sql_contacts": sql_contacts,
+        "sql_companies": [],
     }
+
+
+# --------------------------------------------------------------------------
+# Computation helpers
+# --------------------------------------------------------------------------
+
+def _to_float(value):
+    if value is None or value == "":
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def _parse_ts(value):
+    """Parse a HubSpot ISO timestamp to a datetime, or None."""
+    if not value:
+        return None
+    v = value.replace("Z", "+00:00")
+    try:
+        d = dt.datetime.fromisoformat(v)
+    except ValueError:
+        return None
+    if d.tzinfo is None:
+        d = d.replace(tzinfo=dt.timezone.utc)
+    return d
+
+
+def _days_since(value, run_dt):
+    d = _parse_ts(value)
+    if d is None:
+        return None
+    return (run_dt - d).days
+
+
+def dealstage_label(stage):
+    return DEALSTAGE_LABELS.get(stage, stage or "unknown")
+
+
+def _last_activity(deal):
+    """Best available 'last activity' timestamp string for a deal."""
+    return deal.get("notes_last_updated") or deal.get("hs_lastmodifieddate")
 
 
 # --------------------------------------------------------------------------
 # Computation
 # --------------------------------------------------------------------------
 
-def _to_float(value):
-    if value is None or value == "":
-        return 0.0
-    try:
-        return float(value)
-    except (TypeError, ValueError):
-        return 0.0
-
-
-def _parse_ts(value):
-    """Parse a HubSpot ISO timestamp to a date, or None."""
-    if not value:
-        return None
-    v = value.replace("Z", "+00:00")
-    try:
-        return dt.datetime.fromisoformat(v)
-    except ValueError:
-        return None
-
-
-def compute_metrics(raw, run_date):
+def compute_metrics(raw, run_date, prev_snapshot=None):
     funnel_counts = raw["funnel_counts"]
+    run_dt = dt.datetime.combine(run_date, dt.time(), tzinfo=dt.timezone.utc)
 
-    # Funnel (ordered, with labels).
+    # Prior deal stages, keyed by deal id, for stage-change detection.
+    prev_deal_stage = {}
+    if prev_snapshot:
+        for d in prev_snapshot.get("raw", {}).get("deals", []):
+            prev_deal_stage[str(d.get("id"))] = d.get("dealstage")
+
+    # ---- Funnel (ordered, with labels) -----------------------------------
     funnel = []
     for stage in LIFECYCLE_ORDER:
         funnel.append({
@@ -271,7 +322,6 @@ def compute_metrics(raw, run_date):
             "label": LIFECYCLE_LABELS.get(stage, stage),
             "count": int(funnel_counts.get(stage, 0)),
         })
-    # Any stage we did not know about.
     for stage, count in funnel_counts.items():
         if stage not in LIFECYCLE_ORDER:
             funnel.append({"stage": stage, "label": stage, "count": int(count)})
@@ -280,66 +330,124 @@ def compute_metrics(raw, run_date):
     sql = int(funnel_counts.get("salesqualifiedlead", 0))
     ratio = round(sql / mql, 2) if mql else None
 
-    # Deals by stage: count + summed raw amount.
+    # ---- Deals by stage: count + USD total + raw reference + flags -------
     by_stage = {}
-    currencies = set()
+    missing_home_currency = []
+    all_currencies = set()
     for d in raw["deals"]:
         stage = d.get("dealstage") or "unknown"
-        entry = by_stage.setdefault(stage, {"count": 0, "amount": 0.0})
+        usd = _to_float(d.get("amount_in_home_currency"))
+        cur = d.get("deal_currency_code")
+        if cur:
+            all_currencies.add(cur)
+        entry = by_stage.setdefault(stage, {
+            "count": 0, "usd_total": 0.0, "usd_missing": 0, "raw_by_ccy": {},
+        })
         entry["count"] += 1
-        entry["amount"] += _to_float(d.get("amount"))
-        if d.get("deal_currency_code"):
-            currencies.add(d["deal_currency_code"])
+        if usd is None:
+            entry["usd_missing"] += 1
+            missing_home_currency.append({
+                "id": d.get("id"), "dealname": d.get("dealname", ""),
+                "stage": stage, "label": dealstage_label(stage),
+                "raw_amount": d.get("amount"), "currency": cur,
+            })
+        else:
+            entry["usd_total"] += usd
+        raw_amt = _to_float(d.get("amount"))
+        if raw_amt:
+            entry["raw_by_ccy"][cur] = entry["raw_by_ccy"].get(cur, 0.0) + raw_amt
+
     deals_by_stage = []
     for stage, entry in by_stage.items():
         deals_by_stage.append({
             "stage": stage,
-            "label": DEALSTAGE_LABELS.get(stage, stage),
+            "label": dealstage_label(stage),
             "count": entry["count"],
-            "total_amount": round(entry["amount"], 2),
+            "usd_total": round(entry["usd_total"], 2),
+            "usd_missing": entry["usd_missing"],
+            "raw_by_ccy": {k: round(v, 2) for k, v in entry["raw_by_ccy"].items()},
         })
-    deals_by_stage.sort(key=lambda x: (-x["count"], x["label"]))
+    deals_by_stage.sort(key=lambda x: (-x["usd_total"], -x["count"], x["label"]))
 
-    # Alert: Qualified-to-Buy deals with no activity in 14+ days.
-    run_dt = dt.datetime.combine(run_date, dt.time(), tzinfo=dt.timezone.utc)
+    # ---- Alert: Qualified-to-Buy deals with no activity in 14+ days ------
     stale = []
     for d in raw["deals"]:
         if d.get("dealstage") != QUALIFIED_TO_BUY_STAGE:
             continue
-        last = _parse_ts(d.get("notes_last_updated"))
-        if last is None:
-            days = None
-        else:
-            if last.tzinfo is None:
-                last = last.replace(tzinfo=dt.timezone.utc)
-            days = (run_dt - last).days
+        days = _days_since(_last_activity(d), run_dt)
         if days is None or days >= STALE_ACTIVITY_DAYS:
             stale.append({
                 "id": d.get("id"),
                 "dealname": d.get("dealname", ""),
-                "notes_last_updated": d.get("notes_last_updated"),
+                "last_activity": _last_activity(d),
                 "days_since_activity": days,
-                "amount": _to_float(d.get("amount")),
+                "usd": _to_float(d.get("amount_in_home_currency")),
+                "raw_amount": d.get("amount"),
                 "currency": d.get("deal_currency_code"),
             })
     stale.sort(key=lambda x: (x["days_since_activity"] is not None,
                               x["days_since_activity"] or 0), reverse=True)
 
-    # Alert: SQLs sales has engaged but gone quiet (30+ days), grouped by
-    # lead status. Distinct from the auto-recycled Attempted-to-Contact case.
-    stale_sqls = []
-    for c in raw.get("sql_contacts", []):
-        last = _parse_ts(c.get("notes_last_updated"))
-        if last is None:
-            days = None
+    # ---- Deals moved this week (last MOVED_WINDOW_DAYS days) --------------
+    moved = []
+    for d in raw["deals"]:
+        did = str(d.get("id"))
+        mod_days = _days_since(d.get("hs_lastmodifieddate"), run_dt)
+        act_days = _days_since(d.get("notes_last_updated"), run_dt)
+        in_window = (mod_days is not None and mod_days < MOVED_WINDOW_DAYS) or \
+                    (act_days is not None and act_days < MOVED_WINDOW_DAYS)
+        if not in_window:
+            continue
+        stage = d.get("dealstage") or "unknown"
+        # Detect what changed.
+        prev_stage = prev_deal_stage.get(did)
+        if did in prev_deal_stage and prev_stage != stage:
+            change = f"Stage change: {dealstage_label(prev_stage)} → {dealstage_label(stage)}"
+            change_type = "stage_change"
+        elif act_days is not None and act_days < MOVED_WINDOW_DAYS:
+            change = "Activity logged"
+            change_type = "activity"
         else:
-            if last.tzinfo is None:
-                last = last.replace(tzinfo=dt.timezone.utc)
-            days = (run_dt - last).days
-        if days is None or days >= STALE_SQL_ACTIVITY_DAYS:
-            stale_sqls.append({**c, "days_since_activity": days})
-    stale_sqls.sort(key=lambda x: (x["days_since_activity"] is not None,
-                                    x["days_since_activity"] or 0), reverse=True)
+            change = "Field update (no new activity)"
+            change_type = "field_update"
+        moved.append({
+            "id": did,
+            "dealname": d.get("dealname", ""),
+            "stage": stage,
+            "label": dealstage_label(stage),
+            "usd": _to_float(d.get("amount_in_home_currency")),
+            "raw_amount": d.get("amount"),
+            "currency": d.get("deal_currency_code"),
+            "change": change,
+            "change_type": change_type,
+            "last_activity": _last_activity(d),
+            "days_since_activity": act_days,
+        })
+
+    # ---- Alert/section: SQLs (contacts + companies) engaged but quiet ----
+    def _stale_records(records, kind):
+        out = []
+        for c in records:
+            days = _days_since(c.get("notes_last_updated"), run_dt)
+            if days is None or days >= STALE_SQL_ACTIVITY_DAYS:
+                out.append({
+                    "kind": kind,
+                    "id": str(c.get("id")),
+                    "name": c.get("name", ""),
+                    "hs_lead_status": c.get("hs_lead_status"),
+                    "owner": c.get("owner"),
+                    "notes_last_updated": c.get("notes_last_updated"),
+                    "days_since_activity": days,
+                    "deal_name": c.get("associated_deal", {}).get("name") if isinstance(c.get("associated_deal"), dict) else None,
+                    "deal_usd": c.get("associated_deal", {}).get("usd") if isinstance(c.get("associated_deal"), dict) else None,
+                })
+        return out
+
+    stale_sqls = _stale_records(raw.get("sql_contacts", []), "contact")
+    stale_sqls += _stale_records(raw.get("sql_companies", []), "company")
+    # Sort most-stalled first; "no activity logged" (None) sorts to the very top.
+    stale_sqls.sort(key=lambda x: (x["days_since_activity"] is None,
+                                   x["days_since_activity"] or 0), reverse=True)
 
     misc = raw.get("miscategorised", [])
     return {
@@ -348,10 +456,14 @@ def compute_metrics(raw, run_date):
         "sql_count": sql,
         "sql_to_mql_ratio": ratio,
         "funnel_inversion": sql > mql,
+        "deal_value_basis": DEAL_VALUE_BASIS,
         "deals_by_stage": deals_by_stage,
-        "deal_currencies": sorted(currencies),
+        "deal_currencies": sorted(all_currencies),
+        "deals_missing_home_currency": missing_home_currency,
+        "deals_moved_this_week": moved,
         "qualified_to_buy_stale": stale,
         "stale_engaged_sqls": stale_sqls,
+        "stale_engaged_sql_count": len(stale_sqls),
         "miscategorised_count": len(misc),
         "miscategorised": misc,
     }
@@ -396,89 +508,97 @@ def delta_str(current, prev):
 
 def money_delta_str(current, prev):
     if prev is None:
-        return f"{current:,.0f}"
+        return f"${current:,.0f}"
     diff = current - prev
     if diff > 0:
-        return f"{current:,.0f} (+{diff:,.0f})"
+        return f"${current:,.0f} (+${diff:,.0f})"
     if diff < 0:
-        return f"{current:,.0f} ({diff:,.0f})"
-    return f"{current:,.0f} (=)"
+        return f"${current:,.0f} (-${abs(diff):,.0f})"
+    return f"${current:,.0f} (=)"
 
 
 # --------------------------------------------------------------------------
 # Report rendering
 # --------------------------------------------------------------------------
 
+def _fmt_usd(usd, missing_label="n/a (home currency missing)"):
+    return f"${usd:,.0f}" if usd is not None else missing_label
+
+
+def _fmt_raw(raw_amount, currency):
+    v = _to_float(raw_amount)
+    if v is None:
+        return "—"
+    return f"{v:,.0f} {currency or ''}".strip()
+
+
 def render_report(snapshot, prev):
     m = snapshot["metrics"]
     prev_m = prev["metrics"] if prev else None
     date = snapshot["run_date"]
+    # Deal-value week-on-week only makes sense if the prior snapshot used the
+    # same basis (USD). The first USD run has no comparable predecessor.
+    value_comparable = bool(prev_m) and prev_m.get("deal_value_basis") == m["deal_value_basis"]
     out = []
     A = out.append
 
     A(f"# Brahmarsive Weekly Pipeline & MQL Health — {date}")
     A("")
-    A(f"*Scope: B2B contacts only (`customer_type = {CUSTOMER_TYPE_FILTER}`). "
+    A(f"*Scope: B2B only (`customer_type = {CUSTOMER_TYPE_FILTER}` for contacts, "
+      f"`customer_type__cloned_ = {CUSTOMER_TYPE_FILTER}` for companies). "
       f"Generated {snapshot['generated_at_utc']} UTC from HubSpot.*")
     A("")
+    A(f"*Deal values are USD, normalised via HubSpot's converted amount "
+      f"(`amount_in_home_currency`). Raw amounts in other currencies are shown "
+      f"only as a secondary reference and never summed across currencies.*")
+    A("")
     if prev:
-        A(f"*Week-on-week deltas are vs the previous snapshot "
-          f"(`{prev['run_date']}`).*")
+        A(f"*Week-on-week deltas are vs the previous snapshot (`{prev['run_date']}`).*")
     else:
         A("*No prior snapshot found — week-on-week comparison starts next run.*")
     A("")
 
-    # ---- Alerts -----------------------------------------------------------
+    # ======================================================================
+    # ALERTS
+    # ======================================================================
     A("## 🔔 Alerts")
     A("")
+
+    # Alert summary line.
     stale = m["qualified_to_buy_stale"]
+    misc_prev = prev_m["miscategorised_count"] if prev_m else None
+    stale_sql_prev = prev_m.get("stale_engaged_sql_count") if prev_m else None
+    A(f"- **\"Qualified to Buy\" deals idle {STALE_ACTIVITY_DAYS}+ days:** {len(stale)}")
+    A(f"- **Miscategorised leads:** {delta_str(m['miscategorised_count'], misc_prev)}")
+    A(f"- **Engaged SQLs gone quiet ({STALE_SQL_ACTIVITY_DAYS}+ days):** "
+      f"{delta_str(m['stale_engaged_sql_count'], stale_sql_prev)}")
+    if m["funnel_inversion"]:
+        A(f"- **⚠️ Funnel inversion:** SQL ({m['sql_count']}) > MQL ({m['mql_count']})")
+    if m["deals_missing_home_currency"]:
+        A(f"- **⚠️ Deals missing USD converted amount:** "
+          f"{len(m['deals_missing_home_currency'])} (excluded from USD totals — see below)")
+    A("")
+
+    # --- Qualified to Buy stale ---
     if stale:
         A(f"### ⚠️ {len(stale)} \"Qualified to Buy\" deal(s) with no activity "
           f"in {STALE_ACTIVITY_DAYS}+ days")
         A("")
-        A("| Deal | Last activity | Days idle | Amount |")
-        A("|------|---------------|-----------|--------|")
+        A("| Deal | Last activity | Days idle | USD value | Raw (orig ccy) |")
+        A("|------|---------------|-----------|-----------|----------------|")
         for d in stale:
             days = "no activity logged" if d["days_since_activity"] is None \
                 else f"{d['days_since_activity']}d"
-            last = d["notes_last_updated"] or "—"
-            amt = f"{d['amount']:,.0f} {d.get('currency') or ''}".strip()
-            A(f"| {d['dealname']} (#{d['id']}) | {last[:10]} | {days} | {amt} |")
+            last = (d["last_activity"] or "—")[:10]
+            A(f"| {d['dealname']} (#{d['id']}) | {last} | {days} "
+              f"| {_fmt_usd(d['usd'])} | {_fmt_raw(d['raw_amount'], d['currency'])} |")
         A("")
     else:
         A(f"- ✅ No \"Qualified to Buy\" deals idle for {STALE_ACTIVITY_DAYS}+ days.")
         A("")
 
-    stale_sqls = m["stale_engaged_sqls"]
-    prev_stale = len(prev_m["stale_engaged_sqls"]) if prev_m else None
-    A(f"### 🕓 SQLs engaged but gone quiet: {delta_str(len(stale_sqls), prev_stale)}")
-    A("")
-    A(f"Sales has already made real contact on these — this is a follow-up/review "
-      f"list ({STALE_SQL_ACTIVITY_DAYS}+ days idle), NOT an auto-recycle. Distinct "
-      "from the \"Attempted to Contact\" cases the stale-lead recycler handles "
-      "automatically. Nothing here moves without a human.")
-    A("")
-    if stale_sqls:
-        by_status = {}
-        for c in stale_sqls:
-            by_status.setdefault(c["hs_lead_status"], []).append(c)
-        for status, group in by_status.items():
-            A(f"**{status}** ({len(group)})")
-            A("")
-            A("| Contact | Days idle | Owner |")
-            A("|---------|-----------|-------|")
-            for c in group:
-                days = "no activity logged" if c["days_since_activity"] is None \
-                    else f"{c['days_since_activity']}d"
-                A(f"| {c['name']} (#{c['id']}) | {days} | {c.get('owner') or '—'} |")
-            A("")
-    else:
-        A(f"- ✅ No engaged SQLs idle for {STALE_SQL_ACTIVITY_DAYS}+ days.")
-        A("")
-
-    misc_prev = prev_m["miscategorised_count"] if prev_m else None
-    A(f"### 🏷️ Miscategorised leads: "
-      f"{delta_str(m['miscategorised_count'], misc_prev)}")
+    # --- Miscategorised leads ---
+    A(f"### 🏷️ Miscategorised leads: {delta_str(m['miscategorised_count'], misc_prev)}")
     A("")
     A("Sales is working these contacts (lead status) but their lifecycle stage "
       "is still only Lead / MQL — they should be Sales Qualified Lead or beyond.")
@@ -488,21 +608,68 @@ def render_report(snapshot, prev):
         A("|------------|------|-------------|-----------------|")
         for c in m["miscategorised"]:
             A(f"| {c['id']} | {c.get('name','')} | {c.get('hs_lead_status','')} "
-              f"| {c.get('lifecyclestage','')} |")
+              f"| {LIFECYCLE_LABELS.get(c.get('lifecyclestage',''), c.get('lifecyclestage',''))} |")
     else:
         A("- None this run.")
     A("")
 
+    # --- Funnel inversion ---
     if m["funnel_inversion"]:
-        A(f"### ⚠️ Funnel inversion: SQL ({m['sql_count']}) > MQL "
-          f"({m['mql_count']})")
+        A(f"### ⚠️ Funnel inversion: SQL ({m['sql_count']}) > MQL ({m['mql_count']})")
         A("")
         A("More Sales Qualified than Marketing Qualified Leads. Expected the "
           "funnel to narrow (MQL ≥ SQL). Likely causes: leads skipping the MQL "
           "stage, MQL criteria too strict, or bulk SQL promotion. Worth a look.")
         A("")
 
-    # ---- Funnel -----------------------------------------------------------
+    # ======================================================================
+    # DEALS MOVED THIS WEEK
+    # ======================================================================
+    moved = m["deals_moved_this_week"]
+    A(f"## 📈 Deals moved this week (last {MOVED_WINDOW_DAYS} days)")
+    A("")
+    A("What's active and how the pipeline shifted this week — grouped by current "
+      "stage, highest USD value first. \"What changed\" is derived by comparing "
+      "each deal's stage to last week's snapshot; where the stage is unchanged we "
+      "distinguish new activity from a bare field update.")
+    A("")
+    if not moved:
+        A("- No deals modified or with new activity in the window.")
+        A("")
+    else:
+        stage_changes = [d for d in moved if d["change_type"] == "stage_change"]
+        n_field = len([d for d in moved if d['change_type'] == 'field_update'])
+        A(f"**{len(moved)} deal(s) touched** — {len(stage_changes)} stage change(s), "
+          f"{len([d for d in moved if d['change_type']=='activity'])} with new activity, "
+          f"{n_field} field-only updates.")
+        A("")
+        if n_field:
+            A("> *Field-only updates carry no new sales activity — they include HubSpot "
+              "system/bulk recalculations (e.g. a currency exchange-rate refresh) and "
+              "should not be read as pipeline movement.*")
+            A("")
+        # Group by stage; order groups by total USD desc.
+        groups = {}
+        for d in moved:
+            groups.setdefault(d["stage"], []).append(d)
+
+        def _grp_usd(items):
+            return sum((x["usd"] or 0) for x in items)
+        for stage in sorted(groups, key=lambda s: -_grp_usd(groups[s])):
+            items = sorted(groups[stage], key=lambda x: (x["usd"] or 0), reverse=True)
+            A(f"### {dealstage_label(stage)} ({len(items)})")
+            A("")
+            A("| Deal | USD value | What changed | Last activity | Raw (orig ccy) |")
+            A("|------|-----------|--------------|---------------|----------------|")
+            for d in items:
+                last = (d["last_activity"] or "—")[:10]
+                A(f"| {d['dealname']} (#{d['id']}) | {_fmt_usd(d['usd'])} "
+                  f"| {d['change']} | {last} | {_fmt_raw(d['raw_amount'], d['currency'])} |")
+            A("")
+
+    # ======================================================================
+    # FUNNEL
+    # ======================================================================
     A("## Funnel — B2B contacts per lifecycle stage")
     A("")
     A("| Lifecycle stage | Contacts |")
@@ -517,7 +684,9 @@ def render_report(snapshot, prev):
     A(f"| **Total** | **{delta_str(total, prev_total)}** |")
     A("")
 
-    # ---- MQL / SQL --------------------------------------------------------
+    # ======================================================================
+    # MQL / SQL
+    # ======================================================================
     A("## MQL vs SQL")
     A("")
     pmql = prev_m["mql_count"] if prev_m else None
@@ -530,34 +699,99 @@ def render_report(snapshot, prev):
       f"{'⚠️ YES' if m['funnel_inversion'] else 'no'}")
     A("")
 
-    # ---- Deals ------------------------------------------------------------
-    A("## Deals — count and value by stage")
+    # ======================================================================
+    # DEALS BY STAGE (value per stage, USD)
+    # ======================================================================
+    A("## Deals — count and value by stage (USD)")
     A("")
     if len(m["deal_currencies"]) > 1:
-        A(f"> ⚠️ **Currency caveat:** deal amounts are stored in mixed "
-          f"currencies ({', '.join(m['deal_currencies'])}) and are summed as-is "
-          f"(no FX conversion). Totals below are not currency-normalised — read "
-          f"them per stage, not as a single grand total.")
+        A(f"> Deals exist in mixed currencies ({', '.join(m['deal_currencies'])}). "
+          f"All totals below are USD via `amount_in_home_currency`; the raw-currency "
+          f"column is reference only.")
         A("")
-    A("| Deal stage | Deals | Total amount (raw) |")
-    A("|------------|-------|--------------------|")
+    if not value_comparable and prev_m:
+        A("> **Note:** the previous snapshot summed raw mixed-currency amounts, so "
+          "USD week-on-week value deltas are not comparable this run. Deal **counts** "
+          "are compared; USD value week-on-week starts next run.")
+        A("")
+    A("| Deal stage | Deals | Total USD value | Raw by currency (ref) |")
+    A("|------------|-------|-----------------|-----------------------|")
     prev_deals = {d["stage"]: d for d in prev_m["deals_by_stage"]} if prev_m else {}
     tot_count = 0
-    tot_amt = 0.0
+    tot_usd = 0.0
+    tot_missing = 0
     for d in m["deals_by_stage"]:
         tot_count += d["count"]
-        tot_amt += d["total_amount"]
+        tot_usd += d["usd_total"]
+        tot_missing += d["usd_missing"]
         pv = prev_deals.get(d["stage"]) if prev_m else None
         pv_count = pv["count"] if pv else None
-        pv_amt = pv["total_amount"] if pv else None
-        A(f"| {d['label']} | {delta_str(d['count'], pv_count)} "
-          f"| {money_delta_str(d['total_amount'], pv_amt)} |")
-    A(f"| **Total** | **{tot_count}** | **{tot_amt:,.0f}** |")
+        if value_comparable and pv is not None:
+            usd_cell = money_delta_str(d["usd_total"], pv.get("usd_total"))
+        else:
+            usd_cell = f"${d['usd_total']:,.0f}"
+        if d["usd_missing"]:
+            usd_cell += f" ⚠️{d['usd_missing']} missing"
+        raw_ref = ", ".join(f"{v:,.0f} {c}" for c, v in sorted(d["raw_by_ccy"].items())) or "—"
+        A(f"| {d['label']} | {delta_str(d['count'], pv_count)} | {usd_cell} | {raw_ref} |")
+    A(f"| **Total** | **{tot_count}** | **${tot_usd:,.0f}**"
+      f"{f' ⚠️{tot_missing} missing' if tot_missing else ''} | |")
     A("")
-    A("*Value per stage note: pre-deal lifecycle stages (Email Contact, Lead, "
-      "MQL) are contact counts only and carry no deal value — deal value exists "
-      "only from the deal pipeline stages above.*")
+    A("*Pre-deal lifecycle stages (Email Contact, Lead, MQL) are contact counts "
+      "only and carry no deal value — deal value exists only from the deal "
+      "pipeline stages above.*")
     A("")
+    if m["deals_missing_home_currency"]:
+        A(f"**⚠️ {len(m['deals_missing_home_currency'])} deal(s) missing a USD "
+          f"converted amount** (`amount_in_home_currency` empty) — excluded from USD "
+          f"totals rather than back-filled from the raw amount:")
+        A("")
+        A("| Deal | Stage | Raw amount (orig ccy) |")
+        A("|------|-------|-----------------------|")
+        for d in m["deals_missing_home_currency"]:
+            A(f"| {d['dealname']} (#{d['id']}) | {d['label']} "
+              f"| {_fmt_raw(d['raw_amount'], d['currency'])} |")
+        A("")
+
+    # ======================================================================
+    # STALLED / ENGAGED SQLs — follow-up (NOT auto-recycle)
+    # ======================================================================
+    stale_sqls = m["stale_engaged_sqls"]
+    A(f"## 🕓 Engaged SQLs gone quiet — follow-up / review: "
+      f"{delta_str(m['stale_engaged_sql_count'], stale_sql_prev)}")
+    A("")
+    A(f"SQL contacts **and** companies where sales has already made real contact "
+      f"(lead status Connected / Qualified / In Progress / Proposal Request) but the "
+      f"last activity is {STALE_SQL_ACTIVITY_DAYS}+ days ago. This is a live "
+      f"**follow-up/review** list for sales to action — **NOT** an auto-recycle. "
+      f"Distinct from the \"Attempted to Contact\" cases the stale-lead recycler "
+      f"handles automatically. Nothing here moves without a human. Sorted most "
+      f"stalled first.")
+    A("")
+    if stale_sqls:
+        by_status = {}
+        for c in stale_sqls:
+            by_status.setdefault(c["hs_lead_status"], []).append(c)
+        status_label = {"CONNECTED": "Contacted", "Qualified": "Qualified",
+                        "IN_PROGRESS": "In Progress", "PROPOSAL_REQUEST": "Proposal Request"}
+        for status in sorted(by_status, key=lambda s: -len(by_status[s])):
+            group = by_status[status]
+            A(f"**{status_label.get(status, status)}** ({len(group)})")
+            A("")
+            A("| Record | Type | Days idle | Owner | Associated deal (USD) |")
+            A("|--------|------|-----------|-------|-----------------------|")
+            for c in group:
+                days = "no activity logged" if c["days_since_activity"] is None \
+                    else f"{c['days_since_activity']}d"
+                deal = "—"
+                if c.get("deal_name"):
+                    deal = f"{c['deal_name']} ({_fmt_usd(c.get('deal_usd'))})"
+                A(f"| {c['name']} (#{c['id']}) | {c['kind']} | {days} "
+                  f"| {c.get('owner') or '—'} | {deal} |")
+            A("")
+    else:
+        A(f"- ✅ No engaged SQLs idle for {STALE_SQL_ACTIVITY_DAYS}+ days.")
+        A("")
 
     A("---")
     A(f"*Snapshot: `snapshots/{date}.json` · Report: `reports/{date}.md`*")
@@ -591,7 +825,13 @@ def main():
         raw = build_inputs_from_live(contacts, deals)
         source = "hubspot (live REST)"
 
-    metrics = compute_metrics(raw, run_date)
+    snap_dir = os.path.join(args.outdir, "snapshots")
+    rep_dir = os.path.join(args.outdir, "reports")
+    os.makedirs(snap_dir, exist_ok=True)
+    os.makedirs(rep_dir, exist_ok=True)
+
+    prev = load_prev_snapshot(snap_dir, run_date)
+    metrics = compute_metrics(raw, run_date, prev_snapshot=prev)
 
     generated = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
     snapshot = {
@@ -605,20 +845,14 @@ def main():
             "deals": raw["deals"],
             "miscategorised_contacts": raw.get("miscategorised", []),
             "sql_contacts": raw.get("sql_contacts", []),
+            "sql_companies": raw.get("sql_companies", []),
         },
         "metrics": metrics,
     }
 
-    snap_dir = os.path.join(args.outdir, "snapshots")
-    rep_dir = os.path.join(args.outdir, "reports")
-    os.makedirs(snap_dir, exist_ok=True)
-    os.makedirs(rep_dir, exist_ok=True)
-
-    prev = load_prev_snapshot(snap_dir, run_date)
-
     snap_path = os.path.join(snap_dir, f"{run_date.isoformat()}.json")
     with open(snap_path, "w") as f:
-        json.dump(snapshot, f, indent=2)
+        json.dump(snapshot, f, indent=2, ensure_ascii=False)
 
     report = render_report(snapshot, prev)
     rep_path = os.path.join(rep_dir, f"{run_date.isoformat()}.md")
