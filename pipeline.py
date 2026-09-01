@@ -163,7 +163,7 @@ CONTACT_PROPERTIES = [
 # amount_in_home_currency is HubSpot's USD-converted value.
 DEAL_PROPERTIES = [
     "dealstage", "amount", "deal_currency_code", "amount_in_home_currency",
-    "hs_lastmodifieddate", "notes_last_updated", "dealname",
+    "hs_lastmodifieddate", "notes_last_updated", "dealname", "hubspot_owner_id",
 ]
 
 HUBSPOT_BASE = "https://api.hubapi.com"
@@ -415,6 +415,7 @@ def compute_metrics(raw, run_date):
             "usd_missing": not _has_value(d.get("amount_in_home_currency")),
             "amount": d.get("amount"),
             "currency": d.get("deal_currency_code"),
+            "owner": d.get("owner") or d.get("hubspot_owner_id"),
             "change": change,
             "last_activity": d.get("notes_last_updated"),
             "last_modified": d.get("hs_lastmodifieddate"),
@@ -527,6 +528,46 @@ def money_delta_str(current, prev):
 # Report rendering
 # --------------------------------------------------------------------------
 
+def _render_moved(A, m):
+    """Render the '📈 What moved this week' section (leads the report)."""
+    A(f"## 📈 What moved this week ({MOVED_WINDOW_DAYS}-day view)")
+    A("")
+    A(f"The Tuesday leadership view: deals with a stage change, logged activity, "
+      f"or field update in the last {MOVED_WINDOW_DAYS} days. Grouped by current "
+      f"stage, highest {HOME_CURRENCY} value first. Stage-change vs field-update "
+      f"cannot always be separated without deal history, so the change column is "
+      f"best-effort.")
+    A("")
+    moved = m["deals_moved_this_week"]
+    if not moved:
+        A(f"- No deals moved in the last {MOVED_WINDOW_DAYS} days.")
+        A("")
+        return
+    # Order stages by total USD desc.
+    stage_totals = {}
+    for d in moved:
+        stage_totals[d["stage"]] = stage_totals.get(d["stage"], 0.0) + d["usd_amount"]
+    stage_order = sorted(stage_totals, key=lambda s: -stage_totals[s])
+    A(f"**{len(moved)} deal(s) active this week.**")
+    A("")
+    for stage in stage_order:
+        group = [d for d in moved if d["stage"] == stage]
+        label = group[0]["label"]
+        grp_usd = sum(d["usd_amount"] for d in group)
+        A(f"### {label} — {len(group)} deal(s), {grp_usd:,.0f} {HOME_CURRENCY}")
+        A("")
+        A(f"| Deal | Owner | USD value | What changed | Last activity |")
+        A("|------|-------|-----------|--------------|---------------|")
+        for d in group:
+            usd = "⚠️ no USD value" if d["usd_missing"] else f"{d['usd_amount']:,.0f}"
+            la = (d["last_activity"] or "—")[:10]
+            if d["days_since_activity"] is not None:
+                la = f"{la} ({d['days_since_activity']}d ago)"
+            owner = d.get("owner") or "—"
+            A(f"| {d['dealname']} (#{d['id']}) | {owner} | {usd} | {d['change']} | {la} |")
+        A("")
+
+
 def render_report(snapshot, prev):
     m = snapshot["metrics"]
     prev_m = prev["metrics"] if prev else None
@@ -551,6 +592,11 @@ def render_report(snapshot, prev):
     else:
         A("*No prior snapshot found — week-on-week comparison starts next run.*")
     A("")
+
+    # ======================================================================
+    # WHAT MOVED THIS WEEK  (leads the report)
+    # ======================================================================
+    _render_moved(A, m)
 
     # ======================================================================
     # ALERTS
@@ -708,44 +754,6 @@ def render_report(snapshot, prev):
       "MQL) are contact counts only and carry no deal value — deal value exists "
       "only from the deal pipeline stages above.*")
     A("")
-
-    # ======================================================================
-    # WHAT MOVED THIS WEEK
-    # ======================================================================
-    A(f"## 📈 What moved this week ({MOVED_WINDOW_DAYS}-day view)")
-    A("")
-    A(f"Deals with a stage change, logged activity, or field update in the last "
-      f"{MOVED_WINDOW_DAYS} days. Grouped by current stage, highest "
-      f"{HOME_CURRENCY} value first. Stage-change vs field-update cannot always "
-      f"be separated without deal history, so the change column is best-effort.")
-    A("")
-    moved = m["deals_moved_this_week"]
-    if not moved:
-        A(f"- No deals moved in the last {MOVED_WINDOW_DAYS} days.")
-        A("")
-    else:
-        # Order stages by total USD desc.
-        stage_totals = {}
-        for d in moved:
-            stage_totals[d["stage"]] = stage_totals.get(d["stage"], 0.0) + d["usd_amount"]
-        stage_order = sorted(stage_totals, key=lambda s: -stage_totals[s])
-        A(f"**{len(moved)} deal(s) active this week.**")
-        A("")
-        for stage in stage_order:
-            group = [d for d in moved if d["stage"] == stage]
-            label = group[0]["label"]
-            grp_usd = sum(d["usd_amount"] for d in group)
-            A(f"### {label} — {len(group)} deal(s), {grp_usd:,.0f} {HOME_CURRENCY}")
-            A("")
-            A(f"| Deal | USD value | What changed | Last activity |")
-            A("|------|-----------|--------------|---------------|")
-            for d in group:
-                usd = "⚠️ no USD value" if d["usd_missing"] else f"{d['usd_amount']:,.0f}"
-                la = (d["last_activity"] or "—")[:10]
-                if d["days_since_activity"] is not None:
-                    la = f"{la} ({d['days_since_activity']}d ago)"
-                A(f"| {d['dealname']} (#{d['id']}) | {usd} | {d['change']} | {la} |")
-            A("")
 
     # ======================================================================
     # STALLED ENGAGED SQLs — FOLLOW-UP / REVIEW
