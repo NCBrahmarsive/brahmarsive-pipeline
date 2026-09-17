@@ -1,0 +1,1168 @@
+{
+  "run_date": "2026-09-17",
+  "generated_at_utc": "2026-09-17 12:08:36",
+  "source": "hubspot (pulled via HubSpot MCP, 2026-09-17)",
+  "window_days": 7,
+  "raw_counts": {
+    "contacts_b2b": 87,
+    "sql_all_types": 170,
+    "companies_b2b": 22,
+    "deals_b2b": 80
+  },
+  "portal_totals_reference": {
+    "b2b_contacts_by_lifecycle": {
+      "subscriber": 26,
+      "lead": 3131,
+      "marketingqualifiedlead": 60,
+      "salesqualifiedlead": 132,
+      "opportunity": 181,
+      "customer": 21,
+      "other": 10
+    },
+    "b2b_companies_total": 1856,
+    "contacts_at_sql_by_customer_type": {
+      "B2B": 132,
+      "B2C": 8,
+      "Partner": 17,
+      "Internal": 8,
+      "Partner-B2B": 3,
+      "Unassigned": 2
+    }
+  },
+  "metrics": {
+    "run_date": "2026-09-17",
+    "window_start": "2026-09-10",
+    "headline": {
+      "deals_moved_this_week": 0,
+      "pct_open_idle_14": 70.9,
+      "pct_sql_untouched_30": 92.4,
+      "miscategorised": 70,
+      "new_accounts_no_owner": 4,
+      "deals_missing_usd": 1,
+      "recycler_bounceback": 33
+    },
+    "guard_alerts": [],
+    "deals_by_stage": [
+      {
+        "stage": "Initial Engagement",
+        "qty": 22,
+        "usd": 123452.6,
+        "median_idle": 85,
+        "idle_14plus": 16,
+        "reference_only": false
+      },
+      {
+        "stage": "Qualified to Buy",
+        "qty": 9,
+        "usd": 1172785.8,
+        "median_idle": 14,
+        "idle_14plus": 5,
+        "reference_only": false
+      },
+      {
+        "stage": "Discovery & Trial",
+        "qty": 8,
+        "usd": 34000.0,
+        "median_idle": 13,
+        "idle_14plus": 3,
+        "reference_only": false
+      },
+      {
+        "stage": "Quote Sent",
+        "qty": 15,
+        "usd": 176405.2,
+        "median_idle": 85,
+        "idle_14plus": 14,
+        "reference_only": false
+      },
+      {
+        "stage": "Commitment to Buy",
+        "qty": 1,
+        "usd": 0,
+        "median_idle": 36,
+        "idle_14plus": 1,
+        "reference_only": false
+      },
+      {
+        "stage": "Negotiation",
+        "qty": 0,
+        "usd": 0,
+        "median_idle": null,
+        "idle_14plus": 0,
+        "reference_only": false
+      },
+      {
+        "stage": "Closed Won",
+        "qty": 6,
+        "usd": 50000.0,
+        "median_idle": 134,
+        "idle_14plus": 6,
+        "reference_only": true
+      },
+      {
+        "stage": "Closed Lost",
+        "qty": 19,
+        "usd": 577153.4,
+        "median_idle": 137,
+        "idle_14plus": 13,
+        "reference_only": true
+      }
+    ],
+    "open_qty": 55,
+    "open_usd": 1506643.6,
+    "open_idle_14": 39,
+    "pct_open_idle_14": 70.9,
+    "open_by_owner": [
+      {
+        "owner": "Anup Ghoshal",
+        "qty": 5,
+        "usd": 1256363.0
+      },
+      {
+        "owner": "Biju Rajesh",
+        "qty": 32,
+        "usd": 198180.6
+      },
+      {
+        "owner": "Jack Makhlouf",
+        "qty": 11,
+        "usd": 43000.0
+      },
+      {
+        "owner": "Theo Zirogiannis",
+        "qty": 7,
+        "usd": 9100.0
+      }
+    ],
+    "concentration": {
+      "top_deal": "Rajiv Gandhi University of Health Sciences (RGUHS)",
+      "top_deal_usd": 1136363.0,
+      "top_deal_pct": 75.4,
+      "top_owner": "Anup Ghoshal",
+      "top_owner_pct": 83.4
+    },
+    "moved": [],
+    "updated": [
+      {
+        "name": "Wellstar Hospital Network",
+        "owner": "Jack Makhlouf",
+        "stage": "Qualified to Buy",
+        "usd": 25000.0,
+        "last_activity": "2026-09-15",
+        "entered": "2026-08-11"
+      },
+      {
+        "name": "(License) Klamath Community College",
+        "owner": "Jack Makhlouf",
+        "stage": "Quote Sent",
+        "usd": 9000.0,
+        "last_activity": "2026-09-15",
+        "entered": "2026-07-14"
+      },
+      {
+        "name": "(AC) Nnamdi Azikiwe University / New Deal",
+        "owner": "Theo Zirogiannis",
+        "stage": "Qualified to Buy",
+        "usd": 5100.0,
+        "last_activity": "2026-09-03",
+        "entered": "2026-05-26"
+      },
+      {
+        "name": "(AC) Western University of Health Sciences",
+        "owner": "Jack Makhlouf",
+        "stage": "Initial Engagement",
+        "usd": 0.0,
+        "last_activity": "2026-09-15",
+        "entered": "2026-04-28"
+      },
+      {
+        "name": "Univ Miami Bascom Eye Institute",
+        "owner": "Jack Makhlouf",
+        "stage": "Discovery & Trial",
+        "usd": null,
+        "last_activity": "2026-09-15",
+        "entered": "2026-07-28"
+      },
+      {
+        "name": "(AC) University of Miami ",
+        "owner": "Jack Makhlouf",
+        "stage": "Discovery & Trial",
+        "usd": 0.0,
+        "last_activity": "2026-09-15",
+        "entered": "2026-07-28"
+      },
+      {
+        "name": "(AC) Noorda College of Osteopathic Medicine",
+        "owner": "Jack Makhlouf",
+        "stage": "Initial Engagement",
+        "usd": 0.0,
+        "last_activity": "2026-09-15",
+        "entered": "2026-04-28"
+      },
+      {
+        "name": "(Pilot HAPS) Bluegrass Community & Technical College",
+        "owner": "Jack Makhlouf",
+        "stage": "Qualified to Buy",
+        "usd": 0.0,
+        "last_activity": "2026-09-15",
+        "entered": "2026-05-26"
+      },
+      {
+        "name": "(Pilot HAPS) -University of Mississippi - Ole Miss",
+        "owner": "Jack Makhlouf",
+        "stage": "Qualified to Buy",
+        "usd": 0.0,
+        "last_activity": "2026-09-15",
+        "entered": "2026-06-02"
+      },
+      {
+        "name": "(Pilot HAPS) - University of Detroit Mercy ",
+        "owner": "Jack Makhlouf",
+        "stage": "Qualified to Buy",
+        "usd": 0.0,
+        "last_activity": "2026-09-15",
+        "entered": "2026-06-02"
+      },
+      {
+        "name": "(Pilot HAPS) Vincennes University",
+        "owner": "Jack Makhlouf",
+        "stage": "Discovery & Trial",
+        "usd": 0.0,
+        "last_activity": "2026-09-15",
+        "entered": "2026-07-28"
+      },
+      {
+        "name": "Uniformed Services University of the Health Sciences (USU) - New Deal",
+        "owner": "Theo Zirogiannis",
+        "stage": "Closed Lost",
+        "usd": 0.0,
+        "last_activity": "2026-09-08",
+        "entered": "2026-09-01"
+      }
+    ],
+    "new_companies": [
+      {
+        "id": "58426002334",
+        "name": null,
+        "owner": "Unassigned"
+      },
+      {
+        "id": "58320205473",
+        "name": null,
+        "owner": "Unassigned"
+      },
+      {
+        "id": "58440013893",
+        "name": null,
+        "owner": "Unassigned"
+      },
+      {
+        "id": "58422044225",
+        "name": null,
+        "owner": "Unassigned"
+      }
+    ],
+    "new_companies_by_owner": {
+      "Unassigned": [
+        "58426002334",
+        "58320205473",
+        "58440013893",
+        "58422044225"
+      ]
+    },
+    "new_contacts_count": 26,
+    "on_existing_count": 9,
+    "on_new_account_count": 17,
+    "on_existing_grouped": {
+      "Jack Makhlouf": {
+        "opportunity": [
+          {
+            "id": "247892134474",
+            "name": "Thomas Sloas"
+          }
+        ],
+        "lead": [
+          {
+            "id": "248048958885",
+            "name": "Megan Bayer"
+          },
+          {
+            "id": "248825866043",
+            "name": "Linda Worley"
+          }
+        ]
+      },
+      "Theo Zirogiannis": {
+        "lead": [
+          {
+            "id": "248729116779",
+            "name": "Abraham Tucker"
+          },
+          {
+            "id": "248825873061",
+            "name": "Sarah J. Rhoads"
+          },
+          {
+            "id": "248729124646",
+            "name": "Karen Landry"
+          },
+          {
+            "id": "248729123216",
+            "name": "Cordelia Nnedu"
+          },
+          {
+            "id": "248865242371",
+            "name": "Denise Harvey"
+          },
+          {
+            "id": "248776735373",
+            "name": "Christina Arnold"
+          }
+        ]
+      }
+    },
+    "orphans_count": 0,
+    "orphans_by_owner": {},
+    "sql_by_owner": [
+      {
+        "owner": "Theo Zirogiannis",
+        "qty": 67,
+        "u30": 59,
+        "u60": 57,
+        "ids": [
+          "227076688397",
+          "237441573210",
+          "220438694286",
+          "220766808208",
+          "220854253332",
+          "219885728366",
+          "220891485052",
+          "167409605039",
+          "224780989221",
+          "227786400321",
+          "229709141538",
+          "210442806874",
+          "170920180796",
+          "156056536160",
+          "156056785328",
+          "170908802594",
+          "156057111955",
+          "194603043912",
+          "227063301532",
+          "156056974393",
+          "156090200674",
+          "156056207465",
+          "221334439734",
+          "156090200666",
+          "215731790684",
+          "227354323743",
+          "224506615300",
+          "220339561385",
+          "227877584008",
+          "227877588495",
+          "218561708301",
+          "170928673385",
+          "171956004728",
+          "220445110156",
+          "217578981680",
+          "156056441684",
+          "156055532936",
+          "220185629619",
+          "217150454172",
+          "219190664830",
+          "218580946068",
+          "224543348294",
+          "219224203790",
+          "226035148098",
+          "227063302219",
+          "218011964283",
+          "228536174222",
+          "224543356760",
+          "220653371696",
+          "217843962779",
+          "218795964525",
+          "170722327991",
+          "168517905940",
+          "172811330977",
+          "170920724647",
+          "170922951477",
+          "163868966244",
+          "163869177176",
+          "156067251637",
+          "156089367599",
+          "156090106723",
+          "163731755597",
+          "156082744840",
+          "182347952248",
+          "224554915662",
+          "226760459534",
+          "225878970037"
+        ]
+      },
+      {
+        "owner": "Anup Ghoshal",
+        "qty": 38,
+        "u30": 38,
+        "u60": 36,
+        "ids": [
+          "167092935857",
+          "213783585956",
+          "170908731742",
+          "217997320509",
+          "228277044048",
+          "219389185417",
+          "220031147837",
+          "226755596602",
+          "185021337857",
+          "207169765293",
+          "217900011532",
+          "214360849573",
+          "228361895465",
+          "220431700841",
+          "156090179374",
+          "220255145379",
+          "220311099926",
+          "217842690919",
+          "218448857901",
+          "220783419739",
+          "219980715087",
+          "237324253006",
+          "217995600793",
+          "213420805478",
+          "193556238727",
+          "219733896973",
+          "214629545996",
+          "225856114201",
+          "218208618548",
+          "219537264026",
+          "220449753160",
+          "226435586086",
+          "219467642776",
+          "217997503911",
+          "218757107286",
+          "217856571166",
+          "220170135336",
+          "218475433995"
+        ]
+      },
+      {
+        "owner": "Jack Makhlouf",
+        "qty": 27,
+        "u30": 25,
+        "u60": 20,
+        "ids": [
+          "232027893083",
+          "232027953166",
+          "170710624373",
+          "206801648513",
+          "167409614214",
+          "207042566237",
+          "198895789388",
+          "222373970483",
+          "217156432247",
+          "197094568863",
+          "226859388168",
+          "212295139383",
+          "223961462612",
+          "231141360707",
+          "197239995920",
+          "231744291096",
+          "199829338011",
+          "199829354006",
+          "216427175490",
+          "216429453940",
+          "216416537201",
+          "180556589147",
+          "203014053120",
+          "217156474548",
+          "217147246455",
+          "156090484141",
+          "156089162130"
+        ]
+      }
+    ],
+    "sql_total": 132,
+    "sql_u30": 122,
+    "sql_u60": 113,
+    "admin_new_accounts": [
+      {
+        "id": "58426002334",
+        "created": "2026-09-13",
+        "owner": "none",
+        "name": "blank"
+      },
+      {
+        "id": "58320205473",
+        "created": "2026-09-11",
+        "owner": "none",
+        "name": "blank"
+      },
+      {
+        "id": "58440013893",
+        "created": "2026-09-15",
+        "owner": "none",
+        "name": "blank"
+      },
+      {
+        "id": "58422044225",
+        "created": "2026-09-15",
+        "owner": "none",
+        "name": "blank"
+      }
+    ],
+    "deals_missing_usd": [
+      {
+        "id": "55031048968",
+        "dealname": "Univ Miami Bascom Eye Institute",
+        "stage": "Discovery & Trial",
+        "owner": "Jack Makhlouf"
+      }
+    ],
+    "closed_missing_usd": [
+      {
+        "id": "57855774766",
+        "dealname": "(Pilot) UC San Diego Health",
+        "stage": "Closed Won",
+        "owner": "Jack Makhlouf"
+      }
+    ],
+    "misc_by_owner": {
+      "Theo Zirogiannis": {
+        "count": 62,
+        "by_status": {
+          "Attempted to Contact": 62
+        },
+        "records": [
+          {
+            "id": "247912680032",
+            "name": "Catherine Richards",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "247912701320",
+            "name": "Amber Whitley",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "248729103391",
+            "name": "Danielle Vauclin",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "248049045669",
+            "name": "Matthew Micari",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "248048462449",
+            "name": "Jennifer Hurrell",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "248003297335",
+            "name": "Nick Finken",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "248048334643",
+            "name": "Christopher Garran",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "248825873061",
+            "name": "Sarah J. Rhoads",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "248776775235",
+            "name": "Benedict Nguyenlee",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "248729124646",
+            "name": "Karen Landry",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "248729123216",
+            "name": "Cordelia Nnedu",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "248865242371",
+            "name": "Denise Harvey",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "248776735373",
+            "name": "Christina Arnold",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "248845037400",
+            "name": "Christina Fieber",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "248845032257",
+            "name": "Tobin Herringshaw",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "248845029134",
+            "name": "Benjamin Moritz",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "248855158319",
+            "name": "Jo Beck",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "170921907058",
+            "name": "Melanie Croucher",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "201471431303",
+            "name": "Lewis Matthews",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "156089636432",
+            "name": "Nicola Brandon",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "236698956937",
+            "name": "Margo Bruce",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "156056267784",
+            "name": "Simon Badley",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "201457344900",
+            "name": "Liam Fisher",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "244726516289",
+            "name": "Celia Rodriguez",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "238084873895",
+            "name": "Nyree Hulme",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "200720753590",
+            "name": "Martin Rigby",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "236698774419",
+            "name": "Erika Neck",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "166547187004",
+            "name": "Gillian O'Connell",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "156056956002",
+            "name": "Kevin Sheil",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "182220520075",
+            "name": "Lecia Robinson",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "245016990841",
+            "name": "Antonia Roseweir",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "marketingqualifiedlead"
+          },
+          {
+            "id": "244701470245",
+            "name": "Sten Erici",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "marketingqualifiedlead"
+          },
+          {
+            "id": "244927041061",
+            "name": "Anique Atherley",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "marketingqualifiedlead"
+          },
+          {
+            "id": "182329724764",
+            "name": "Christa Marsh",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "244717176946",
+            "name": "Kuan Hsun Lin",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "marketingqualifiedlead"
+          },
+          {
+            "id": "245017003522",
+            "name": "André Batista",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "marketingqualifiedlead"
+          },
+          {
+            "id": "245017017430",
+            "name": "Sandro Schreiber de Oliveira",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "marketingqualifiedlead"
+          },
+          {
+            "id": "245017008917",
+            "name": "Jill Hall",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "marketingqualifiedlead"
+          },
+          {
+            "id": "245016998512",
+            "name": "Tara Leslie",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "marketingqualifiedlead"
+          },
+          {
+            "id": "245002909959",
+            "name": "Sharon Sneddon",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "marketingqualifiedlead"
+          },
+          {
+            "id": "180631150759",
+            "name": "Mary Carter",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "201761989493",
+            "name": "Jeremy King",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "156054788627",
+            "name": "Rachel Riendeau",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "181724592977",
+            "name": "Kelsey Picha",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "170907279233",
+            "name": "Monica Mobley",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "180128749993",
+            "name": "Darrell Demartino",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "180631506770",
+            "name": "Susanne Daly",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "182392465326",
+            "name": "Dawn Roberts",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "201504430759",
+            "name": "Shawn Macauley",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "170902291322",
+            "name": "Jenna Linskens",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "156089636437",
+            "name": "Erin Kay",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "167949179204",
+            "name": "Louise Franco",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "180631260015",
+            "name": "Chad Farmer",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "182002738008",
+            "name": "Rosemary Bassey",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "182002674315",
+            "name": "Dr. José A. Cardé",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "180128815693",
+            "name": "David Katz",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "180631343707",
+            "name": "Beth Kersten",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "182003517243",
+            "name": "Ghanshyam Heda",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "180893370409",
+            "name": "Mary Myers",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "182003899430",
+            "name": "Brandis Hubbard",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "182099221659",
+            "name": "Prasanna Abeyrathna",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "180631571202",
+            "name": "Dan Bunker",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          }
+        ]
+      },
+      "Jack Makhlouf": {
+        "count": 3,
+        "by_status": {
+          "Attempted to Contact": 3
+        },
+        "records": [
+          {
+            "id": "248825866043",
+            "name": "Linda Worley",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "235381209239",
+            "name": "Rena Williams",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "marketingqualifiedlead"
+          },
+          {
+            "id": "181598200877",
+            "name": "Kathryn Norton Vaughan",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          }
+        ]
+      },
+      "Anup Ghoshal": {
+        "count": 5,
+        "by_status": {
+          "Attempted to Contact": 5
+        },
+        "records": [
+          {
+            "id": "241248188337",
+            "name": "Dr. Isabella Kurnia Liem",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "241259192485",
+            "name": "Dr. Nur Arfian",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "241263920400",
+            "name": "Sutisa Thanoi",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "234277974867",
+            "name": "Dr. Jobby George",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "lead"
+          },
+          {
+            "id": "222915600009",
+            "name": "danish anwer",
+            "status": "Attempted to Contact",
+            "lifecyclestage": "marketingqualifiedlead"
+          }
+        ]
+      }
+    },
+    "misc_total": 70,
+    "trigger_now_b2b": 0,
+    "trigger_now_nonb2b": {
+      "Partner": 9,
+      "B2C": 4,
+      "Internal (Exclude)": 7
+    },
+    "stale_b2b_sql_count": 104,
+    "recycler_alerts": [
+      "Recycler trigger matches 0 B2B SQLs, but 104 B2B SQLs are stale (untouched 90+d). The workflow keys on hs_lead_status='Attempted to Contact', which the stale backlog does not carry, so it recycles none of them.",
+      "Recycler trigger matches non-B2B contacts (should never recycle those): Partner=9, B2C=4, Internal (Exclude)=7"
+    ],
+    "miss_by_status": {
+      "Contacted": 23,
+      "Unqualified": 26,
+      "New Lead": 3,
+      "MQL": 37,
+      "(none)": 5,
+      "Marketing Engaged": 10
+    },
+    "miss_by_status_ids": {
+      "Contacted": [
+        "227076688397",
+        "224780989221",
+        "156056785328",
+        "227063301532",
+        "228361895465",
+        "227354323743",
+        "220339561385",
+        "227877584008",
+        "227877588495",
+        "170928673385",
+        "171956004728",
+        "220445110156",
+        "156090179374",
+        "224543348294",
+        "226035148098",
+        "214629545996",
+        "227063302219",
+        "225856114201",
+        "226435586086",
+        "228536174222",
+        "224543356760",
+        "172811330977",
+        "163868966244"
+      ],
+      "Unqualified": [
+        "167092935857",
+        "213783585956",
+        "170908731742",
+        "222373970483",
+        "228277044048",
+        "210442806874",
+        "170920180796",
+        "219389185417",
+        "220031147837",
+        "226755596602",
+        "156056974393",
+        "156090200674",
+        "156056207465",
+        "221334439734",
+        "156090200666",
+        "185021337857",
+        "207169765293",
+        "197239995920",
+        "213420805478",
+        "193556238727",
+        "170922951477",
+        "156090484141",
+        "156082744840",
+        "224554915662",
+        "226760459534",
+        "225878970037"
+      ],
+      "New Lead": [
+        "207042566237",
+        "156055532936",
+        "217150454172"
+      ],
+      "MQL": [
+        "220438694286",
+        "220766808208",
+        "220854253332",
+        "219885728366",
+        "220891485052",
+        "217997320509",
+        "218561708301",
+        "220431700841",
+        "216427175490",
+        "216429453940",
+        "216416537201",
+        "217578981680",
+        "220255145379",
+        "220185629619",
+        "220311099926",
+        "217842690919",
+        "219190664830",
+        "218580946068",
+        "218448857901",
+        "220783419739",
+        "219980715087",
+        "219224203790",
+        "217995600793",
+        "219733896973",
+        "218208618548",
+        "219537264026",
+        "220449753160",
+        "218011964283",
+        "219467642776",
+        "217997503911",
+        "218757107286",
+        "220653371696",
+        "217843962779",
+        "217856571166",
+        "218795964525",
+        "220170135336",
+        "218475433995"
+      ],
+      "(none)": [
+        "224506615300",
+        "217156474548",
+        "217147246455",
+        "163869177176",
+        "163731755597"
+      ],
+      "Marketing Engaged": [
+        "199829338011",
+        "199829354006",
+        "156056441684",
+        "237324253006",
+        "180556589147",
+        "170722327991",
+        "168517905940",
+        "156089162130",
+        "156089367599",
+        "156090106723"
+      ]
+    },
+    "recycled_week_by_ct": {
+      "B2B": 9
+    },
+    "recycled_week_count": 9,
+    "bounce_count": 33,
+    "bounce_by_owner": {
+      "Anup Ghoshal": 12,
+      "Jack Makhlouf": 8,
+      "Theo Zirogiannis": 13
+    },
+    "bounce_by_owner_ids": {
+      "Anup Ghoshal": [
+        "167092935857",
+        "213783585956",
+        "170908731742",
+        "228277044048",
+        "219389185417",
+        "220031147837",
+        "226755596602",
+        "185021337857",
+        "207169765293",
+        "214360849573",
+        "213420805478",
+        "193556238727"
+      ],
+      "Jack Makhlouf": [
+        "170710624373",
+        "206801648513",
+        "167409614214",
+        "198895789388",
+        "222373970483",
+        "212295139383",
+        "197239995920",
+        "156090484141"
+      ],
+      "Theo Zirogiannis": [
+        "210442806874",
+        "170920180796",
+        "194603043912",
+        "156056974393",
+        "156090200674",
+        "156056207465",
+        "221334439734",
+        "156090200666",
+        "170922951477",
+        "156082744840",
+        "224554915662",
+        "226760459534",
+        "225878970037"
+      ]
+    },
+    "bounce_by_status": {
+      "Unqualified": 33
+    }
+  }
+}
