@@ -1,0 +1,86 @@
+amount	dealname	pipeline	dealstage	createdate	hs_is_closed	deal_id	owner_id	deal_currency_code	notes_last_updated	hs_lastmodifieddate	company_id	amount_in_home_currency	hs_v2_date_entered_current_stage
+0	(AC) Western University of Health Sciences	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-04-28	false	59729752194	87318764	USD	2026-09-15	2026-10-01	41738243363	0	2026-04-28
+900000	Pondicherry Institute of Medical Sciences & Research, Pondicherry - New Deal	Sales Pipeline (default)	Quote Sent (1217017230)	2026-06-05	false	60877637801	87318803	INR	2026-07-15	2026-10-02	42421571936	9342.9	2026-07-21
+20000	SKIMS Medical College & Hospital	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-04-24	false	60271617796	84004434	USD	2026-07-28	2026-08-18	42422964917	20000	2026-07-28
+30000	ACS Medical College - New Deal	Sales Pipeline (default)	Quote Sent (1217017230)	2026-03-11	false	57865541931	87318803	USD	2026-05-25	2026-09-23	42426101057	30000	2026-03-11
+30000	Aarupadai Veedu Medical College, Pondicherry - New Deal	Sales Pipeline (default)	Quote Sent (1217017230)	2026-03-11	false	57909130079	87318803	USD	2026-05-26	2026-07-16	42436777492	30000	2026-03-17
+0	Madha Medical College and Research Institute - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-06-11	false	61025036046	87318803	INR	2026-06-19	2026-10-02	42484802081	0	2026-06-11
+0	Pilot Program / Georgian College / Label Generation	Sales Pipeline (default)	Closed Lost (closedlost)	2026-01-13	true	53720619425	84004493	USD	2026-05-15	2026-07-17	42520985455	0	2026-03-10
+0	Sri Lakshmi Narayana Institute of Medical Sciences - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-07-21	false	62853412644	87318803	INR	2026-07-16	2026-10-02	42521057172	0	2026-07-21
+18000	Dean College - New Deal / Anatomy 360 & Digital Cadaver / 36 month subscription	Sales Pipeline (default)	Closed Won (closedwon)	2026-02-24	true	56896693933	84004493	USD	2026-07-07	2026-10-02	42791143079	18000	2026-07-14
+0	Lincoln Memorial University (LMU) - New Deal	Sales Pipeline (default)	Closed Lost (closedlost)	2025-11-04	true	48172090196	84004493	USD	2026-05-15	2026-07-09	42826182469	0	2026-03-10
+23081	Culko Chandigarh University	Sales Pipeline (default)	Closed Lost (closedlost)	2025-10-24	true	46792559246	84004434	USD	2026-03-16	2026-07-16	42826694802	23081	2026-04-21
+0	University of Buckingham - New Deal	Sales Pipeline (default)	Closed Lost (closedlost)	2026-01-13	true	53697222183	84004493	USD	2026-04-06	2026-07-16	43011026024	0	2026-05-12
+230295	AIIMS Jodhpur	Sales Pipeline (default)	Closed Lost (closedlost)	2024-02-12	true	46807130900	84004434	USD	2026-03-19	2026-07-18	43011026177	230295	2026-04-21
+0	Royal National Orthopaedic Hospital / Dr.Boyne BELLEW- New Deal	Sales Pipeline (default)	Discovery & Trial (presentationscheduled)	2026-07-07	false	62115451054	84004493	USD	2026-09-29	2026-09-29	43037869697	0	2026-07-07
+9000	(License) UC San Diego Medical	Sales Pipeline (default)	Discovery & Trial (presentationscheduled)	2026-04-27	false	59680085122	87318764	USD	2026-08-26	2026-09-01	43087532968	9000	2026-04-27
+4000	Royal London Hospital @ Barts Health NHS Trust - MasterClass / New Deal	Sales Pipeline (default)	Quote Sent (1217017230)	2026-01-13	false	53696123285	84004493	USD	2026-09-29	2026-09-29	43139871593	4000	2026-01-13
+0	Consultancy - Jailenne I. Quinones-Rodriguez / Sam Houston State University College of Osteopathic Medicine / Content Review Anatomy 360	Sales Pipeline (default)	Closed Won (closedwon)	2026-05-12	true	60177857961	84004493	USD	2026-05-15	2026-08-10	43296406964	0	2026-08-10
+0	Consultancy / Sinead Impey_School of Nursing & Midwifery at Trinity College Dublin / Content Review Nursing Clinical Skills	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-05-12	false	60182314582	84004493	USD	2026-05-15	2026-07-16	43313998462	0	2026-05-12
+230295	KMC Manipal Medical College	Sales Pipeline (default)	Closed Lost (closedlost)	2025-10-24	true	46876791481	84004434	USD	Unassigned	2026-07-09	43460540033	230295	2025-10-24
+17000	JIPMER	Sales Pipeline (default)	Closed Lost (closedlost)	2025-10-24	true	46807285426	84004434	USD	Unassigned	2026-07-16	43546695186	17000	2025-11-26
+5100	(AC) Nnamdi Azikiwe University / New Deal	Sales Pipeline (default)	Qualified to Buy (appointmentscheduled)	2026-04-27	false	59610029666	84004493	USD	2026-09-25	2026-10-02	43547108023	5100	2026-05-26
+1136363	Rajiv Gandhi University of Health Sciences (RGUHS)	Sales Pipeline (default)	Qualified to Buy (appointmentscheduled)	2025-10-24	false	46799760157	84004434	USD	2026-06-01	2026-08-18	43547119393	1136363	2026-06-23
+0	Subharti Medical College	Sales Pipeline (default)	Closed Lost (closedlost)	2024-02-12	true	46803878191	84004434	USD	Unassigned	2026-07-18	43593492877	0	2025-10-24
+0	Consultancy / Yossi Buskila _ Western Sydney University / Content Review Digital Cadaver	Sales Pipeline (default)	Closed Lost (closedlost)	2026-03-10	true	57851499068	84004493	USD	2026-08-12	2026-09-23	43593493081	0	2026-09-23
+23081	Ramaiah Medical College	Sales Pipeline (default)	Closed Lost (closedlost)	2025-10-24	true	46826397807	84004434	USD	2026-04-20	2026-07-17	43698062718	23081	2026-04-21
+0	Uniformed Services University of the Health Sciences (USU) - New Deal	Sales Pipeline (default)	Closed Lost (closedlost)	2026-06-23	true	61390460829	84004493	USD	2026-09-08	2026-09-28	46327334939	0	2026-09-01
+Unassigned	Univ Miami Bascom Eye Institute	Sales Pipeline (default)	Discovery & Trial (presentationscheduled)	2026-01-29	false	55031048968	87318764	USD	2026-09-29	2026-09-29	49963761434	Unassigned	2026-07-28
+0	(AC) University of Miami 	Sales Pipeline (default)	Discovery & Trial (presentationscheduled)	2026-04-28	false	59729814549	87318764	USD	2026-09-26	2026-09-29	49967478154	0	2026-07-28
+0	Kanyakumari Medical Mission (KMMC) - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-09-23	false	65204227685	87318803	INR	2026-09-22	2026-10-02	50329114229	0	2026-09-23
+16000	Nandha Medical College & Hospital - 100 Users, 10 MetaQ3S	Sales Pipeline (default)	Closed Won (closedwon)	2026-03-03	true	57442751146	84004434	USD	2026-03-03	2026-07-17	50331657141	16000	2026-03-03
+1000000	JR Medical College & Hospital - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-09-23	false	65204227706	87318803	INR	2026-09-22	2026-10-02	50394013539	10381	2026-09-23
+900000	Sri Muthukumaran Medical College Hospital & Research Institute - New Deal	Sales Pipeline (default)	Quote Sent (1217017230)	2026-05-15	false	60273525591	87318803	INR	2026-07-25	2026-10-02	50534626828	9342.9	2026-05-15
+600000	Sri Lalithambigai Medical College & Hospital (SLMCH) - New Deal	Sales Pipeline (default)	Quote Sent (1217017230)	2026-06-05	false	60877633452	87318803	INR	2026-09-22	2026-10-02	50557379177	6228.6	2026-09-23
+0	Tagore Medical College & Hospital - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-06-11	false	61027186293	87318803	INR	2026-07-07	2026-10-02	50562390343	0	2026-06-11
+0	Winston-Salem State University - New Deal  	Sales Pipeline (default)	Discovery & Trial (presentationscheduled)	2026-07-14	false	62625005073	84004493	USD	2026-10-05	2026-10-05	50760688985	0	2026-07-14
+16000	Dharan Educational Charitable Trust - 100 users, 10MQ3S	Sales Pipeline (default)	Closed Won (closedwon)	2026-03-03	true	57397572682	84004434	USD	2026-03-03	2026-07-09	52448552523	16000	2026-03-03
+Unassigned	(Pilot) UC San Diego Health	Sales Pipeline (default)	Closed Won (closedwon)	2026-03-10	true	57855774766	87318764	USD	2026-04-27	2026-07-16	52729192548	Unassigned	2026-04-27
+30000	Plus Max Medical College and Hospital - New Deal	Sales Pipeline (default)	Closed Lost (closedlost)	2026-03-11	true	57856173118	87318803	USD	2026-07-15	2026-09-23	52817616555	30000	2026-09-23
+9000	(License) Klamath Community College	Sales Pipeline (default)	Quote Sent (1217017230)	2026-04-27	false	59644501846	87318764	USD	2026-09-15	2026-09-15	52918739114	9000	2026-07-14
+0	Annapoorna Medical College & Hospital - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-06-05	false	60873508132	87318803	INR	Unassigned	2026-10-02	52951887696	0	2026-06-05
+900000	Sri Venkateswaraa Medical College - New Deal	Sales Pipeline (default)	Quote Sent (1217017230)	2026-06-05	false	60877638803	87318803	INR	2026-07-15	2026-10-02	52980566063	9342.9	2026-07-21
+10000	Takshashila Medical College - New Deal	Sales Pipeline (default)	Closed Lost (closedlost)	2026-05-05	true	60032326939	87318803	USD	2026-05-12	2026-09-23	52982671901	10000	2026-09-23
+6500	SNS College of Pharmacy and Health Sciences - New Deal	Sales Pipeline (default)	Quote Sent (1217017230)	2026-03-18	false	58025515136	87318803	USD	2026-06-22	2026-09-23	53052590974	6500	2026-03-18
+0	MQL-ERR Technology	Sales Pipeline (default)	Closed Lost (closedlost)	2026-03-24	true	58254625823	87318764	USD	2026-04-14	2026-07-18	53138708041	0	2026-04-27
+0	MQL-Lone Star College	Sales Pipeline (default)	Closed Lost (closedlost)	2026-03-31	true	58567500715	87318764	USD	2026-04-14	2026-07-10	53432420121	0	2026-04-27
+0	Dhanalakshmi Srinivasan Medical College And Hospital - New Deal	Sales Pipeline (default)	Closed Lost (closedlost)	2026-06-05	true	60877638533	87318803	INR	Unassigned	2026-06-05	53471631174	0	2026-06-05
+3000	Kalka Dental College - New Deal	Sales Pipeline (default)	Closed Lost (closedlost)	2026-04-14	true	59158335603	84004434	USD	2026-06-30	2026-07-08	53948642466	3000	2026-06-30
+25000	Graphic Era University - New Deal	Sales Pipeline (default)	Discovery & Trial (presentationscheduled)	2026-04-21	false	60271624241	84004434	USD	2026-05-07	2026-08-18	53958861476	25000	2026-05-15
+5000	Government Medical College Jalna - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-04-21	false	59369552254	84004434	USD	Unassigned	2026-08-18	54175747653	5000	2026-04-21
+0	(AC) Noorda College of Osteopathic Medicine	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-04-28	false	59729814536	87318764	USD	2026-09-15	2026-09-15	54243254356	0	2026-04-28
+900000	Sri Manakula Vinayagar Medical College and Hospital - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-06-05	false	60877637263	87318803	INR	2026-07-15	2026-10-02	54512194304	9342.9	2026-06-05
+0	NHS Supply Chain - Project_ 1700 NHS - Medical Simulations Devices and Technologies - Contract Start 10 May 2027	Sales Pipeline (default)	Discovery & Trial (presentationscheduled)	2026-05-12	false	60177672318	84004493	USD	Unassigned	2026-09-21	54596806029	0	2026-05-12
+300000	St. Joseph University - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-06-05	false	60873510917	87318803	INR	Unassigned	2026-10-02	54711431553	3114.3	2026-06-05
+90000	Mopec - Custom VR Product SIM	Sales Pipeline (default)	Qualified to Buy (appointmentscheduled)	2026-05-05	false	60019887668	87318764	USD	2026-09-15	2026-09-15	54728038532	90000	2026-05-05
+28000	Mahatma Gandhi Medical College & Research Institute, Pondicherry - New Deal	Sales Pipeline (default)	Closed Lost (closedlost)	2026-03-11	true	57856172953	87318803	USD	2026-02-25	2026-07-16	54751372574	28000	2026-06-05
+300000	Mahendra College of Nursing	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-06-05	false	60873511034	87318803	INR	2026-05-12	2026-10-02	54896144789	3114.3	2026-06-05
+0	(Pilot HAPS) UTSA - The University of Texas at San Antonio 	Sales Pipeline (default)	Qualified to Buy (appointmentscheduled)	2026-05-12	false	60182264878	87318764	USD	2026-09-15	2026-09-15	54900624715	0	2026-06-02
+500000	National Institute of Medical Sciences & Research (NIMS) $5000	Sales Pipeline (default)	Closed Lost (closedlost)	2026-02-17	true	56460910657	84004434	INR	2026-08-19	2026-09-01	54954901567	5253.5	2026-09-01
+70000	Dr. Abdulvahid Attar	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-05-11	false	60177653638	84004434	USD	2026-06-30	2026-07-07	54954902951	70000	2026-05-11
+5000	Balvir Singh Tomar Institute of Medical Sciences & Research (NIMS University)	Sales Pipeline (default)	Closed Lost (closedlost)	2025-11-18	true	49594517360	84004434	USD	2026-07-28	2026-09-01	54965254721	5000	2026-09-01
+300000	Nehru College Of Nursing - India - New Deal	Sales Pipeline (default)	Quote Sent (1217017230)	2026-06-05	false	60877632370	87318803	INR	2026-08-24	2026-10-02	55019337885	3114.3	2026-09-23
+300000	Jenneys College of Nursing - New Deal	Sales Pipeline (default)	Closed Lost (closedlost)	2026-06-05	true	60873509972	87318803	INR	2026-06-11	2026-06-11	55070419970	3147.9	2026-06-11
+0	(Pilot HAPS) Bluegrass Community & Technical College	Sales Pipeline (default)	Qualified to Buy (appointmentscheduled)	2026-05-26	false	60644345390	87318764	USD	2026-09-15	2026-09-15	55294521201	0	2026-05-26
+0	(Pilot HAPS) -University of Mississippi - Ole Miss	Sales Pipeline (default)	Qualified to Buy (appointmentscheduled)	2026-06-02	false	60786237714	87318764	USD	2026-09-15	2026-09-15	55338031513	0	2026-06-02
+0	(Pilot HAPS) - University of Detroit Mercy 	Sales Pipeline (default)	Qualified to Buy (appointmentscheduled)	2026-06-02	false	60785744196	87318764	USD	2026-09-15	2026-09-15	55338032276	0	2026-06-02
+0	(Pilot HAPS) Vincennes University	Sales Pipeline (default)	Discovery & Trial (presentationscheduled)	2026-05-26	false	60650552119	87318764	USD	2026-09-15	2026-09-15	55338032305	0	2026-07-28
+900000	BSD College of Allied Health Science - New Deal	Sales Pipeline (default)	Quote Sent (1217017230)	2026-06-04	false	60855218252	87318803	INR	2026-06-24	2026-10-02	55404680769	9342.9	2026-06-04
+300000	KG College of Health Science - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-06-05	false	60873509478	87318803	INR	2026-06-25	2026-10-02	55405175977	3114.3	2026-06-05
+300000	PPG College of Nursing - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-06-05	false	60873509492	87318803	INR	2026-06-17	2026-10-02	55405237386	3114.3	2026-06-05
+900000	Karpagam Faculty of Medical Science & Research - New Deal	Sales Pipeline (default)	Quote Sent (1217017230)	2026-06-04	false	60854776364	87318803	INR	2026-06-18	2026-10-02	55405259820	9342.9	2026-06-04
+300000	JJ College of Nursing - New Deal	Sales Pipeline (default)	Quote Sent (1217017230)	2026-06-08	false	60959919902	87318803	INR	2026-06-09	2026-10-02	55509996944	3114.3	2026-06-09
+300000	GK College of Nursing - New Deal	Sales Pipeline (default)	Quote Sent (1217017230)	2026-08-14	false	63835058523	87318803	INR	2026-08-14	2026-10-02	55512334387	3114.3	2026-08-14
+300000	KMC Nursing College - New Deal	Sales Pipeline (default)	Quote Sent (1217017230)	2026-06-09	false	60975080564	87318803	INR	2026-06-09	2026-10-02	55515948091	3114.3	2026-06-09
+0	PPG Institute of Allied Health Sciences - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-06-17	false	61129524047	87318803	INR	2026-06-17	2026-10-02	55654661973	0	2026-06-17
+0	United College of Nursing - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-06-17	false	61129459634	87318803	INR	2026-06-19	2026-10-02	55655965566	0	2026-06-17
+0	Sasurie College of Nursing & Research - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-06-17	false	61129645988	87318803	INR	2026-06-17	2026-10-02	55656027935	0	2026-06-17
+0	PPG College Of Occupational Therapy - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-06-17	false	61176293467	87318803	INR	2026-06-17	2026-10-02	55656089868	0	2026-06-17
+300000	Sowmiya Healthcare & Hospital - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-06-22	false	61390483981	87318803	INR	2026-06-22	2026-10-02	55866408554	3114.3	2026-06-22
+300000	Nightingale Institute of Nursing Education - New Deal	Sales Pipeline (default)	Qualified to Buy (appointmentscheduled)	2026-06-30	false	61764791587	87318803	INR	2026-07-02	2026-10-02	56137307659	3114.3	2026-07-21
+0	Dr. Muthus College of Allied Health Science - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-06-30	false	61763929428	87318803	INR	Unassigned	2026-10-02	56142665878	0	2026-06-30
+0	University of San Francisco - New Deal	Sales Pipeline (default)	Closed Lost (closedlost)	2025-11-11	true	48791355527	84004493	USD	2026-03-10	2026-07-16	56463175501	0	2026-03-10
+0	(Pilot) University of California Irvine School of Medicine	Sales Pipeline (default)	Closed Won (closedwon)	2026-05-12	true	60177668384	87318764	USD	2026-06-03	2026-07-15	56585946652	0	2026-06-30
+9000	(License) University of California Irvine School of Medicine	Sales Pipeline (default)	Closed Lost (closedlost)	2026-06-30	true	61763930416	87318764	USD	Unassigned	2026-07-15	56585946652	9000	2026-07-14
+300000	Indra Ganesan College of Nursing - New Deal	Sales Pipeline (default)	Initial Engagement (1217017229)	2026-08-14	false	63837038150	87318803	INR	2026-08-13	2026-10-02	57446353027	3114.3	2026-08-14
+25000	Wellstar Hospital Network	Sales Pipeline (default)	Qualified to Buy (appointmentscheduled)	2026-08-11	false	63701350283	87318764	USD	2026-09-15	2026-09-22	58511365155	25000	2026-08-11

@@ -1,0 +1,23 @@
+{
+  "new_b2b_companies": [
+    {"id":"58940054660","name":null,"createdate":"2026-10-02T19:19:04.189Z","owner_id":null,"customer_type__cloned_":"B2B"},
+    {"id":"58943203339","name":null,"createdate":"2026-10-03T09:40:43.073Z","owner_id":null,"customer_type__cloned_":"B2B"},
+    {"id":"58681944079","name":null,"createdate":"2026-09-29T02:32:50.914Z","owner_id":null,"customer_type__cloned_":"B2B"}
+  ],
+  "associated_companies": [
+    {"id":"58805015181","name":"Kent and Medway Medical School","createdate":"2026-10-01T11:51:56.068Z","owner_id":"84004493","customer_type__cloned_":null},
+    {"id":"43010705951","name":"Duquesne University College of Osteopathic Medicine","createdate":"2025-10-24T13:47:14.775Z","owner_id":"84004493","customer_type__cloned_":"B2B"},
+    {"id":"58940054660","name":null,"createdate":"2026-10-02T19:19:04.189Z","owner_id":null,"customer_type__cloned_":"B2B"},
+    {"id":"58985177110","name":"Cornwall College Group","createdate":"2026-10-05T14:47:55.490Z","owner_id":"84004493","customer_type__cloned_":null},
+    {"id":"43139809800","name":"University of Bristol","createdate":"2025-10-16T08:02:58.250Z","owner_id":"84004493","customer_type__cloned_":"B2B"},
+    {"id":"58681944079","name":null,"createdate":"2026-09-29T02:32:50.914Z","owner_id":null,"customer_type__cloned_":"B2B"},
+    {"id":"58676338281","name":"Università Catania","createdate":"2026-09-29T11:44:58.315Z","owner_id":"84004493","customer_type__cloned_":null},
+    {"id":"58805406779","name":"Guilford Technical Community College","createdate":"2026-10-02T11:10:33.322Z","owner_id":"84004493","customer_type__cloned_":null},
+    {"id":"59054275489","name":"Hashemite University","createdate":"2026-10-05T19:12:35.625Z","owner_id":"84004493","customer_type__cloned_":null},
+    {"id":"58684120145","name":"D'Youville College","createdate":"2026-09-29T11:21:57.195Z","owner_id":"84004493","customer_type__cloned_":null},
+    {"id":"51549112445","name":"Midwestern University College of Osteopathic Medicine","createdate":"2026-02-16T21:21:34.813Z","owner_id":"87318764","customer_type__cloned_":"B2B"},
+    {"id":"43388982100","name":"University of Cape Town","createdate":"2025-10-16T08:02:59.348Z","owner_id":"84004493","customer_type__cloned_":"B2B"},
+    {"id":"58943203339","name":null,"createdate":"2026-10-03T09:40:43.073Z","owner_id":null,"customer_type__cloned_":"B2B"},
+    {"id":"58805522743","name":"College of DuPage","createdate":"2026-10-01T14:54:56.581Z","owner_id":"84004493","customer_type__cloned_":null}
+  ]
+}
