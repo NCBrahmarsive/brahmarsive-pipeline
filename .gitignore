@@ -1,0 +1,4 @@
+# Transient HubSpot MCP pull caches (re-pulled each run; not part of the deliverable)
+.rawpull/
+__pycache__/
+*.pyc

@@ -1,0 +1,73 @@
+# Section 5 — Biju Rajesh — 2026-11-03
+
+*Brahmarsive weekly B2B pipeline. Your action items for this week.*
+
+**e. Deals needing attention:**
+- [ACS Medical College - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/57865541931) — Quote Sent, $30,000 (idle 162d)
+- [JR Medical College & Hospital - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/65204227706) — Initial Engagement, $10,533 (idle 42d)
+- [Sri Muthukumaran Medical College Hospital & Research Institute - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/60273525591) — Quote Sent, $9,480 (past close)
+- [SNS College of Pharmacy and Health Sciences - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/58025515136) — Quote Sent, $6,500 (idle 134d)
+- [Sri Lalithambigai Medical College & Hospital (SLMCH) - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/60877633452) — Quote Sent, $6,320 (idle 42d)
+- [Mahendra College of Nursing](https://app.hubspot.com/contacts/50467095/record/0-3/60873511034) — Initial Engagement, $3,160 (idle 175d)
+- [Nehru College Of Nursing - India - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/60877632370) — Quote Sent, $3,160 (idle 71d)
+- [KG College of Health Science - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/60873509478) — Initial Engagement, $3,160 (idle 131d)
+- [PPG College of Nursing - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/60873509492) — Initial Engagement, $3,160 (idle 139d)
+- [JJ College of Nursing - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/60959919902) — Quote Sent, $3,160 (idle 147d)
+- [GK College of Nursing - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/63835058523) — Quote Sent, $3,160 (idle 81d)
+- [KMC Nursing College - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/60975080564) — Quote Sent, $3,160 (idle 147d)
+- [Sowmiya Healthcare & Hospital - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/61390483981) — Initial Engagement, $3,160 (idle 134d)
+- [Nightingale Institute of Nursing Education - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/61764791587) — Qualified to Buy, $3,160 (idle 124d)
+- [Indra Ganesan College of Nursing - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/63837038150) — Initial Engagement, $3,160 (idle 82d)
+- [Madha Medical College and Research Institute - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/61025036046) — Initial Engagement, $0 (USD empty/0, idle 137d)
+- [Sri Lakshmi Narayana Institute of Medical Sciences - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/62853412644) — Initial Engagement, $0 (USD empty/0)
+- [Kanyakumari Medical Mission (KMMC) - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/65204227685) — Initial Engagement, $0 (USD empty/0, idle 42d)
+- [Tagore Medical College & Hospital - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/61027186293) — Initial Engagement, $0 (USD empty/0)
+- [Annapoorna Medical College & Hospital - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/60873508132) — Initial Engagement, $0 (USD empty/0)
+- [PPG Institute of Allied Health Sciences - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/61129524047) — Initial Engagement, $0 (USD empty/0, idle 139d)
+- [United College of Nursing - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/61129459634) — Initial Engagement, $0 (USD empty/0, idle 137d)
+- [Sasurie College of Nursing & Research - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/61129645988) — Initial Engagement, $0 (USD empty/0, idle 139d)
+- [PPG College Of Occupational Therapy - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/61176293467) — Initial Engagement, $0 (USD empty/0, idle 139d)
+- [Dr. Muthus College of Allied Health Science - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/61763929428) — Initial Engagement, $0 (USD empty/0)
+
+**f. Data fixes:**
+- [Arun George](https://app.hubspot.com/contacts/50467095/record/0-1/257649327211) — miscategorised (3C)
+- [Dr. Philip Mathew](https://app.hubspot.com/contacts/50467095/record/0-1/257494352431) — miscategorised (3C)
+- [kamil khan](https://app.hubspot.com/contacts/50467095/record/0-1/257294750089) — miscategorised (3C)
+- [Dr. V. M Karthic M.D (Siddha)](https://app.hubspot.com/contacts/50467095/record/0-1/256001927336) — status mismatch (3D) → Attempted to Contact/Contacted
+- [Dr Arun Kanala](https://app.hubspot.com/contacts/50467095/record/0-1/257006667662) — status mismatch (3D) → Attempted to Contact/Contacted
+- [Dr Abha Bajaj nee Sheth](https://app.hubspot.com/contacts/50467095/record/0-1/255916161555) — status mismatch (3D) → Attempted to Contact/Contacted
+- [SUTHA Selvaraj](https://app.hubspot.com/contacts/50467095/record/0-1/257232821033) — status mismatch (3D) → Attempted to Contact/Contacted
+- [Dr. C Ghanavel Raja](https://app.hubspot.com/contacts/50467095/record/0-1/222273973776) — status mismatch (3D) → Attempted to Contact/Contacted
+- [Dr G R Rajashree](https://app.hubspot.com/contacts/50467095/record/0-1/254634907035) — status mismatch (3D) → Attempted to Contact/Contacted
+- [D B Singh](https://app.hubspot.com/contacts/50467095/record/0-1/255928938111) — status mismatch (3D) → Attempted to Contact/Contacted
+- [Ibrahim Khaleel](https://app.hubspot.com/contacts/50467095/record/0-1/255890911925) — status mismatch (3D) → Attempted to Contact/Contacted
+- [Dr Srinivas Deshpande MD](https://app.hubspot.com/contacts/50467095/record/0-1/255808225666) — status mismatch (3D) → Attempted to Contact/Contacted
+- [Dr. S Revwathy](https://app.hubspot.com/contacts/50467095/record/0-1/199026246714) — status mismatch (3D) → Attempted to Contact/Contacted
+- [Dr. A Jesudoss](https://app.hubspot.com/contacts/50467095/record/0-1/156055321941) — status mismatch (3D) → Attempted to Contact/Contacted
+- [Dr. S D. Nalinakumari](https://app.hubspot.com/contacts/50467095/record/0-1/198902382762) — status mismatch (3D) → Attempted to Contact/Contacted
+- [Prof. Himanshu Trivedi](https://app.hubspot.com/contacts/50467095/record/0-1/256983362821) — status mismatch (3D) → Attempted to Contact/Contacted
+- [Dr. V Parvathi](https://app.hubspot.com/contacts/50467095/record/0-1/199017803959) — status mismatch (3D) → Attempted to Contact/Contacted
+- [Mr Elangovan](https://app.hubspot.com/contacts/50467095/record/0-1/222264905633) — status mismatch (3D) → Attempted to Contact/Contacted
+- [Dr. S. P. S Sridhar](https://app.hubspot.com/contacts/50467095/record/0-1/199025895597) — status mismatch (3D) → Attempted to Contact/Contacted
+- [Dr. Vidisha Vallabh, MD](https://app.hubspot.com/contacts/50467095/record/0-1/255801043289) — status mismatch (3D) → Attempted to Contact/Contacted
+- [Arun George](https://app.hubspot.com/contacts/50467095/record/0-1/257649327211) — status mismatch (3D) → MQL/New Lead/Unqualified
+- [Dr. Philip Mathew](https://app.hubspot.com/contacts/50467095/record/0-1/257494352431) — status mismatch (3D) → MQL/New Lead/Unqualified
+- [kamil khan](https://app.hubspot.com/contacts/50467095/record/0-1/257294750089) — status mismatch (3D) → MQL/New Lead/Unqualified
+- [Dr Nayar Iqbal](https://app.hubspot.com/contacts/50467095/record/0-1/235371155819) — status mismatch (3D) → MQL/New Lead/Unqualified
+- [Dr. V. M Karthic M.D (Siddha)](https://app.hubspot.com/contacts/50467095/record/0-1/256001927336) — stuck recycle (4D)
+- [Dr Arun Kanala](https://app.hubspot.com/contacts/50467095/record/0-1/257006667662) — stuck recycle (4D)
+- [Dr Abha Bajaj nee Sheth](https://app.hubspot.com/contacts/50467095/record/0-1/255916161555) — stuck recycle (4D)
+- [SUTHA Selvaraj](https://app.hubspot.com/contacts/50467095/record/0-1/257232821033) — stuck recycle (4D)
+- [Dr. C Ghanavel Raja](https://app.hubspot.com/contacts/50467095/record/0-1/222273973776) — stuck recycle (4D)
+- [Dr G R Rajashree](https://app.hubspot.com/contacts/50467095/record/0-1/254634907035) — stuck recycle (4D)
+- [D B Singh](https://app.hubspot.com/contacts/50467095/record/0-1/255928938111) — stuck recycle (4D)
+- [Ibrahim Khaleel](https://app.hubspot.com/contacts/50467095/record/0-1/255890911925) — stuck recycle (4D)
+- [Dr Srinivas Deshpande MD](https://app.hubspot.com/contacts/50467095/record/0-1/255808225666) — stuck recycle (4D)
+- [Dr. S Revwathy](https://app.hubspot.com/contacts/50467095/record/0-1/199026246714) — stuck recycle (4D)
+- [Dr. A Jesudoss](https://app.hubspot.com/contacts/50467095/record/0-1/156055321941) — stuck recycle (4D)
+- [Dr. S D. Nalinakumari](https://app.hubspot.com/contacts/50467095/record/0-1/198902382762) — stuck recycle (4D)
+- [Prof. Himanshu Trivedi](https://app.hubspot.com/contacts/50467095/record/0-1/256983362821) — stuck recycle (4D)
+- [Dr. V Parvathi](https://app.hubspot.com/contacts/50467095/record/0-1/199017803959) — stuck recycle (4D)
+- [Mr Elangovan](https://app.hubspot.com/contacts/50467095/record/0-1/222264905633) — stuck recycle (4D)
+- [Dr. S. P. S Sridhar](https://app.hubspot.com/contacts/50467095/record/0-1/199025895597) — stuck recycle (4D)
+- …and 1 more
