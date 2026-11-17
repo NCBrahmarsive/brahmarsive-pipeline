@@ -1,0 +1,5842 @@
+{
+ "run_date": "2026-11-17",
+ "generated_at": "2026-11-17T00:00:00Z",
+ "funnel_counts": {
+  "subscriber": 7,
+  "lead": 3083,
+  "marketingqualifiedlead": 70,
+  "salesqualifiedlead": 403,
+  "opportunity": 199,
+  "customer": 21,
+  "other": 10
+ },
+ "metrics_lite": {
+  "q4_new": 2,
+  "q4_entered": 3,
+  "q4_closed": 0,
+  "s3c": 62,
+  "s3d": 454,
+  "s3e": 2,
+  "s4c": 5,
+  "s4d": 155,
+  "moved": 3,
+  "open_qty": 57,
+  "open_usd": 1594352,
+  "sql_total": 403,
+  "wf": {
+   "Sales Activity > Lead Status": false,
+   "Meeting Booked > Contacted": false,
+   "Stale SQL Recycler": false,
+   "Lifecycle > Lead Status Sync": false,
+   "Deal Associated > Qualified": true,
+   "Deal required fields": true
+  }
+ },
+ "worklist_ids": {
+  "s3a": [
+   "55530389845",
+   "56920388456",
+   "57804891556",
+   "58100429705",
+   "58263803783",
+   "58304479529",
+   "58320205473",
+   "58422044225",
+   "58426002334",
+   "58440013893",
+   "58472089775",
+   "58681944079",
+   "59033759123",
+   "59088171801",
+   "59092636572",
+   "59093281845",
+   "59189661825",
+   "59248799335",
+   "59248861044",
+   "59298344824",
+   "59889374470",
+   "59956779872",
+   "60169776459",
+   "60315599218",
+   "60536332698",
+   "61058209549",
+   "61058244208",
+   "61064806558",
+   "61101002502"
+  ],
+  "s3b_usd": [
+   "65204227685",
+   "62853412644",
+   "62625005073",
+   "61763929428",
+   "61129645988",
+   "61129459634",
+   "61176293467",
+   "61129524047",
+   "61025036046",
+   "61027186293",
+   "60873508132",
+   "60785744196",
+   "60786237714",
+   "60644345390",
+   "60650552119",
+   "60182314582",
+   "60182264878",
+   "60177672318",
+   "59729752194",
+   "59729814549",
+   "55031048968"
+  ],
+  "s3b_idle": [
+   "65204227685",
+   "65204227706",
+   "63837038150",
+   "63835058523",
+   "62853412644",
+   "61764791587",
+   "61763929428",
+   "61390483981",
+   "61129645988",
+   "61129459634",
+   "61176293467",
+   "61129524047",
+   "61025036046",
+   "61027186293",
+   "60975080564",
+   "60959919902",
+   "60877637263",
+   "60877632370",
+   "60873511034",
+   "60873509492",
+   "60877638803",
+   "60877633452",
+   "60873509478",
+   "60854776364",
+   "60855218252",
+   "60273525591",
+   "60182314582",
+   "60177672318",
+   "60177653638",
+   "60271617796",
+   "59369552254",
+   "58025515136",
+   "57865541931",
+   "53696123285",
+   "46799760157",
+   "60873510917"
+  ],
+  "s3b_pastclose": [
+   "60273525591",
+   "60182314582",
+   "60177653638",
+   "60271624241",
+   "59369552254",
+   "46799760157"
+  ],
+  "s3c": [
+   "156054897961",
+   "179441484090",
+   "235371155819",
+   "244026731038",
+   "251672897036",
+   "257294750089",
+   "257494352431",
+   "257649327211",
+   "156045990687",
+   "156054897963",
+   "156054932287",
+   "156055011761",
+   "156055516436",
+   "156055532937",
+   "156055624534",
+   "156055757620",
+   "156055956521",
+   "156056974399",
+   "156057258596",
+   "156067251638",
+   "156088800176",
+   "156089543694",
+   "156089598811",
+   "156090179378",
+   "166574753557",
+   "167425999739",
+   "167426005938",
+   "170696528227",
+   "170699254865",
+   "170706221715",
+   "170706285612",
+   "170708826929",
+   "170721423260",
+   "170814142217",
+   "170907396699",
+   "170907593253",
+   "170919013758",
+   "170921857625",
+   "170922256145",
+   "170922608533",
+   "170922759448",
+   "171388194587",
+   "179174847532",
+   "179198458912",
+   "179441484060",
+   "182099221659",
+   "257888958067",
+   "257947737655",
+   "258120694435",
+   "258120754102",
+   "259201509993",
+   "259446688281",
+   "260093623313",
+   "260985858341",
+   "260985875605",
+   "261001771878",
+   "261001775365",
+   "262311204165",
+   "262543585699",
+   "262543586687",
+   "259446688826",
+   "170721423258"
+  ],
+  "s3d": [
+   "156054862636",
+   "156054914909",
+   "156055321941",
+   "156055532936",
+   "156056207465",
+   "156056441684",
+   "156056785328",
+   "156056956002",
+   "156056974393",
+   "156056974396",
+   "156064228932",
+   "156067251637",
+   "156082744840",
+   "156089023872",
+   "156089162130",
+   "156089326084",
+   "156089367595",
+   "156089367597",
+   "156089367599",
+   "156089385341",
+   "156089543690",
+   "156089598799",
+   "156090090101",
+   "156090106723",
+   "156090145137",
+   "156090179374",
+   "156090200666",
+   "156090200674",
+   "156090236790",
+   "156090484141",
+   "163731755597",
+   "163763415850",
+   "163868966244",
+   "163869177176",
+   "165775109952",
+   "165794112434",
+   "166760841608",
+   "167092935857",
+   "167262727238",
+   "167409614214",
+   "168517905940",
+   "170694378048",
+   "170696452376",
+   "170696577138",
+   "170696612725",
+   "170696678529",
+   "170697803573",
+   "170699220355",
+   "170699942772",
+   "170705625523",
+   "170706248102",
+   "170706308184",
+   "170706618493",
+   "170706953776",
+   "170706991187",
+   "170710187622",
+   "170710624373",
+   "170711043110",
+   "170720519458",
+   "170721232735",
+   "170721461527",
+   "170721582638",
+   "170721836955",
+   "170722327991",
+   "170904353287",
+   "170908731742",
+   "170920180796",
+   "170920724647",
+   "170922951477",
+   "170928673385",
+   "171920215707",
+   "172710447159",
+   "172811330977",
+   "180114253864",
+   "180128748173",
+   "180556585352",
+   "180556589147",
+   "180631138646",
+   "180631147037",
+   "180631323934",
+   "180631350677",
+   "180637699509",
+   "180893900675",
+   "180893954395",
+   "181068744712",
+   "181069181534",
+   "182003415919",
+   "182003906419",
+   "182154938241",
+   "182326525501",
+   "185021337857",
+   "193556238727",
+   "194603043912",
+   "197239995920",
+   "198752206487",
+   "198895789388",
+   "198902382762",
+   "199017803959",
+   "199025895597",
+   "199026246714",
+   "199829338011",
+   "199829354006",
+   "200720753590",
+   "202247642413",
+   "203014053120",
+   "206784662820",
+   "206801648513",
+   "207042566237",
+   "207169765293",
+   "210442806874",
+   "212295139383",
+   "213205069084",
+   "213420805478",
+   "213783585956",
+   "214360849573",
+   "214629545996",
+   "215731790684",
+   "216416537201",
+   "216427175490",
+   "216429453940",
+   "217147246455",
+   "217150454172",
+   "217156474548",
+   "217578981680",
+   "217842690919",
+   "217843962779",
+   "217856571166",
+   "217900011532",
+   "217995600793",
+   "217997320509",
+   "217997503911",
+   "218011964283",
+   "218208618548",
+   "218448857901",
+   "218475433995",
+   "218561708301",
+   "218580946068",
+   "218757107286",
+   "218795964525",
+   "219190664830",
+   "219224203790",
+   "219389185417",
+   "219467642776",
+   "219537264026",
+   "219733896973",
+   "219885728366",
+   "219980715087",
+   "220031147837",
+   "220170135336",
+   "220185629619",
+   "220255145379",
+   "220311099926",
+   "220339561385",
+   "220431700841",
+   "220438694286",
+   "220445110156",
+   "220449753160",
+   "220653371696",
+   "220766808208",
+   "220783419739",
+   "220854253332",
+   "220891485052",
+   "221334439734",
+   "222264905633",
+   "222273973776",
+   "222324347812",
+   "222373970483",
+   "223961462612",
+   "224506615300",
+   "224543348294",
+   "224543356760",
+   "224554915662",
+   "224780989221",
+   "225856114201",
+   "225878970037",
+   "226035148098",
+   "226435586086",
+   "226755596602",
+   "226760459534",
+   "227063301532",
+   "227063302219",
+   "227076688397",
+   "227354323743",
+   "227877584008",
+   "227877588495",
+   "228277044048",
+   "228361895465",
+   "228536174222",
+   "231141360707",
+   "231744291096",
+   "232027893083",
+   "232027953166",
+   "234277974867",
+   "237324253006",
+   "237441573210",
+   "238084873895",
+   "241248188337",
+   "241259192485",
+   "241263920400",
+   "253262811672",
+   "253262911882",
+   "253262944023",
+   "253907123882",
+   "254026746680",
+   "254556925830",
+   "254556940600",
+   "254593837082",
+   "254620966150",
+   "254634907035",
+   "254851925302",
+   "254852540416",
+   "254852724760",
+   "254941765462",
+   "255021439905",
+   "255022188643",
+   "255228011646",
+   "255385163148",
+   "255385182724",
+   "255385190519",
+   "255485613317",
+   "255522867092",
+   "255523538743",
+   "255523542863",
+   "255523603821",
+   "255523911257",
+   "255785496348",
+   "255788681793",
+   "255801043289",
+   "255808225666",
+   "255890911925",
+   "255916161555",
+   "255928938111",
+   "256001927336",
+   "256010246970",
+   "256049339144",
+   "256144417975",
+   "256564357940",
+   "256564668064",
+   "256564851513",
+   "256564857351",
+   "256924951170",
+   "256938446478",
+   "256938957642",
+   "256983362821",
+   "257006667662",
+   "257207514451",
+   "257232821033",
+   "258120646433",
+   "258178624409",
+   "259200955446",
+   "259200999840",
+   "259396897358",
+   "259396951931",
+   "219313995561",
+   "170701024336",
+   "198920572773",
+   "199847091597",
+   "212974564208",
+   "221611115901",
+   "225847577883",
+   "229709263170",
+   "156050492303",
+   "156055029765",
+   "156055321940",
+   "156057281638",
+   "156057456221",
+   "156086408111",
+   "156086408117",
+   "156088835130",
+   "156089654347",
+   "156090484139",
+   "167272914023",
+   "168520161059",
+   "170710187623",
+   "170722378376",
+   "170907325281",
+   "170908701082",
+   "170916641411",
+   "170919119409",
+   "170922421266",
+   "170922892461",
+   "171920020326",
+   "171920020572",
+   "178951230341",
+   "180631145735",
+   "180631149596",
+   "180631346532",
+   "193711488008",
+   "197528280755",
+   "198838317215",
+   "198844736595",
+   "198847038579",
+   "198853420845",
+   "198908922266",
+   "198910218928",
+   "198928351142",
+   "199826201147",
+   "199826548887",
+   "199828866175",
+   "199840454230",
+   "199847797051",
+   "199847797052",
+   "200658641014",
+   "200735883364",
+   "200736687905",
+   "200737643305",
+   "200742582114",
+   "200827352398",
+   "200827352399",
+   "200827969585",
+   "200830020526",
+   "200868642574",
+   "200892378391",
+   "200987172277",
+   "200987172279",
+   "201006043278",
+   "201012435073",
+   "201330739601",
+   "201447422824",
+   "201504873640",
+   "201504875620",
+   "201539265822",
+   "201539312193",
+   "201787063177",
+   "201816342137",
+   "201816350371",
+   "201816358279",
+   "202247633485",
+   "202247756384",
+   "202314363477",
+   "202599030667",
+   "202932072791",
+   "202982467998",
+   "203017011305",
+   "203024294024",
+   "203028207018",
+   "203029149985",
+   "203029445700",
+   "203036936960",
+   "203037942962",
+   "203045749778",
+   "203048220335",
+   "203051436455",
+   "203054060615",
+   "203055615615",
+   "203061343552",
+   "203062893135",
+   "203648571933",
+   "203720849987",
+   "206490469815",
+   "206519447632",
+   "206538843567",
+   "206544262011",
+   "206548873233",
+   "206549058464",
+   "206549060415",
+   "206549189706",
+   "206549189891",
+   "206549740206",
+   "206580345725",
+   "206740759903",
+   "206740827486",
+   "206740847272",
+   "206740953139",
+   "206741021198",
+   "206741087003",
+   "206741121305",
+   "206741123697",
+   "206778231318",
+   "206784619603",
+   "206784750930",
+   "206796810564",
+   "206809457232",
+   "206815824208",
+   "206827974467",
+   "206827976556",
+   "206828378676",
+   "206828504602",
+   "206865560859",
+   "206967345181",
+   "207017094780",
+   "207029525628",
+   "207041795685",
+   "207046682287",
+   "207047301780",
+   "207051161231",
+   "207058841470",
+   "207059148933",
+   "207060536680",
+   "207062859934",
+   "207072671587",
+   "207079513233",
+   "207083351643",
+   "207083819371",
+   "207086848832",
+   "207460412440",
+   "207559275870",
+   "207685114516",
+   "207745432486",
+   "207950700957",
+   "207950944665",
+   "207972242495",
+   "208589322023",
+   "208589447747",
+   "208589894165",
+   "208589954876",
+   "208589967494",
+   "208945031960",
+   "208945073156",
+   "209006761868",
+   "209025465979",
+   "209025527062",
+   "209025894432",
+   "209025895773",
+   "209502939276",
+   "209517018661",
+   "209536957986",
+   "209537014860",
+   "209537016128",
+   "209537508964",
+   "210111122976",
+   "210111619903",
+   "210191713677",
+   "210294074235",
+   "210294077441",
+   "210409134363",
+   "210442789905",
+   "210442793579",
+   "210443348530",
+   "210476372382",
+   "210476373565",
+   "210549925225",
+   "210549929829",
+   "210579417886",
+   "210579419485",
+   "210982554960",
+   "211003339155",
+   "211027666073",
+   "211122192493",
+   "211122334088",
+   "211122407046",
+   "211122466713",
+   "211123082759",
+   "211123085189",
+   "211123101993",
+   "211123149173",
+   "211611758501",
+   "211816462359",
+   "211873970706",
+   "211873972308",
+   "212032784463",
+   "229170684716",
+   "229208102450",
+   "229208297390"
+  ],
+  "s3e": [
+   "262840180571",
+   "262450644921"
+  ],
+  "s3f": [
+   "156056939950",
+   "156056955999",
+   "156057281649",
+   "156086477335",
+   "156088835125",
+   "156090200668",
+   "166551074969",
+   "166556553021",
+   "166576222056",
+   "166612179128",
+   "166983020721",
+   "167060591886",
+   "167060593460",
+   "168671173423",
+   "179198458770",
+   "179441546013",
+   "181068735620",
+   "202247253850",
+   "203169720890",
+   "203792671010",
+   "211016896151",
+   "211604444164",
+   "212053056182",
+   "212523618713",
+   "212523680104",
+   "212572773543",
+   "213419751482",
+   "215363318941",
+   "218696233748",
+   "219845913252",
+   "220211721644",
+   "220213312098",
+   "221824021288",
+   "222908499752",
+   "224738439203",
+   "226513062723",
+   "227911232805",
+   "229485179446",
+   "229643629934",
+   "234153026355",
+   "234153057311",
+   "234980745632",
+   "234980771968",
+   "256144485750"
+  ],
+  "s3g": [
+   "165816375964",
+   "174398701944",
+   "186555403614",
+   "216452039276",
+   "216457475493",
+   "216475214976",
+   "217993849360",
+   "219814114704",
+   "226862532665",
+   "246057735069",
+   "249359439486",
+   "257545446256",
+   "259952206743"
+  ],
+  "s4a": [
+   "156054914909",
+   "156055321941",
+   "156055532936",
+   "156056207465",
+   "156056956002",
+   "156056974393",
+   "156089023872",
+   "156089543690",
+   "156089598799",
+   "156090106723",
+   "156090179374",
+   "156090200666",
+   "156090200674",
+   "156090484141",
+   "163731755597",
+   "163763415850",
+   "163868966244",
+   "163869177176",
+   "166760841608",
+   "167092935857",
+   "170696452376",
+   "170696577138",
+   "170696612725",
+   "170696678529",
+   "170697803573",
+   "170699220355",
+   "170699942772",
+   "170705625523",
+   "170706248102",
+   "170706308184",
+   "170706953776",
+   "170706991187",
+   "170710187622",
+   "170710624373",
+   "170711043110",
+   "170720519458",
+   "170721232735",
+   "170721461527",
+   "170721582638",
+   "170721836955",
+   "170722327991",
+   "170908731742",
+   "170920180796",
+   "170920724647",
+   "170922951477",
+   "170928673385",
+   "171920215707",
+   "172811330977",
+   "180556589147",
+   "193556238727",
+   "197239995920",
+   "198752206487",
+   "198895789388",
+   "198902382762",
+   "199017803959",
+   "199025895597",
+   "199026246714",
+   "199829338011",
+   "199829354006",
+   "200720753590",
+   "203014053120",
+   "206784662820",
+   "206801648513",
+   "207042566237",
+   "207169765293",
+   "210442806874",
+   "212295139383",
+   "213420805478",
+   "213783585956",
+   "214360849573",
+   "214629545996",
+   "215731790684",
+   "216416537201",
+   "216427175490",
+   "216429453940",
+   "217147246455",
+   "217150454172",
+   "217156474548",
+   "217578981680",
+   "217842690919",
+   "217843962779",
+   "217856571166",
+   "217900011532",
+   "217995600793",
+   "217997320509",
+   "217997503911",
+   "218011964283",
+   "218208618548",
+   "218448857901",
+   "218475433995",
+   "218561708301",
+   "218580946068",
+   "218757107286",
+   "218795964525",
+   "219190664830",
+   "219224203790",
+   "219389185417",
+   "219467642776",
+   "219537264026",
+   "219885728366",
+   "219980715087",
+   "220031147837",
+   "220170135336",
+   "220185629619",
+   "220255145379",
+   "220311099926",
+   "220339561385",
+   "220431700841",
+   "220438694286",
+   "220445110156",
+   "220653371696",
+   "220766808208",
+   "220783419739",
+   "220854253332",
+   "220891485052",
+   "221334439734",
+   "222264905633",
+   "222273973776",
+   "222324347812",
+   "223961462612",
+   "224506615300",
+   "224543348294",
+   "224543356760",
+   "224554915662",
+   "224780989221",
+   "225856114201",
+   "225878970037",
+   "226035148098",
+   "226435586086",
+   "226755596602",
+   "226760459534",
+   "227063301532",
+   "227076688397",
+   "227354323743",
+   "227877584008",
+   "227877588495",
+   "228361895465",
+   "228536174222",
+   "232027893083",
+   "232027953166",
+   "234277974867",
+   "237324253006",
+   "237441573210",
+   "238084873895",
+   "241248188337",
+   "241259192485",
+   "241263920400"
+  ],
+  "s4c": [
+   "232027893083",
+   "232027953166",
+   "241248188337",
+   "241259192485",
+   "241263920400"
+  ],
+  "s4d_stuck": [
+   "156055532936",
+   "156056207465",
+   "156056441684",
+   "156056785328",
+   "156056956002",
+   "156056974393",
+   "156067251637",
+   "156082744840",
+   "156089162130",
+   "156089326084",
+   "156089367599",
+   "156090106723",
+   "156090179374",
+   "156090200666",
+   "156090200674",
+   "156090484141",
+   "163731755597",
+   "163763415850",
+   "163868966244",
+   "163869177176",
+   "167092935857",
+   "167409614214",
+   "168517905940",
+   "170694378048",
+   "170696452376",
+   "170696577138",
+   "170696612725",
+   "170696678529",
+   "170697803573",
+   "170699220355",
+   "170699942772",
+   "170705625523",
+   "170706248102",
+   "170706308184",
+   "170706618493",
+   "170706953776",
+   "170706991187",
+   "170710187622",
+   "170710624373",
+   "170711043110",
+   "170720519458",
+   "170721232735",
+   "170721461527",
+   "170721582638",
+   "170721836955",
+   "170722327991",
+   "170908731742",
+   "170920180796",
+   "170920724647",
+   "170922951477",
+   "170928673385",
+   "171920215707",
+   "172811330977",
+   "180556589147",
+   "185021337857",
+   "193556238727",
+   "194603043912",
+   "197239995920",
+   "198752206487",
+   "198895789388",
+   "199829338011",
+   "199829354006",
+   "200720753590",
+   "203014053120",
+   "206784662820",
+   "206801648513",
+   "207042566237",
+   "207169765293",
+   "210442806874",
+   "212295139383",
+   "213420805478",
+   "213783585956",
+   "214360849573",
+   "214629545996",
+   "215731790684",
+   "216416537201",
+   "216427175490",
+   "216429453940",
+   "217147246455",
+   "217150454172",
+   "217156474548",
+   "217578981680",
+   "217842690919",
+   "217843962779",
+   "217856571166",
+   "217900011532",
+   "217995600793",
+   "217997320509",
+   "217997503911",
+   "218011964283",
+   "218208618548",
+   "218448857901",
+   "218475433995",
+   "218561708301",
+   "218580946068",
+   "218757107286",
+   "218795964525",
+   "219190664830",
+   "219224203790",
+   "219389185417",
+   "219467642776",
+   "219537264026",
+   "219733896973",
+   "219885728366",
+   "219980715087",
+   "220031147837",
+   "220170135336",
+   "220185629619",
+   "220255145379",
+   "220311099926",
+   "220339561385",
+   "220431700841",
+   "220438694286",
+   "220445110156",
+   "220449753160",
+   "220653371696",
+   "220766808208",
+   "220783419739",
+   "220854253332",
+   "220891485052",
+   "221334439734",
+   "222324347812",
+   "222373970483",
+   "223961462612",
+   "224506615300",
+   "224543348294",
+   "224543356760",
+   "224554915662",
+   "224780989221",
+   "225856114201",
+   "225878970037",
+   "226035148098",
+   "226435586086",
+   "226755596602",
+   "226760459534",
+   "227063301532",
+   "227063302219",
+   "227076688397",
+   "227354323743",
+   "227877584008",
+   "227877588495",
+   "228277044048",
+   "228361895465",
+   "228536174222",
+   "231141360707",
+   "231744291096",
+   "232027893083",
+   "232027953166",
+   "234277974867",
+   "237324253006",
+   "237441573210",
+   "238084873895",
+   "241248188337",
+   "241259192485",
+   "241263920400"
+  ],
+  "moved": [
+   "60273525591",
+   "59729814536",
+   "57909130079"
+  ]
+ },
+ "contact_states": {
+  "156054862636": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156054897951": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156054914909": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156055321941": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "156055532936": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156056207465": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156056224628": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156056267784": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156056441684": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156056536160": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "CONNECTED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156056785328": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156056956002": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156056974393": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156056974396": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156057111955": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "CONNECTED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156057636431": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156064228932": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156067251637": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156082744840": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089023872": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089162130": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089326084": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "156089367595": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089367597": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089367599": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089385341": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089508161": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089543690": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089598799": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089616643": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089636432": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089998467": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156090090101": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156090106723": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156090145132": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156090145137": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156090179374": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "156090200666": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156090200674": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156090236790": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156090484141": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "156090484151": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "163731755597": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "163763415850": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "163868966244": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "163869177176": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "165775109952": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "165794112434": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "165802768950": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "165813435975": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "166547187004": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "166760841608": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "167092935857": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "167262727238": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "167409605039": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "167409614214": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "168517905940": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "170694378048": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "170696452376": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170696577138": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170696612725": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170696678529": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170697803573": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170699220355": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170699942772": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170705625523": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170706248102": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170706308184": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170706618493": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "170706953776": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170706991187": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170710187622": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170710624373": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170711043110": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170720519458": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170721232735": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170721461527": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170721582638": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170721836955": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170722327991": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "170902291322": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "170904353287": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "170908731742": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "170908802594": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "CONNECTED",
+   "owner": "Theo Zirogiannis"
+  },
+  "170920180796": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "170920724647": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "170921907058": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "170922951477": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "170928673385": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "171920215707": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "171956004728": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "CONNECTED",
+   "owner": "Theo Zirogiannis"
+  },
+  "172370452746": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "172710447159": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "172811330977": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "180114253864": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "180128748173": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "180556585352": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "180556589147": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "180631138646": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "180631147037": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "180631323934": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "180631327246": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "180631350677": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "180631571202": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "180637699509": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "180893827849": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "180893900675": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "180893954395": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "181068675731": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "181068744712": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "181069181534": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "181510029941": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "182002674315": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "182002738008": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "182003415919": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "182003638689": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "182003906419": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "182154938241": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "182326525501": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "182346248254": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "182347952248": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "185021337857": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "193556238727": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "194603043912": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "197094568863": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "197239995920": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "198752206487": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "198895789388": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "198902382762": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "199017803959": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "199025895597": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "199026246714": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "199829338011": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "199829354006": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "200720753590": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "201456718405": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "201457344900": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "201471431303": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "201504430759": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "202247642413": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "203014053120": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206784662820": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "206801648513": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207042566237": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207169765293": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "210442806874": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "212295139383": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "213205069084": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "213420805478": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "213783585956": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "214360849573": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "214629545996": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "215731790684": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "216416537201": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "216427175490": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "216429453940": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "217147246455": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "217150454172": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "217156432247": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "217156474548": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "217578981680": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "217842690919": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "217843962779": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "217856571166": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "217900011532": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "217995600793": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "217997320509": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "217997503911": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "218011964283": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "218208618548": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "218448857901": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "218475433995": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "218561708301": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "218580946068": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "218757107286": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "218795964525": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "219190664830": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "219224203790": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "219389185417": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "219467642776": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "219537264026": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "219733896973": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "219885728366": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "219980715087": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "220031147837": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "220170135336": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "220185629619": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "220255145379": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "220311099926": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "220339561385": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "220431700841": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "220438694286": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "220445110156": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "220449753160": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "220653371696": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "220766808208": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "220783419739": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "220854253332": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "220891485052": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "221334439734": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "222264905633": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "222273973776": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "222324347812": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "222373970483": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "223961462612": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "224506615300": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "224543348294": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "224543356760": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "224554915662": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "224780989221": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "225856114201": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "225878970037": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "226035148098": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "226435586086": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "226755596602": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "226760459534": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "226859388168": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "227063301532": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "227063302219": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "227076688397": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "227354323743": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "227786400321": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "CONNECTED",
+   "owner": "Theo Zirogiannis"
+  },
+  "227877584008": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "227877588495": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "228277044048": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "228361895465": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "228536174222": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "229709141538": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "CONNECTED",
+   "owner": "Theo Zirogiannis"
+  },
+  "231141360707": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "231744291096": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "232027893083": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "232027953166": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "234277974867": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "234369759865": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "235381209239": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "236496493719": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "236698774419": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "236698956937": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "237324253006": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "237441573210": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "238084873895": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "241248188337": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "241259192485": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "241263920400": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "244701470245": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "244717176946": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "244726516289": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "244737276704": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "CONNECTED",
+   "owner": "Theo Zirogiannis"
+  },
+  "244927041061": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "245002909959": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "245016990841": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "245016998512": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "245017003522": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "245017008917": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "245017017430": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "245035835515": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "251542336284": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "251542519834": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "251935793041": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "251935914780": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "251936627094": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "251936700496": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "252480914261": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "252495479083": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "252495482371": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "252495486546": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "252588706980": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "252693035567": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "252745474327": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "252778061669": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253240642875": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253240946726": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253241008467": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253241100389": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253262575170": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253262585256": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253262632120": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253262692230": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253262811672": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "253262884670": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253262911882": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "253262944023": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "253263130027": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253263393337": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253263450481": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253706307434": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253748305190": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253748339007": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253748352937": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "253907123882": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "253950284847": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "254026746680": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "254026753120": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "254046597918": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "254535015006": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "254545621920": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "254545628733": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "254545631783": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "254545637408": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "254556915129": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "254556917792": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "254556918131": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "254556923200": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "254556924562": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "254556925830": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "254556936804": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "254556940600": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "254556941950": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "254568707352": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "254581197382": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "254593837082": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "254620966150": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "254634907035": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "254655667732": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "CONNECTED",
+   "owner": "Theo Zirogiannis"
+  },
+  "254655667733": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "CONNECTED",
+   "owner": "Theo Zirogiannis"
+  },
+  "254851925302": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "254851990276": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "254852483743": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "254852540416": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "254852618892": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "254852724760": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "254941765462": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Jack Makhlouf"
+  },
+  "255021239837": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "255021410151": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "255021439905": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "255021448298": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "255021523110": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "255022070310": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "255022075194": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "255022119093": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "255022152611": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "255022188643": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "255022317906": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "255227986196": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "255227996460": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "255228011646": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "255385163148": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "255385182724": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "255385190519": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "255485613317": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "255522855955": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "255522859702": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "255522859947": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "255522867092": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "255523043614": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "255523114162": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "255523282828": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "255523538743": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "255523542863": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "255523603821": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "255523911257": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "255785496348": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "255788681793": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "255801043289": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "255808225666": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "255890911925": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "255916161555": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "255928938111": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "256001927336": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "256010246970": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "256049339144": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "256144357376": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "256144417975": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "256144477342": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "256144540474": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "256144541020": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "256144599431": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "256144599873": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "256144659294": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "256144659477": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "256145036209": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "256564346948": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "256564355623": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "256564357940": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "256564408461": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "256564468854": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "256564539400": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "256564593847": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "256564600701": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "256564666040": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "256564668064": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "256564793094": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "256564850521": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "256564851513": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "256564857351": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "256924951170": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "256938446478": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "256938504858": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "256938828430": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "256938899050": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "256938957642": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "256939064892": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "256983362821": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "257006667662": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "257207514451": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "257232821033": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Biju Rajesh"
+  },
+  "258120646433": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "258178624409": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "259200955446": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "259200999840": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "259396897358": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "259396951931": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "262448706976": {
+   "lifecyclestage": "salesqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "156054995236": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "156055029771": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "156055516440": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "156056207481": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "156056441678": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "156056499884": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Theo Zirogiannis"
+  },
+  "156056517794": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "156056536151": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "156056939950": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Theo Zirogiannis"
+  },
+  "156056955999": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Theo Zirogiannis"
+  },
+  "156056974400": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "156057281649": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Theo Zirogiannis"
+  },
+  "156082137648": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "156082872936": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "156084261168": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "156086408119": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "156086477335": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "156088835125": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Anup Ghoshal"
+  },
+  "156088851996": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089310102": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "156089310109": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089343083": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089367591": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089367593": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089654349": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "156090200668": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "156090484142": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "166547695413": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "166551074969": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "166556553021": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Anup Ghoshal"
+  },
+  "166576222056": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "166612179128": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "166613338902": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Anup Ghoshal"
+  },
+  "166982575720": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "166983020721": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "166983856219": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Anup Ghoshal"
+  },
+  "166984973232": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Anup Ghoshal"
+  },
+  "167060591886": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "167060593217": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Anup Ghoshal"
+  },
+  "167060593460": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "167092784667": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "168671173423": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Theo Zirogiannis"
+  },
+  "168796172349": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "170710187624": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "170908176948": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "170908731745": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "171563769377": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "172631536971": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "177531209762": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "178951836827": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "179198458770": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Theo Zirogiannis"
+  },
+  "179441502235": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "179441546013": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "179441681455": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "179565726393": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "180637694871": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "181068735620": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "183736730439": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Theo Zirogiannis"
+  },
+  "192677921336": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "194628325900": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "197260606843": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Jack Makhlouf"
+  },
+  "198854701241": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "198933290000": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "199012511794": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "199012517725": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "199012685137": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "199013275237": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "199015948191": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "199018965360": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "199019395249": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "199724209261": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "199954193503": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Theo Zirogiannis"
+  },
+  "200053655316": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "200660038264": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "200660811581": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "200662513336": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "200746406727": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "200750956372": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "200862146742": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "202247253850": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "202247253895": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "202910542599": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "203086664590": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "203169720890": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Anup Ghoshal"
+  },
+  "203792671010": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "204877688883": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "204907945739": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Jack Makhlouf"
+  },
+  "204913799236": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "205285041021": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "208339788683": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Anup Ghoshal"
+  },
+  "209931969854": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "210016981906": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "210110782863": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Jack Makhlouf"
+  },
+  "211016896151": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Jack Makhlouf"
+  },
+  "211340289667": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "211604444164": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "212053056182": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Jack Makhlouf"
+  },
+  "212523618713": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "212523680104": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "212572773543": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "213016442425": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "213419751482": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "214439137942": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Anup Ghoshal"
+  },
+  "214629673015": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "214629803285": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "215346623774": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "215363318941": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "215930223384": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "216444319103": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "217150396050": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Jack Makhlouf"
+  },
+  "217156184661": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "217157059339": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Jack Makhlouf"
+  },
+  "217725264668": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Anup Ghoshal"
+  },
+  "218696233748": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "218696253481": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "218707675991": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "218707678861": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "219313995561": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "219709239880": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "219709243732": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "219709296923": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Jack Makhlouf"
+  },
+  "219845913252": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "220069043619": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "220211721644": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "220213312098": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "220973510466": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Theo Zirogiannis"
+  },
+  "220973773102": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Jack Makhlouf"
+  },
+  "220974160538": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "220974161430": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "221159724178": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "221824021288": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "222622552896": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "222908499752": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "223025250336": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "223904740210": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Jack Makhlouf"
+  },
+  "223926653967": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Jack Makhlouf"
+  },
+  "224466978968": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "224466980353": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Jack Makhlouf"
+  },
+  "224470810021": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Jack Makhlouf"
+  },
+  "224489517613": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Jack Makhlouf"
+  },
+  "224738439203": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "225941301115": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "225941301176": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "225960142362": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "225960206083": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "226289863848": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "226292439665": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "226513062723": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "227149061197": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "227194012015": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "227209375352": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "227225023567": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "227468305261": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "227661907720": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "227661959241": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "227911232805": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Theo Zirogiannis"
+  },
+  "228124890633": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Anup Ghoshal"
+  },
+  "228804918055": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "228805161541": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "228805163637": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "229208165533": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "229485179446": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "229643629934": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "229708328822": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "229764659593": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "230414146870": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Anup Ghoshal"
+  },
+  "230542040631": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "232027888896": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "232027950923": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "234153026355": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "234153057311": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "234469238896": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "234970630812": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "234980745632": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "234980760735": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "234980771968": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "234991589396": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "235015038847": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "235015086095": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "235015099975": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "235197609889": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "241772173954": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "241772176279": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "244737291619": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "247892134474": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Theo Zirogiannis"
+  },
+  "249845844520": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "250162109727": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Anup Ghoshal"
+  },
+  "250310760859": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Anup Ghoshal"
+  },
+  "253262635149": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "254581204011": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "254593856864": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "254593858080": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Biju Rajesh"
+  },
+  "254634917257": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Anup Ghoshal"
+  },
+  "255432769040": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "256144485750": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Anup Ghoshal"
+  },
+  "256938899827": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "257207451442": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Biju Rajesh"
+  },
+  "257207650869": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "IN_PROGRESS",
+   "owner": "Jack Makhlouf"
+  },
+  "261001738889": {
+   "lifecyclestage": "opportunity",
+   "hs_lead_status": "Qualified",
+   "owner": "Jack Makhlouf"
+  },
+  "156054897961": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "165816375964": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "MQL",
+   "owner": "Theo Zirogiannis"
+  },
+  "170701024336": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "170722739059": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "174398701944": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "MQL",
+   "owner": "Anup Ghoshal"
+  },
+  "179441484090": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "186555403614": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "MQL",
+   "owner": "Jack Makhlouf"
+  },
+  "198920572773": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "199847091597": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "201004292173": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206549001259": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206740821028": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "212974564208": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "216452039276": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "MQL",
+   "owner": "Jack Makhlouf"
+  },
+  "216457475493": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "MQL",
+   "owner": "Jack Makhlouf"
+  },
+  "216475214976": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "MQL",
+   "owner": "Jack Makhlouf"
+  },
+  "217553668751": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "217966754416": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "217993849360": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "MQL",
+   "owner": "Jack Makhlouf"
+  },
+  "219058544904": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "219657998886": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "219814114704": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "MQL",
+   "owner": "Jack Makhlouf"
+  },
+  "220169913207": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "220516339631": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "221611115901": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Anup Ghoshal"
+  },
+  "223288451893": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "223380706419": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "223806850646": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "225847577883": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Vangili Palaniappan"
+  },
+  "226388033967": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "226862532665": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "MQL",
+   "owner": "Jack Makhlouf"
+  },
+  "227234810440": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Anup Ghoshal"
+  },
+  "229709263170": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "235371155819": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Biju Rajesh"
+  },
+  "236851827987": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Nicola Cole"
+  },
+  "239301383466": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Nicola Cole"
+  },
+  "240954160717": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Nicola Cole"
+  },
+  "244026731038": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "245569002620": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Nicola Cole"
+  },
+  "245569817715": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Jack Makhlouf"
+  },
+  "245811607342": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Nicola Cole"
+  },
+  "245964443780": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Anup Ghoshal"
+  },
+  "246057055135": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "246057120280": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "NEW",
+   "owner": "Theo Zirogiannis"
+  },
+  "246057735069": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "MQL",
+   "owner": "Theo Zirogiannis"
+  },
+  "246193793046": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Anup Ghoshal"
+  },
+  "247279347712": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Jack Makhlouf"
+  },
+  "247794605920": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Jack Makhlouf"
+  },
+  "248283281200": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Jack Makhlouf"
+  },
+  "248543241352": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Jack Makhlouf"
+  },
+  "248578677553": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Jack Makhlouf"
+  },
+  "249136009756": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Jack Makhlouf"
+  },
+  "249359439486": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Unassigned"
+  },
+  "251074835766": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Jack Makhlouf"
+  },
+  "251672897036": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "253185750913": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Anup Ghoshal"
+  },
+  "253944036137": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Jack Makhlouf"
+  },
+  "253963878542": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Jack Makhlouf"
+  },
+  "254896777358": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Jack Makhlouf"
+  },
+  "254949402742": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Anup Ghoshal"
+  },
+  "255191801425": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Jack Makhlouf"
+  },
+  "255463944517": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Anup Ghoshal"
+  },
+  "257294750089": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Biju Rajesh"
+  },
+  "257494352431": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Biju Rajesh"
+  },
+  "257545446256": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Unassigned"
+  },
+  "257649327211": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Biju Rajesh"
+  },
+  "259952206743": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Unassigned"
+  },
+  "260826964052": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Theo Zirogiannis"
+  },
+  "260868432819": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Theo Zirogiannis"
+  },
+  "262757518133": {
+   "lifecyclestage": "marketingqualifiedlead",
+   "hs_lead_status": null,
+   "owner": "Theo Zirogiannis"
+  },
+  "156050492303": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "156055029765": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156055321940": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156057281638": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156057456221": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156086408111": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156086408117": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156088835130": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089654347": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "156090484139": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "167272914023": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "168520161059": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170710187623": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170722378376": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "170907325281": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "170908701082": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "170916641411": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "170919119409": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "170922421266": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "170922892461": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "171920020326": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "171920020572": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "178951230341": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "180631145735": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "180631149596": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "180631346532": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "193711488008": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "197528280755": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "198838317215": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "198844736595": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "198847038579": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "198853420845": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "198908922266": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "198910218928": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "198928351142": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "199826201147": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "199826548887": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "199828866175": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "199840454230": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "199847797051": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "199847797052": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "200658641014": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "200735883364": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "200736687905": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "200737643305": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "200742582114": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "200827352398": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "200827352399": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "200827969585": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "200830020526": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "200868642574": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "200892378391": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "200987172277": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "200987172279": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "201006043278": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "201012435073": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "201330739601": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "201447422824": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "201504873640": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "201504875620": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "201539265822": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "201539312193": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "201787063177": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "201816342137": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "201816350371": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "201816358279": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "202247633485": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "202247756384": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "202314363477": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "202599030667": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "202932072791": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "202982467998": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "203017011305": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "203024294024": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "203028207018": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "203029149985": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "203029445700": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "203036936960": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "203037942962": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "203045749778": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "203048220335": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "203051436455": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "203054060615": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "203055615615": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "203061343552": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "203062893135": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "203648571933": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "203720849987": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "206490469815": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206519447632": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206538843567": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206544262011": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206548873233": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206549058464": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206549060415": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206549189706": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206549189891": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206549740206": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206580345725": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206740759903": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206740827486": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206740847272": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206740953139": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206741021198": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206741087003": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206741121305": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "206741123697": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "206778231318": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206784619603": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206784750930": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206796810564": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206809457232": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206815824208": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206827974467": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206827976556": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "206828378676": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206828504602": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206865560859": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "206967345181": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207017094780": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207029525628": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "207041795685": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207046682287": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207047301780": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207051161231": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207058841470": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207059148933": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207060536680": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207062859934": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207072671587": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207079513233": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207083351643": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207083819371": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207086848832": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "207460412440": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "207559275870": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "207685114516": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "207745432486": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "207950700957": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "207950944665": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "207972242495": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "208589322023": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "208589447747": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "208589894165": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "208589954876": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "208589967494": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "208945031960": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "208945073156": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "209006761868": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "209025465979": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "209025527062": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "209025894432": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "209025895773": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "209502939276": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "209517018661": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "209536957986": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "209537014860": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "209537016128": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "209537508964": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "210111122976": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "210111619903": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "210191713677": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "210294074235": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "210294077441": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "210409134363": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "210442789905": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "210442793579": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "210443348530": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "210476372382": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "210476373565": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "210549925225": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "210549929829": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "210579417886": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "210579419485": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "210982554960": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Anup Ghoshal"
+  },
+  "211003339155": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "211027666073": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "211122192493": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "211122334088": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "211122407046": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "211122466713": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "211123082759": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "211123085189": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "211123101993": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "211123149173": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "211611758501": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "211816462359": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "211873970706": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "211873972308": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "212032784463": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Theo Zirogiannis"
+  },
+  "229170684716": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "229208102450": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "229208297390": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "UNQUALIFIED",
+   "owner": "Jack Makhlouf"
+  },
+  "156045990687": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156054897963": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156054932287": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156055011761": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156055516436": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156055532937": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156055624534": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "156055757620": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156055956521": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156056974399": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156057258596": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156067251638": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156088800176": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089543694": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156089598811": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "156090179378": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "166574753557": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "167425999739": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "167426005938": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "170696528227": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "170699254865": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "170706221715": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "170706285612": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "170708826929": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "170721423260": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "170814142217": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "170907396699": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "170907593253": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "170919013758": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "170921857625": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "170922256145": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "170922608533": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "170922759448": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "171388194587": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "179174847532": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "179198458912": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "179441484060": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "182099221659": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "257888958067": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "257947737655": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "258120694435": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Jack Makhlouf"
+  },
+  "258120754102": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "259201509993": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "259446688281": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "260093623313": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "260985858341": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "260985875605": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "261001771878": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "261001775365": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "262311204165": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "262543585699": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "262543586687": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Attempted to Contact",
+   "owner": "Theo Zirogiannis"
+  },
+  "262652448257": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "263021517387": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": null,
+   "owner": "Unassigned"
+  },
+  "262865483607": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": null,
+   "owner": "Unassigned"
+  },
+  "262840180571": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "262448704903": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "262450644921": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "260093184126": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "260093424047": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "260093617922": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "260081015467": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": null,
+   "owner": "Unassigned"
+  },
+  "259446688826": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "CONNECTED",
+   "owner": "Theo Zirogiannis"
+  },
+  "259201077074": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "259021677393": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": null,
+   "owner": "Unassigned"
+  },
+  "258851054457": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": null,
+   "owner": "Unassigned"
+  },
+  "258178375699": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "257947737439": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "257947737418": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "258120694297": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "258178375539": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "257947858610": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "258120645972": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "257947737204": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "258120645777": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "257878613779": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "257878549300": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "257883817526": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": null,
+   "owner": "Unassigned"
+  },
+  "257816693289": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": null,
+   "owner": "Unassigned"
+  },
+  "257421400671": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "257421461579": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "255522855711": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "255522855681": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "255523474998": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "255021473310": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "254852730663": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Biju Rajesh"
+  },
+  "254852607323": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Biju Rajesh"
+  },
+  "254851924776": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Biju Rajesh"
+  },
+  "254556944656": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Jack Makhlouf"
+  },
+  "254006750755": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": null,
+   "owner": "Theo Zirogiannis"
+  },
+  "253999604061": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "NEW",
+   "owner": "Unassigned"
+  },
+  "253999604062": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "NEW",
+   "owner": "Unassigned"
+  },
+  "253999604063": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "NEW",
+   "owner": "Unassigned"
+  },
+  "253240740210": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "Marketing Engaged",
+   "owner": "Theo Zirogiannis"
+  },
+  "170721423258": {
+   "lifecyclestage": "lead",
+   "hs_lead_status": "CONNECTED",
+   "owner": "Theo Zirogiannis"
+  }
+ }
+}

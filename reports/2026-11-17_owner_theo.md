@@ -1,0 +1,292 @@
+# Theo Zirogiannis — pipeline actions, week of 2026-11-17
+
+### Theo Zirogiannis
+**Recycling in the next 15 days — log activity now or they return to marketing** (3)
+
+- [Zoe Jones](https://app.hubspot.com/contacts/50467095/record/0-1/194603043912) — idle 78d
+- [Elizabeth Stone](https://app.hubspot.com/contacts/50467095/record/0-1/227786400321) — idle 75d
+- [Celia Rodriguez](https://app.hubspot.com/contacts/50467095/record/0-1/244726516289) — idle 82d
+
+**Deals needing attention** (4)
+
+- [Winston-Salem State University - New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/62625005073) — Discovery & Trial, $0, idle 8d, close 2026-11-30
+- [Consultancy / School of Nursing & Midwifery at Trinity College Dublin / Content Review Nursing Clinical Skills & Custom Reflex](https://app.hubspot.com/contacts/50467095/record/0-3/60182314582) — Discovery & Trial, $0, idle 186d, close 2026-08-31
+- [NHS Supply Chain - Project_ 1700 NHS - Medical Simulations Devices and Technologies - Contract Start 10 May 2027](https://app.hubspot.com/contacts/50467095/record/0-3/60177672318) — Quote Sent, $0, idle 189d, close 2027-03-05
+- [Royal London Hospital @ Barts Health NHS Trust - MasterClass / New Deal](https://app.hubspot.com/contacts/50467095/record/0-3/53696123285) — Quote Sent, $4,000, idle 49d, close 2026-11-30
+
+**Data fixes (3C/3D/3E/4D)** (273)
+
+- [Rosaysela Santos](https://app.hubspot.com/contacts/50467095/record/0-1/156054897961) — Marketing Qualified Lead, Attempted to Contact
+- [Amanda Troy](https://app.hubspot.com/contacts/50467095/record/0-1/179441484090) — Marketing Qualified Lead, Attempted to Contact
+- [Varna Taranikanti](https://app.hubspot.com/contacts/50467095/record/0-1/156045990687) — Lead, Attempted to Contact
+- [Ahmad Imam](https://app.hubspot.com/contacts/50467095/record/0-1/156054897963) — Lead, Attempted to Contact
+- [Emily Porta-Miller](https://app.hubspot.com/contacts/50467095/record/0-1/156054932287) — Lead, Attempted to Contact
+- [Dianne Marie Person](https://app.hubspot.com/contacts/50467095/record/0-1/156055011761) — Lead, Attempted to Contact
+- [Francesca Krancevich](https://app.hubspot.com/contacts/50467095/record/0-1/156055516436) — Lead, Attempted to Contact
+- [Samir Anadkat](https://app.hubspot.com/contacts/50467095/record/0-1/156055532937) — Lead, Attempted to Contact
+- [Dawn James](https://app.hubspot.com/contacts/50467095/record/0-1/156055757620) — Lead, Attempted to Contact
+- [Carol Kroeker](https://app.hubspot.com/contacts/50467095/record/0-1/156055956521) — Lead, Attempted to Contact
+- [Stefanie Attardi](https://app.hubspot.com/contacts/50467095/record/0-1/156056974399) — Lead, Attempted to Contact
+- [Kentse Mpolokeng](https://app.hubspot.com/contacts/50467095/record/0-1/156057258596) — Lead, Attempted to Contact
+- [Melissa Zolnierz](https://app.hubspot.com/contacts/50467095/record/0-1/156067251638) — Lead, Attempted to Contact
+- [Cristiana Rastellini](https://app.hubspot.com/contacts/50467095/record/0-1/156088800176) — Lead, Attempted to Contact
+- [Lyle Ruggles](https://app.hubspot.com/contacts/50467095/record/0-1/156089543694) — Lead, Attempted to Contact
+- [Bedia Castellanos](https://app.hubspot.com/contacts/50467095/record/0-1/156089598811) — Lead, Attempted to Contact
+- [David L. Dufeau](https://app.hubspot.com/contacts/50467095/record/0-1/156090179378) — Lead, Attempted to Contact
+- [Dr. Yawen Wang](https://app.hubspot.com/contacts/50467095/record/0-1/166574753557) — Lead, Attempted to Contact
+- [Kenneth Calvin Hisley](https://app.hubspot.com/contacts/50467095/record/0-1/167425999739) — Lead, Attempted to Contact
+- [Mathangi Rajaram-Gilkes](https://app.hubspot.com/contacts/50467095/record/0-1/167426005938) — Lead, Attempted to Contact
+- [Ramona Baez](https://app.hubspot.com/contacts/50467095/record/0-1/170696528227) — Lead, Attempted to Contact
+- [Jennette Ball](https://app.hubspot.com/contacts/50467095/record/0-1/170699254865) — Lead, Attempted to Contact
+- [Jennifer Brueckner-Collins](https://app.hubspot.com/contacts/50467095/record/0-1/170706221715) — Lead, Attempted to Contact
+- [Naveen Kandavalli](https://app.hubspot.com/contacts/50467095/record/0-1/170706285612) — Lead, Attempted to Contact
+- [Amanda Mittelstadt](https://app.hubspot.com/contacts/50467095/record/0-1/170708826929) — Lead, Attempted to Contact
+- [Rachel Wallace](https://app.hubspot.com/contacts/50467095/record/0-1/170721423260) — Lead, Attempted to Contact
+- [Chernet Tessema](https://app.hubspot.com/contacts/50467095/record/0-1/170814142217) — Lead, Attempted to Contact
+- [Chantale Nunes](https://app.hubspot.com/contacts/50467095/record/0-1/170907396699) — Lead, Attempted to Contact
+- [Avinash Thadani](https://app.hubspot.com/contacts/50467095/record/0-1/170907593253) — Lead, Attempted to Contact
+- [Andréanne Désy](https://app.hubspot.com/contacts/50467095/record/0-1/170919013758) — Lead, Attempted to Contact
+- [Treva Job](https://app.hubspot.com/contacts/50467095/record/0-1/170921857625) — Lead, Attempted to Contact
+- [Natashia Deer](https://app.hubspot.com/contacts/50467095/record/0-1/170922256145) — Lead, Attempted to Contact
+- [Starleigh Earl](https://app.hubspot.com/contacts/50467095/record/0-1/170922608533) — Lead, Attempted to Contact
+- [Nicole Ventura](https://app.hubspot.com/contacts/50467095/record/0-1/170922759448) — Lead, Attempted to Contact
+- [Erika Blanck](https://app.hubspot.com/contacts/50467095/record/0-1/171388194587) — Lead, Attempted to Contact
+- [Katelyn Wood](https://app.hubspot.com/contacts/50467095/record/0-1/179174847532) — Lead, Attempted to Contact
+- [Austin Alexander](https://app.hubspot.com/contacts/50467095/record/0-1/179198458912) — Lead, Attempted to Contact
+- [Frances Haver](https://app.hubspot.com/contacts/50467095/record/0-1/179441484060) — Lead, Attempted to Contact
+- [Prasanna Abeyrathna](https://app.hubspot.com/contacts/50467095/record/0-1/182099221659) — Lead, Attempted to Contact
+- [Brittany Kirby](https://app.hubspot.com/contacts/50467095/record/0-1/257888958067) — Lead, Attempted to Contact
+- [Gerald Brasington](https://app.hubspot.com/contacts/50467095/record/0-1/257947737655) — Lead, Attempted to Contact
+- [Frances Fowler](https://app.hubspot.com/contacts/50467095/record/0-1/258120754102) — Lead, Attempted to Contact
+- [Rebecca Miller](https://app.hubspot.com/contacts/50467095/record/0-1/259201509993) — Lead, Attempted to Contact
+- [Daniel Hodgson](https://app.hubspot.com/contacts/50467095/record/0-1/259446688281) — Lead, Attempted to Contact
+- [Jennifer Scarfe-Brideau](https://app.hubspot.com/contacts/50467095/record/0-1/260093623313) — Lead, Attempted to Contact
+- [Geraldine Wright](https://app.hubspot.com/contacts/50467095/record/0-1/260985858341) — Lead, Attempted to Contact
+- [Lisa Prather](https://app.hubspot.com/contacts/50467095/record/0-1/260985875605) — Lead, Attempted to Contact
+- [Charlita Warren](https://app.hubspot.com/contacts/50467095/record/0-1/261001771878) — Lead, Attempted to Contact
+- [Shannon Washington](https://app.hubspot.com/contacts/50467095/record/0-1/261001775365) — Lead, Attempted to Contact
+- [Edgar Meyer](https://app.hubspot.com/contacts/50467095/record/0-1/262311204165) — Lead, Attempted to Contact
+- [Bonny Ford](https://app.hubspot.com/contacts/50467095/record/0-1/262543585699) — Lead, Attempted to Contact
+- [Leslie Hammer](https://app.hubspot.com/contacts/50467095/record/0-1/262543586687) — Lead, Attempted to Contact
+- [Irena Rot](https://app.hubspot.com/contacts/50467095/record/0-1/259446688826) — Lead, Contacted
+- [Steven Popoff](https://app.hubspot.com/contacts/50467095/record/0-1/170721423258) — Lead, Contacted
+- [Youssef Shoukry](https://app.hubspot.com/contacts/50467095/record/0-1/156054862636) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Marise Heyns](https://app.hubspot.com/contacts/50467095/record/0-1/156054914909) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Aaron Castle](https://app.hubspot.com/contacts/50467095/record/0-1/156055532936) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Tedd Luke](https://app.hubspot.com/contacts/50467095/record/0-1/156056207465) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Eustathia PhD](https://app.hubspot.com/contacts/50467095/record/0-1/156056441684) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Cristina Alvarado](https://app.hubspot.com/contacts/50467095/record/0-1/156056785328) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Kevin Sheil](https://app.hubspot.com/contacts/50467095/record/0-1/156056956002) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Brian Hall](https://app.hubspot.com/contacts/50467095/record/0-1/156056974393) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Tamer Emara](https://app.hubspot.com/contacts/50467095/record/0-1/156056974396) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Sumayyah Ebrahim](https://app.hubspot.com/contacts/50467095/record/0-1/156064228932) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Andreas Vlachos](https://app.hubspot.com/contacts/50467095/record/0-1/156067251637) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Leslie Hammersmith](https://app.hubspot.com/contacts/50467095/record/0-1/156082744840) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Viktoriia Yerokhina](https://app.hubspot.com/contacts/50467095/record/0-1/156089023872) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Brian R. MacPherson](https://app.hubspot.com/contacts/50467095/record/0-1/156089162130) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Pamela Soobramoney Pillay](https://app.hubspot.com/contacts/50467095/record/0-1/156089367595) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Asayebirhan Getachew](https://app.hubspot.com/contacts/50467095/record/0-1/156089367597) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Amanda Jael Collins](https://app.hubspot.com/contacts/50467095/record/0-1/156089367599) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Jenny Clancy](https://app.hubspot.com/contacts/50467095/record/0-1/156089385341) — Sales Qualified Lead, Marketing Engaged — Marketing Engaged invalid for Sales Qualified Lead
+- [Dr. Lalit Kothari](https://app.hubspot.com/contacts/50467095/record/0-1/156089543690) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Dr. R K Sureka](https://app.hubspot.com/contacts/50467095/record/0-1/156089598799) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Adam Lawson](https://app.hubspot.com/contacts/50467095/record/0-1/156090090101) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Anne MA](https://app.hubspot.com/contacts/50467095/record/0-1/156090106723) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Ryan Calvert](https://app.hubspot.com/contacts/50467095/record/0-1/156090145137) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Sadie Diamond-Fox](https://app.hubspot.com/contacts/50467095/record/0-1/156090200666) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Adam Huddleston](https://app.hubspot.com/contacts/50467095/record/0-1/156090200674) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Kirsimarja Metsävainio](https://app.hubspot.com/contacts/50467095/record/0-1/156090236790) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Sebastian Jino](https://app.hubspot.com/contacts/50467095/record/0-1/163731755597) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Thomas Bissett](https://app.hubspot.com/contacts/50467095/record/0-1/163763415850) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Abigail Green](https://app.hubspot.com/contacts/50467095/record/0-1/163868966244) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Claire Ford](https://app.hubspot.com/contacts/50467095/record/0-1/163869177176) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Gina Helland](https://app.hubspot.com/contacts/50467095/record/0-1/165775109952) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Jakob Gyring](https://app.hubspot.com/contacts/50467095/record/0-1/165794112434) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Dr. G. Saila Bala](https://app.hubspot.com/contacts/50467095/record/0-1/166760841608) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Raja Rachakatla](https://app.hubspot.com/contacts/50467095/record/0-1/167262727238) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Priti Mishall](https://app.hubspot.com/contacts/50467095/record/0-1/167409614214) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Yasmin Carter](https://app.hubspot.com/contacts/50467095/record/0-1/168517905940) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Rosaysela Santos](https://app.hubspot.com/contacts/50467095/record/0-1/170694378048) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Armando MD](https://app.hubspot.com/contacts/50467095/record/0-1/170706618493) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Amanda Collins](https://app.hubspot.com/contacts/50467095/record/0-1/170722327991) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Alan Backer](https://app.hubspot.com/contacts/50467095/record/0-1/170904353287) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Andreas Protopapas](https://app.hubspot.com/contacts/50467095/record/0-1/170920180796) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Alon Barash](https://app.hubspot.com/contacts/50467095/record/0-1/170920724647) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [William Reid](https://app.hubspot.com/contacts/50467095/record/0-1/170922951477) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Jeff Duerr](https://app.hubspot.com/contacts/50467095/record/0-1/170928673385) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Jeremy N. Kay](https://app.hubspot.com/contacts/50467095/record/0-1/171920215707) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Dr. Ourania Varsou](https://app.hubspot.com/contacts/50467095/record/0-1/172710447159) — Sales Qualified Lead, Marketing Engaged — Marketing Engaged invalid for Sales Qualified Lead
+- [Munesh Pal Khamuani](https://app.hubspot.com/contacts/50467095/record/0-1/172811330977) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Mary Bondy](https://app.hubspot.com/contacts/50467095/record/0-1/180114253864) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Samuel Marquez](https://app.hubspot.com/contacts/50467095/record/0-1/180128748173) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Manuel Cevallos](https://app.hubspot.com/contacts/50467095/record/0-1/180556585352) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Meadow Campbell](https://app.hubspot.com/contacts/50467095/record/0-1/180631138646) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Tracy Soltesz](https://app.hubspot.com/contacts/50467095/record/0-1/180631147037) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Jennifer Kirwin](https://app.hubspot.com/contacts/50467095/record/0-1/180631323934) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Somesree Ghosh-Mitra](https://app.hubspot.com/contacts/50467095/record/0-1/180631350677) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Daniel Popescu](https://app.hubspot.com/contacts/50467095/record/0-1/180637699509) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Kyle Webster](https://app.hubspot.com/contacts/50467095/record/0-1/180893900675) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Prof. Elba Caballero-Cardona](https://app.hubspot.com/contacts/50467095/record/0-1/180893954395) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Mohsin M Syed](https://app.hubspot.com/contacts/50467095/record/0-1/181068744712) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Jared Lemaster](https://app.hubspot.com/contacts/50467095/record/0-1/181069181534) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Dawn D Hunter](https://app.hubspot.com/contacts/50467095/record/0-1/182003415919) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Kimberly Ritterhoff](https://app.hubspot.com/contacts/50467095/record/0-1/182003906419) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Dr. Greg Brower](https://app.hubspot.com/contacts/50467095/record/0-1/182326525501) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Zoe Jones](https://app.hubspot.com/contacts/50467095/record/0-1/194603043912) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Aditee Narayan](https://app.hubspot.com/contacts/50467095/record/0-1/198752206487) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Martin Rigby](https://app.hubspot.com/contacts/50467095/record/0-1/200720753590) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Samuel Svensson](https://app.hubspot.com/contacts/50467095/record/0-1/202247642413) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Shaun Lewis](https://app.hubspot.com/contacts/50467095/record/0-1/206784662820) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Ana María Insausti Serrano](https://app.hubspot.com/contacts/50467095/record/0-1/210442806874) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Dr. Maggie Coates](https://app.hubspot.com/contacts/50467095/record/0-1/213205069084) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [fraser.browning@kurbcarbon.co.uk](https://app.hubspot.com/contacts/50467095/record/0-1/215731790684) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [landerson17@cub.uca.edu](https://app.hubspot.com/contacts/50467095/record/0-1/217150454172) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Muna M. M. Abugosseisa](https://app.hubspot.com/contacts/50467095/record/0-1/217578981680) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Ahmed Thabet](https://app.hubspot.com/contacts/50467095/record/0-1/217843962779) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Hesham Abdelghaffar](https://app.hubspot.com/contacts/50467095/record/0-1/218011964283) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Mahinaz Abdelhamed](https://app.hubspot.com/contacts/50467095/record/0-1/218561708301) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Ahmed Mokhtar Abd-Elmagid](https://app.hubspot.com/contacts/50467095/record/0-1/218580946068) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Mohamed Elshawy, M.D](https://app.hubspot.com/contacts/50467095/record/0-1/218795964525) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Dr.Mai Gobran](https://app.hubspot.com/contacts/50467095/record/0-1/219190664830) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Mahmoued Ali](https://app.hubspot.com/contacts/50467095/record/0-1/219224203790) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Islam Sabry](https://app.hubspot.com/contacts/50467095/record/0-1/219885728366) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Nashwa El Shaarawy](https://app.hubspot.com/contacts/50467095/record/0-1/220185629619) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Ursula Tierney](https://app.hubspot.com/contacts/50467095/record/0-1/220339561385) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Mohammed Mhmoud BSc,RT](https://app.hubspot.com/contacts/50467095/record/0-1/220438694286) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Tina Gallup](https://app.hubspot.com/contacts/50467095/record/0-1/220445110156) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Waleed Arafat](https://app.hubspot.com/contacts/50467095/record/0-1/220653371696) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Mariam Nassar](https://app.hubspot.com/contacts/50467095/record/0-1/220766808208) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Ola Elsherbiny](https://app.hubspot.com/contacts/50467095/record/0-1/220854253332) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Mina Hakim](https://app.hubspot.com/contacts/50467095/record/0-1/220891485052) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Shaimaa Nasr Amin](https://app.hubspot.com/contacts/50467095/record/0-1/221334439734) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Amanda Robert](https://app.hubspot.com/contacts/50467095/record/0-1/224506615300) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Zsolt Turi](https://app.hubspot.com/contacts/50467095/record/0-1/224543348294) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Christos Galanis](https://app.hubspot.com/contacts/50467095/record/0-1/224543356760) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Mohamed Elsaidy](https://app.hubspot.com/contacts/50467095/record/0-1/224554915662) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Travis Clamon](https://app.hubspot.com/contacts/50467095/record/0-1/224780989221) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Angham Abdelkader](https://app.hubspot.com/contacts/50467095/record/0-1/225878970037) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Amy Gard](https://app.hubspot.com/contacts/50467095/record/0-1/226035148098) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Fatima M. Abbas](https://app.hubspot.com/contacts/50467095/record/0-1/226760459534) — Sales Qualified Lead, New Lead — New Lead invalid for Sales Qualified Lead
+- [Angela Mulcahy](https://app.hubspot.com/contacts/50467095/record/0-1/227063301532) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Lisa Haddad](https://app.hubspot.com/contacts/50467095/record/0-1/227063302219) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Leroy Marklund](https://app.hubspot.com/contacts/50467095/record/0-1/227076688397) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Andrii Shmarhalov](https://app.hubspot.com/contacts/50467095/record/0-1/227354323743) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Lily Evans](https://app.hubspot.com/contacts/50467095/record/0-1/227877584008) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Siobhan Moyes](https://app.hubspot.com/contacts/50467095/record/0-1/227877588495) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Brent Thompson](https://app.hubspot.com/contacts/50467095/record/0-1/228536174222) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Matthew Buclaw](https://app.hubspot.com/contacts/50467095/record/0-1/237441573210) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Nyree Hulme](https://app.hubspot.com/contacts/50467095/record/0-1/238084873895) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Sandra Loureiro](https://app.hubspot.com/contacts/50467095/record/0-1/253262811672) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Knut Jørgen Kopperud](https://app.hubspot.com/contacts/50467095/record/0-1/253262911882) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Nora MacLaren](https://app.hubspot.com/contacts/50467095/record/0-1/253262944023) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Dr Farzana Cassim](https://app.hubspot.com/contacts/50467095/record/0-1/253907123882) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Refiloe Masekela](https://app.hubspot.com/contacts/50467095/record/0-1/254026746680) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Dana Stauffer](https://app.hubspot.com/contacts/50467095/record/0-1/254556925830) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Jacqui Friedling](https://app.hubspot.com/contacts/50467095/record/0-1/254620966150) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Tonya Miller](https://app.hubspot.com/contacts/50467095/record/0-1/254851925302) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [David Stevens](https://app.hubspot.com/contacts/50467095/record/0-1/254852540416) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Thomas Wiese](https://app.hubspot.com/contacts/50467095/record/0-1/254852724760) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Todd Olson](https://app.hubspot.com/contacts/50467095/record/0-1/255021439905) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Curtis Ivory](https://app.hubspot.com/contacts/50467095/record/0-1/255022188643) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [David Resuehr](https://app.hubspot.com/contacts/50467095/record/0-1/255228011646) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Preshit Ambade](https://app.hubspot.com/contacts/50467095/record/0-1/255385163148) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Chinenye Anako](https://app.hubspot.com/contacts/50467095/record/0-1/255385190519) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Kristi Wintheiser](https://app.hubspot.com/contacts/50467095/record/0-1/255523538743) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Tracey Motter](https://app.hubspot.com/contacts/50467095/record/0-1/255523542863) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Amy Petrinec](https://app.hubspot.com/contacts/50467095/record/0-1/255523603821) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Debbie Angeles](https://app.hubspot.com/contacts/50467095/record/0-1/255523911257) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Kristin Hepfer](https://app.hubspot.com/contacts/50467095/record/0-1/256144417975) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Michael Preston](https://app.hubspot.com/contacts/50467095/record/0-1/256564357940) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Dana Evans](https://app.hubspot.com/contacts/50467095/record/0-1/256564668064) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [David Rasicci](https://app.hubspot.com/contacts/50467095/record/0-1/256564851513) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Tanner Urich](https://app.hubspot.com/contacts/50467095/record/0-1/256564857351) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Siobhán Cooke](https://app.hubspot.com/contacts/50467095/record/0-1/256924951170) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Maria Carles](https://app.hubspot.com/contacts/50467095/record/0-1/256938446478) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Sandra Scott Foresman](https://app.hubspot.com/contacts/50467095/record/0-1/256938957642) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Erick Moberg](https://app.hubspot.com/contacts/50467095/record/0-1/257207514451) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Thomas Mcknight](https://app.hubspot.com/contacts/50467095/record/0-1/258120646433) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Matt Bunn](https://app.hubspot.com/contacts/50467095/record/0-1/258178624409) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Sabine Hombach-Klonisch](https://app.hubspot.com/contacts/50467095/record/0-1/259200955446) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Hugues Leblond](https://app.hubspot.com/contacts/50467095/record/0-1/259200999840) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Gilles Bronchti](https://app.hubspot.com/contacts/50467095/record/0-1/259396897358) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Syrina Alain](https://app.hubspot.com/contacts/50467095/record/0-1/259396951931) — Sales Qualified Lead, Unqualified — Unqualified invalid for Sales Qualified Lead
+- [Mariam Ameer, Ph.D.](https://app.hubspot.com/contacts/50467095/record/0-1/219313995561) — Opportunity, New Lead — New Lead invalid for Opportunity
+- [Michelle Welsh](https://app.hubspot.com/contacts/50467095/record/0-1/229709263170) — Marketing Qualified Lead, Marketing Engaged — Marketing Engaged invalid for Marketing Qualified Lead
+- [Olivier Normandin](https://app.hubspot.com/contacts/50467095/record/0-1/156055029765) — Lead, Unqualified — Unqualified invalid for Lead
+- [Terry Li](https://app.hubspot.com/contacts/50467095/record/0-1/156055321940) — Lead, Unqualified — Unqualified invalid for Lead
+- [Aaron Bahmer](https://app.hubspot.com/contacts/50467095/record/0-1/156057281638) — Lead, Unqualified — Unqualified invalid for Lead
+- [Michael Smith](https://app.hubspot.com/contacts/50467095/record/0-1/156057456221) — Lead, Unqualified — Unqualified invalid for Lead
+- [Pierre-Étienne Mercier](https://app.hubspot.com/contacts/50467095/record/0-1/156086408111) — Lead, Unqualified — Unqualified invalid for Lead
+- [Alan Detton](https://app.hubspot.com/contacts/50467095/record/0-1/156086408117) — Lead, Unqualified — Unqualified invalid for Lead
+- [Adam Hoechstetter](https://app.hubspot.com/contacts/50467095/record/0-1/156088835130) — Lead, Unqualified — Unqualified invalid for Lead
+- [Mary Walsh O'Shea](https://app.hubspot.com/contacts/50467095/record/0-1/156090484139) — Lead, Unqualified — Unqualified invalid for Lead
+- [Melissa Powell](https://app.hubspot.com/contacts/50467095/record/0-1/167272914023) — Lead, Unqualified — Unqualified invalid for Lead
+- [Marc-Antoine Doré](https://app.hubspot.com/contacts/50467095/record/0-1/170907325281) — Lead, Unqualified — Unqualified invalid for Lead
+- [Tomislav Jelic](https://app.hubspot.com/contacts/50467095/record/0-1/170908701082) — Lead, Unqualified — Unqualified invalid for Lead
+- [Jérémie Bisaillon](https://app.hubspot.com/contacts/50467095/record/0-1/170916641411) — Lead, Unqualified — Unqualified invalid for Lead
+- [Panagiotis Karanis](https://app.hubspot.com/contacts/50467095/record/0-1/170919119409) — Lead, Unqualified — Unqualified invalid for Lead
+- [Muhammad Aziz](https://app.hubspot.com/contacts/50467095/record/0-1/170922421266) — Lead, Unqualified — Unqualified invalid for Lead
+- [Chris Rogers](https://app.hubspot.com/contacts/50467095/record/0-1/170922892461) — Lead, Unqualified — Unqualified invalid for Lead
+- [Liv Irene Ruud](https://app.hubspot.com/contacts/50467095/record/0-1/171920020326) — Lead, Unqualified — Unqualified invalid for Lead
+- [Anja Margrethe Fjellanger Liljegren](https://app.hubspot.com/contacts/50467095/record/0-1/171920020572) — Lead, Unqualified — Unqualified invalid for Lead
+- [James Behme](https://app.hubspot.com/contacts/50467095/record/0-1/180631145735) — Lead, Unqualified — Unqualified invalid for Lead
+- [Brian A. Brown](https://app.hubspot.com/contacts/50467095/record/0-1/180631149596) — Lead, Unqualified — Unqualified invalid for Lead
+- [Shanu Markand](https://app.hubspot.com/contacts/50467095/record/0-1/180631346532) — Lead, Unqualified — Unqualified invalid for Lead
+- [Elaine Musselman](https://app.hubspot.com/contacts/50467095/record/0-1/200736687905) — Lead, Unqualified — Unqualified invalid for Lead
+- [Blake Riggs](https://app.hubspot.com/contacts/50467095/record/0-1/200987172277) — Lead, Unqualified — Unqualified invalid for Lead
+- [Robyn Crook](https://app.hubspot.com/contacts/50467095/record/0-1/201006043278) — Lead, Unqualified — Unqualified invalid for Lead
+- [Jennifer Griffin](https://app.hubspot.com/contacts/50467095/record/0-1/201330739601) — Lead, Unqualified — Unqualified invalid for Lead
+- [Holly Kimpon](https://app.hubspot.com/contacts/50467095/record/0-1/201504873640) — Lead, Unqualified — Unqualified invalid for Lead
+- [Daphne Joyner](https://app.hubspot.com/contacts/50467095/record/0-1/201504875620) — Lead, Unqualified — Unqualified invalid for Lead
+- [Michael Babcock](https://app.hubspot.com/contacts/50467095/record/0-1/201787063177) — Lead, Unqualified — Unqualified invalid for Lead
+- [Judith Campbell](https://app.hubspot.com/contacts/50467095/record/0-1/201816342137) — Lead, Unqualified — Unqualified invalid for Lead
+- [Jessica Herr](https://app.hubspot.com/contacts/50467095/record/0-1/201816350371) — Lead, Unqualified — Unqualified invalid for Lead
+- [Caroline Rempe](https://app.hubspot.com/contacts/50467095/record/0-1/201816358279) — Lead, Unqualified — Unqualified invalid for Lead
+- [Aaron McGowan](https://app.hubspot.com/contacts/50467095/record/0-1/202247633485) — Lead, Unqualified — Unqualified invalid for Lead
+- [Shane Dryden](https://app.hubspot.com/contacts/50467095/record/0-1/202247756384) — Lead, Unqualified — Unqualified invalid for Lead
+- [Natasha Pereira](https://app.hubspot.com/contacts/50467095/record/0-1/202314363477) — Lead, Unqualified — Unqualified invalid for Lead
+- [Alastair Ling](https://app.hubspot.com/contacts/50467095/record/0-1/202599030667) — Lead, Unqualified — Unqualified invalid for Lead
+- [Josh Burton](https://app.hubspot.com/contacts/50467095/record/0-1/206741121305) — Lead, Unqualified — Unqualified invalid for Lead
+- [Tracy Lieblang](https://app.hubspot.com/contacts/50467095/record/0-1/206741123697) — Lead, Unqualified — Unqualified invalid for Lead
+- [Ryan Carlton](https://app.hubspot.com/contacts/50467095/record/0-1/206827976556) — Lead, Unqualified — Unqualified invalid for Lead
+- [Beryl White-Bing](https://app.hubspot.com/contacts/50467095/record/0-1/207029525628) — Lead, Unqualified — Unqualified invalid for Lead
+- [Corrin Primeau](https://app.hubspot.com/contacts/50467095/record/0-1/207460412440) — Lead, Unqualified — Unqualified invalid for Lead
+- [Bob Orr](https://app.hubspot.com/contacts/50467095/record/0-1/207559275870) — Lead, Unqualified — Unqualified invalid for Lead
+- [Paul Semenick](https://app.hubspot.com/contacts/50467095/record/0-1/207685114516) — Lead, Unqualified — Unqualified invalid for Lead
+- [Arvid Kotanen](https://app.hubspot.com/contacts/50467095/record/0-1/207745432486) — Lead, Unqualified — Unqualified invalid for Lead
+- [Stephane Therrien](https://app.hubspot.com/contacts/50467095/record/0-1/207950700957) — Lead, Unqualified — Unqualified invalid for Lead
+- [Amy Gosselin](https://app.hubspot.com/contacts/50467095/record/0-1/207950944665) — Lead, Unqualified — Unqualified invalid for Lead
+- [Abbey Mirabelli](https://app.hubspot.com/contacts/50467095/record/0-1/207972242495) — Lead, Unqualified — Unqualified invalid for Lead
+- [Gerald Barry](https://app.hubspot.com/contacts/50467095/record/0-1/208589322023) — Lead, Unqualified — Unqualified invalid for Lead
+- [James Jones](https://app.hubspot.com/contacts/50467095/record/0-1/208589447747) — Lead, Unqualified — Unqualified invalid for Lead
+- [Andrea Tryfonos](https://app.hubspot.com/contacts/50467095/record/0-1/208589894165) — Lead, Unqualified — Unqualified invalid for Lead
+- [Elizabeth Johnson](https://app.hubspot.com/contacts/50467095/record/0-1/208589954876) — Lead, Unqualified — Unqualified invalid for Lead
+- [Alexia Papageorgiou](https://app.hubspot.com/contacts/50467095/record/0-1/208589967494) — Lead, Unqualified — Unqualified invalid for Lead
+- [Natasha Clarke](https://app.hubspot.com/contacts/50467095/record/0-1/209502939276) — Lead, Unqualified — Unqualified invalid for Lead
+- [Sarah Nuckels](https://app.hubspot.com/contacts/50467095/record/0-1/209536957986) — Lead, Unqualified — Unqualified invalid for Lead
+- [Elizabeth Appel](https://app.hubspot.com/contacts/50467095/record/0-1/209537016128) — Lead, Unqualified — Unqualified invalid for Lead
+- [Kristine Holden](https://app.hubspot.com/contacts/50467095/record/0-1/209537508964) — Lead, Unqualified — Unqualified invalid for Lead
+- [Sybille Wackerle](https://app.hubspot.com/contacts/50467095/record/0-1/210111122976) — Lead, Unqualified — Unqualified invalid for Lead
+- [Manuel Zarza González](https://app.hubspot.com/contacts/50467095/record/0-1/210111619903) — Lead, Unqualified — Unqualified invalid for Lead
+- [Iker Villanueva Ruiz](https://app.hubspot.com/contacts/50467095/record/0-1/210191713677) — Lead, Unqualified — Unqualified invalid for Lead
+- [Diana Patricia Pozuelo Carrascosa](https://app.hubspot.com/contacts/50467095/record/0-1/210294074235) — Lead, Unqualified — Unqualified invalid for Lead
+- [Alberto García Barrios](https://app.hubspot.com/contacts/50467095/record/0-1/210294077441) — Lead, Unqualified — Unqualified invalid for Lead
+- [Ana Belén Subirón-Valera](https://app.hubspot.com/contacts/50467095/record/0-1/210409134363) — Lead, Unqualified — Unqualified invalid for Lead
+- [José María Bueno Calderón](https://app.hubspot.com/contacts/50467095/record/0-1/210442789905) — Lead, Unqualified — Unqualified invalid for Lead
+- [Jose Maria Miranda-Sayago](https://app.hubspot.com/contacts/50467095/record/0-1/210442793579) — Lead, Unqualified — Unqualified invalid for Lead
+- [Ana Bernal Chico](https://app.hubspot.com/contacts/50467095/record/0-1/210443348530) — Lead, Unqualified — Unqualified invalid for Lead
+- [PATRICIA SERRA ARBELOA](https://app.hubspot.com/contacts/50467095/record/0-1/210476372382) — Lead, Unqualified — Unqualified invalid for Lead
+- [Paula Escalada-Hernández](https://app.hubspot.com/contacts/50467095/record/0-1/210476373565) — Lead, Unqualified — Unqualified invalid for Lead
+- [Zacarias Mila](https://app.hubspot.com/contacts/50467095/record/0-1/210549925225) — Lead, Unqualified — Unqualified invalid for Lead
+- [Rebecca Whelan](https://app.hubspot.com/contacts/50467095/record/0-1/210549929829) — Lead, Unqualified — Unqualified invalid for Lead
+- [Keith C. DeRuisseau](https://app.hubspot.com/contacts/50467095/record/0-1/210579417886) — Lead, Unqualified — Unqualified invalid for Lead
+- [Majid Koozehchian](https://app.hubspot.com/contacts/50467095/record/0-1/210579419485) — Lead, Unqualified — Unqualified invalid for Lead
+- [Andrew Newton](https://app.hubspot.com/contacts/50467095/record/0-1/211003339155) — Lead, Unqualified — Unqualified invalid for Lead
+- [Eve Collins](https://app.hubspot.com/contacts/50467095/record/0-1/211122334088) — Lead, Unqualified — Unqualified invalid for Lead
+- [Lisa King](https://app.hubspot.com/contacts/50467095/record/0-1/211123101993) — Lead, Unqualified — Unqualified invalid for Lead
+- [Jan Webb](https://app.hubspot.com/contacts/50467095/record/0-1/211611758501) — Lead, Unqualified — Unqualified invalid for Lead
+- [Cariona Flaherty](https://app.hubspot.com/contacts/50467095/record/0-1/211816462359) — Lead, Unqualified — Unqualified invalid for Lead
+- [Dr Shona Green](https://app.hubspot.com/contacts/50467095/record/0-1/211873970706) — Lead, Unqualified — Unqualified invalid for Lead
+- [Melanie Humphreys](https://app.hubspot.com/contacts/50467095/record/0-1/211873972308) — Lead, Unqualified — Unqualified invalid for Lead
+- [Professor Raghu Raghavan](https://app.hubspot.com/contacts/50467095/record/0-1/212032784463) — Lead, Unqualified — Unqualified invalid for Lead
+
